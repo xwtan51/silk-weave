@@ -322,8 +322,8 @@
     "translateFailed": "AI translation failed"
   },
   "settings": {
-    "title": "Settings",
-    "description": "Enter your DeepSeek API key to enable AI palette generation and translation. Get a free key at platform.deepseek.com.",
-    "saved": "Saved!"
+    "title": "Ajustes",
+    "description": "Ingresa tu clave API de DeepSeek para activar la generación de paletas y traducción. Obtén una clave gratuita en platform.deepseek.com.",
+    "saved": "¡Guardado!"
   }
 }
