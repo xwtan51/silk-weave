@@ -174,37 +174,25 @@ autoUpdater.on('update-downloaded', (info) => {
   if (hasNewApp) {
     dialog.showMessageBox({
       type: 'info', title: '更新已就绪 / Update Ready',
-      message: `v${info.version} 已就绪。\n\n点击「重启更新」将自动替换并重启应用。`,
+      message: `v${info.version} 已就绪。\n\n点击「重启更新」后请授权系统密码，应用将自动替换并重启。`,
       buttons: ['重启更新', '稍后'],
     }).then(({ response }) => {
       if (response === 0) {
-        const { writeFileSync, chmodSync } = require('fs');
-        const os = require('os');
-        const tmpDir = os.tmpdir();
-        const scriptPath = path.join(tmpDir, 'silk-weave-swap.command');
-        const pathsFile = path.join(tmpDir, '.silk-weave-paths');
-        writeFileSync(pathsFile, `${newAppPath}\n${path.dirname(newAppPath)}`);
-        const swapScript = `#!/bin/bash
-NEW_APP=$(head -1 "${pathsFile}")
-TMP_DIR=$(tail -1 "${pathsFile}")
-echo "🔄 Silk Weave 更新中..."
-sleep 2
-osascript -e "do shell script \\"rm -rf /Applications/Silk-Weave.app && cp -R '$NEW_APP' /Applications/Silk-Weave.app && rm -rf '$TMP_DIR'\\" with administrator privileges"
-rm "${pathsFile}" "${scriptPath}"
-if [ $? -eq 0 ]; then
-  echo "✅ 更新完成！窗口即将关闭。"
-  sleep 1
-  open /Applications/Silk-Weave.app
-  osascript -e 'tell application "Terminal" to close (every window whose name contains "silk-weave")' 2>/dev/null
-else
-  echo "❌ 更新失败，请手动安装"
-  open "$TMP_DIR"
-fi
-`;
-        writeFileSync(scriptPath, swapScript);
-        chmodSync(scriptPath, 0o755);
-        require('child_process').exec(`open -a Terminal "${scriptPath}"`);
-        setTimeout(() => app.quit(), 1000);
+        const tmpDir = path.dirname(newAppPath);
+        const { exec } = require('child_process');
+        // Run osascript with admin privileges — shows native macOS password dialog
+        exec(`osascript -e 'do shell script "rm -rf /Applications/Silk-Weave.app && cp -R \\"${newAppPath}\\" /Applications/Silk-Weave.app && rm -rf \\"${tmpDir}\\"" with administrator privileges'`,
+          (err) => {
+            if (err) {
+              // User cancelled or swap failed — keep app running
+              sendStatus({ type: 'error', text: '更新取消或失败' });
+              return;
+            }
+            // Success: restart
+            exec('open /Applications/Silk-Weave.app');
+            setImmediate(() => app.quit());
+          }
+        );
       }
     });
   } else {
