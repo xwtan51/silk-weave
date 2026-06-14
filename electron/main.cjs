@@ -122,7 +122,6 @@ autoUpdater.on('update-downloaded', (info) => {
     }
   });
 });
-});
 
 autoUpdater.on('error', (err) => {
   sendStatus({ type: 'error', text: err.message || '更新失败' });
