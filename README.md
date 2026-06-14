@@ -1,73 +1,50 @@
-# React + TypeScript + Vite
+# 丝纹织影 (Silk Weave)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> AI-Powered Cross-Cultural Pattern Platform  
+> 中国传统纹样 × AI 配色 × 全球社区
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- 🏠 **Discover** — Curated landing page with trending community content
+- 🌍 **Explore** — 9-language social feed with search, sort, and infinite scroll
+- 📖 **Learn** — 4 classic Chinese pattern types with dynasty filters & Palace Museum palettes
+- 🎨 **Create** — Pattern coloring + doodle mode with **AI palette generator** (any language prompt)
+- 👤 **Profile** — Posts, likes, saves, follows, history, and comment management
+- 🌐 **9 Languages** — ZH / ZH-TW / EN / JA / KO / FR / ES / RU / AR
+- 🤖 **AI Translation** — Real-time translation of any post or comment
+- 🌙 **Dark Mode** — Toggle light/dark theme
 
-## React Compiler
+## Quick Start
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev        # http://localhost:5173
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+> **AI features** require a DeepSeek API key. Click the ⚙️ gear icon in the app header to set your key (free at [platform.deepseek.com](https://platform.deepseek.com)).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## Tech Stack
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React + TypeScript + Tailwind CSS v4 |
+| Backend | Express.js + better-sqlite3 |
+| AI | DeepSeek API (palette generation + translation) |
+| i18n | react-i18next (9 languages) |
+| Desktop | Electron + electron-builder + electron-updater |
+
+## Build & Publish
+
+```bash
+npm run electron:build:mac    # macOS .dmg
+npm run electron:build:win    # Windows .exe
+npm run electron:publish:win  # Build + publish to GitHub Releases
 ```
+
+Set `GH_TOKEN` in your environment before publishing (GitHub classic token with `repo` scope).
+
+## Disclaimer
+
+- User data (names, avatars, posts, comments, likes, follows) is randomly generated for demo purposes.
+- Pattern illustrations are schematic and do not represent actual artifacts.
+- Pattern descriptions and color palette introductions are for reference only and may not be entirely accurate.
