@@ -323,7 +323,7 @@
   },
   "settings": {
     "title": "الإعدادات",
-    "description": "أدخل مفتاح DeepSeek API لتفعيل إنشاء لوحات الألوان والترجمة. احصل على مفتاح مجاني من platform.deepseek.com.",
+    "description": "أدخل مفتاح DeepSeek API لتفعيل إنشاء لوحات الألوان والترجمة. تقدم بطلب على platform.deepseek.com. API مدفوع، يلزم الشحن.",
     "saved": "تم الحفظ!",
     "checkUpdate": "التحقق من التحديثات"
   }

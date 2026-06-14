@@ -221,7 +221,7 @@
   },
   "settings": {
     "title": "Settings",
-    "description": "Enter your DeepSeek API key to enable AI palette generation and translation. Get a free key at platform.deepseek.com.",
+    "description": "Enter your DeepSeek API key to enable AI palette generation and translation. Apply at platform.deepseek.com. Paid API, top-up required.",
     "saved": "Saved!",
     "checkUpdate": "Check for Updates"
   }

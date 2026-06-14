@@ -323,7 +323,7 @@
   },
   "settings": {
     "title": "设置",
-    "description": "输入你的 DeepSeek API Key 以启用 AI 配色生成和翻译功能。可在 platform.deepseek.com 免费获取。",
+    "description": "输入你的 DeepSeek API Key 以启用 AI 配色生成和翻译功能。请在 platform.deepseek.com 申请并充值后使用（付费API）。",
     "saved": "已保存！",
     "checkUpdate": "检查更新"
   }
