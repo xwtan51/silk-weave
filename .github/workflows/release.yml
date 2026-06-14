@@ -22,7 +22,7 @@ jobs:
       - run: npm run build
 
       - name: Build Windows
-        run: npx electron-builder --win --x64
+        run: npx electron-builder --win --x64 --publish never
 
       - name: Upload to Release
         uses: softprops/action-gh-release@v2
@@ -31,3 +31,5 @@ jobs:
             dist-electron/*.exe
             dist-electron/*.blockmap
             dist-electron/latest.yml
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
