@@ -108,28 +108,53 @@ autoUpdater.on('update-downloaded', (info) => {
   const { dialog, Notification, shell } = require('electron');
   new Notification({ title: '更新已就绪', body: `v${info.version} — 请手动安装` }).show();
 
-  // macOS unsigned: find the downloaded .dmg in the cache
-  const { readdirSync } = require('fs');
-  const cacheDir = path.join(app.getPath('home'), 'Library', 'Caches', 'com.silkweave.app.ShipIt');
-  let dmgPath = '';
-  try {
-    const dirs = readdirSync(cacheDir, { withFileTypes: true });
-    for (const d of dirs) {
-      if (d.isDirectory() && d.name.startsWith('update.')) {
-        const files = readdirSync(path.join(cacheDir, d.name));
-        const dmg = files.find(f => f.endsWith('.dmg'));
-        if (dmg) { dmgPath = path.join(cacheDir, d.name, dmg); break; }
-      }
+  // Find the downloaded file. On macOS electron-updater downloads a .zip.
+  const { readdirSync, statSync } = require('fs');
+  const home = app.getPath('home');
+
+  let installerPath = info.downloadedFile || ''; // direct path from electron-updater
+
+  // Fallback: search known cache directories
+  if (!installerPath || !existsSync(installerPath)) {
+    const searchDirs = [
+      // electron-updater cache: ~/Library/Caches/<appName>/pending/
+      path.join(home, 'Library', 'Caches', app.getName(), 'pending'),
+      // Squirrel.Mac ShipIt cache: ~/Library/Caches/<appId>.ShipIt/
+      path.join(home, 'Library', 'Caches', 'com.silkweave.app.ShipIt'),
+    ];
+    for (const dir of searchDirs) {
+      try { mkdirSync(dir, { recursive: true }); } catch {}
+      try {
+        const entries = readdirSync(dir, { withFileTypes: true });
+        for (const e of entries) {
+          const full = path.join(dir, e.name);
+          if (e.isDirectory() && e.name.startsWith('update.')) {
+            const subs = readdirSync(full);
+            const found = subs.find(f => f.endsWith('.zip') || f.endsWith('.dmg'));
+            if (found) { installerPath = path.join(full, found); break; }
+          } else if (e.isFile() && (e.name.endsWith('.zip') || e.name.endsWith('.dmg'))) {
+            installerPath = full;
+            break;
+          }
+        }
+      } catch {}
+      if (installerPath && existsSync(installerPath)) break;
     }
-  } catch { /* ignore */ }
+  }
+
+  console.log('update-downloaded:', { version: info.version, installerPath, downloadedFile: info.downloadedFile });
 
   dialog.showMessageBox({
     type: 'info', title: '更新已就绪 / Update Ready',
     message: `v${info.version} 已下载完成。\n\n由于未签名，请手动将新版本拖入 Applications 覆盖旧版。`,
     buttons: ['打开安装包', '稍后'],
   }).then(({ response }) => {
-    if (response === 0 && dmgPath) {
-      shell.openPath(dmgPath);
+    if (response === 0 && installerPath) {
+      shell.openPath(installerPath);
+    } else if (response === 0 && !installerPath) {
+      // Last resort: open the cache folder in Finder
+      const cacheDir = path.join(home, 'Library', 'Caches', app.getName(), 'pending');
+      shell.openPath(cacheDir);
     }
   });
 });
