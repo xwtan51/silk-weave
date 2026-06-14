@@ -124,6 +124,21 @@ autoUpdater.on('error', (err) => {
 
 // Manual update check from renderer
 ipcMain.on('check-for-updates', () => {
+  // Timeout fallback: if no event fires within 20s, show error
+  const timeout = setTimeout(() => {
+    const { dialog } = require('electron');
+    dialog.showErrorBox('检查超时 / Check Timed Out', '无法连接 GitHub，请检查网络。\nCannot reach GitHub. Please check your network.');
+  }, 20000);
+
+  // Wrap to clear timeout on any result
+  const wrapped = autoUpdater;
+  const origEmit = wrapped.emit;
+  wrapped.emit = function(event, ...args) {
+    clearTimeout(timeout);
+    wrapped.emit = origEmit; // restore
+    return origEmit.call(wrapped, event, ...args);
+  };
+
   autoUpdater.checkForUpdates();
 });
 
