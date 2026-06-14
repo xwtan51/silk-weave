@@ -58,7 +58,7 @@ export default function LearnPage() {
       )}
 
       {selectedPattern && (
-        <DetailModal pattern={selectedPattern} onClose={() => setSelectedPattern(null)} onColorPattern={() => {}} />
+        <DetailModal pattern={selectedPattern} onClose={() => setSelectedPattern(null)} />
       )}
     </div>
   );

@@ -19,7 +19,7 @@ const SVG_MAP: Record<string, React.ComponentType<any>> = { cloud: CloudPattern,
 const RECOMMENDED_THEME: Record<string, string> = { cloud: 'celadon', dragon: 'imperial', ruyi: 'silk', huiwen: 'celadon', custom: 'imperial' };
 const PATH_IDS: Record<string, string[]> = { cloud: cloudPathIds, ruyi: ruyiPathIds, dragon: dragonPathIds, huiwen: huiwenPathIds, custom: [] };
 
-interface DetailModalProps { pattern: Pattern; onClose: () => void; onColorPattern: (p: Pattern) => void; }
+interface DetailModalProps { pattern: Pattern; onClose: () => void; onColorPattern?: (p: Pattern) => void; }
 
 function themeColors(pathIds: string[], palette: SwatchColor[]): Record<string, string> {
   const m: Record<string, string> = {};
@@ -105,7 +105,7 @@ export default function DetailModal({ pattern, onClose, onColorPattern }: Detail
           <p className="text-[11px] text-charcoal/30">{t('detail.source')}: {pfield(pattern, 'source', t)}</p>
 
           {/* Color This Pattern — built-in only */}
-          {!isCustom && (
+          {!isCustom && onColorPattern && (
             <button onClick={() => onColorPattern(pattern)} className="w-full py-3 rounded-xl bg-jade text-white font-medium text-sm hover:bg-jade/90 active:scale-[0.98] transition-all">
               {t('detail.colorIt')}
             </button>
