@@ -77,21 +77,34 @@ async function createWindow() {
 }
 
 // Update event handlers
-autoUpdater.on('update-available', () => {
-  console.log('Update available — downloading...');
+autoUpdater.on('update-available', (info) => {
+  const { Notification } = require('electron');
+  new Notification({
+    title: '发现新版本 / Update Found',
+    body: `v${info.version} — 正在后台下载...\nv${info.version} — Downloading...`,
+  }).show();
 });
+
 autoUpdater.on('update-not-available', () => {
   console.log('App is up to date');
 });
+
 autoUpdater.on('download-progress', (p) => {
+  if (mainWindow) mainWindow.setProgressBar(p.percent / 100);
   console.log(`Downloading update: ${Math.floor(p.percent)}%`);
 });
-autoUpdater.on('update-downloaded', () => {
-  const { dialog } = require('electron');
+
+autoUpdater.on('update-downloaded', (info) => {
+  if (mainWindow) mainWindow.setProgressBar(-1);
+  const { dialog, Notification } = require('electron');
+  new Notification({
+    title: '更新已就绪 / Update Ready',
+    body: `v${info.version} — 点击弹窗重启安装\nClick the dialog to restart and install.`,
+  }).show();
   dialog.showMessageBox({
     type: 'info',
     title: '更新已就绪 / Update Ready',
-    message: '新版本已下载完成，点击确定重启安装更新。\nA new version has been downloaded. Click OK to restart and install.',
+    message: `新版本 v${info.version} 已下载完成，点击确定重启安装更新。\nv${info.version} has been downloaded. Click OK to restart and install.`,
     buttons: ['确定 / OK'],
   }).then(() => {
     autoUpdater.quitAndInstall();
