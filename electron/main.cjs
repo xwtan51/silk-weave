@@ -1,7 +1,7 @@
 /**
  * Electron main process for Silk Weave (丝纹织影) — CommonJS
  */
-const { app, BrowserWindow, screen } = require('electron');
+const { app, BrowserWindow, screen, ipcMain } = require('electron');
 const { autoUpdater } = require('electron-updater');
 const path = require('path');
 const { pathToFileURL } = require('url');
@@ -112,6 +112,11 @@ autoUpdater.on('update-downloaded', (info) => {
 });
 autoUpdater.on('error', (err) => {
   console.error('Update error:', err.message);
+});
+
+// Manual update check from renderer
+ipcMain.on('check-for-updates', () => {
+  autoUpdater.checkForUpdates();
 });
 
 app.whenReady().then(async () => {

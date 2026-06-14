@@ -324,6 +324,7 @@
   "settings": {
     "title": "設定",
     "description": "DeepSeek APIキーを入力すると、AI配色生成と翻訳が利用可能になります。platform.deepseek.comで無料で取得できます。",
-    "saved": "保存しました！"
+    "saved": "保存しました！",
+    "checkUpdate": "更新を確認"
   }
 }

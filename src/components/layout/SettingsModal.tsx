@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { X, Key } from 'lucide-react';
+import { X, Key, RotateCw } from 'lucide-react';
 import pkg from '../../../package.json';
+
+const isElectron = typeof window !== 'undefined' && (window as any).electron?.isElectron;
 
 export default function SettingsModal({ onClose }: { onClose: () => void }) {
   const { t } = useTranslation();
@@ -62,6 +64,16 @@ export default function SettingsModal({ onClose }: { onClose: () => void }) {
         >
           {saved ? '✓ ' + t('settings.saved') : t('common.save')}
         </button>
+
+        {isElectron && (
+          <button
+            onClick={() => (window as any).electron.checkForUpdates()}
+            className="w-full py-2 rounded-xl text-xs font-medium bg-charcoal/5 text-charcoal/50 hover:bg-charcoal/10 transition-all flex items-center justify-center gap-1.5"
+          >
+            <RotateCw size={12} />
+            {t('settings.checkUpdate')}
+          </button>
+        )}
 
         <p className="text-center text-[9px] text-charcoal/20">v{pkg.version}</p>
       </div>

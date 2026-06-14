@@ -324,6 +324,7 @@
   "settings": {
     "title": "Paramètres",
     "description": "Entrez votre clé API DeepSeek pour activer la génération de palettes et la traduction. Obtenez une clé gratuite sur platform.deepseek.com.",
-    "saved": "Enregistré !"
+    "saved": "Enregistré !",
+    "checkUpdate": "Vérifier les mises à jour"
   }
 }

@@ -324,6 +324,7 @@
   "settings": {
     "title": "設定",
     "description": "輸入你的 DeepSeek API Key 以啟用 AI 配色生成與翻譯功能。可在 platform.deepseek.com 免費取得。",
-    "saved": "已儲存！"
+    "saved": "已儲存！",
+    "checkUpdate": "檢查更新"
   }
 }

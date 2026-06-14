@@ -324,6 +324,7 @@
   "settings": {
     "title": "설정",
     "description": "DeepSeek API 키를 입력하면 AI 팔레트 생성 및 번역 기능을 사용할 수 있습니다. platform.deepseek.com에서 무료로 발급받으세요.",
-    "saved": "저장됨!"
+    "saved": "저장됨!",
+    "checkUpdate": "업데이트 확인"
   }
 }
