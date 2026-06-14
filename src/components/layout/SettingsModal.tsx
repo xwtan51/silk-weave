@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { X, Key } from 'lucide-react';
+import pkg from '../../../package.json';
 
 export default function SettingsModal({ onClose }: { onClose: () => void }) {
   const { t } = useTranslation();
@@ -61,6 +62,8 @@ export default function SettingsModal({ onClose }: { onClose: () => void }) {
         >
           {saved ? '✓ ' + t('settings.saved') : t('common.save')}
         </button>
+
+        <p className="text-center text-[9px] text-charcoal/20">v{pkg.version}</p>
       </div>
     </div>
   );
