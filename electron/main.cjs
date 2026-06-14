@@ -101,7 +101,13 @@ autoUpdater.on('update-not-available', () => {
 
 autoUpdater.on('download-progress', (p) => {
   if (mainWindow) mainWindow.setProgressBar(p.percent / 100);
-  sendStatus({ type: 'downloading', text: '正在下载...', percent: Math.floor(p.percent) });
+  const mb = (n) => n ? (n / 1048576).toFixed(1) + ' MB' : '';
+  const speed = p.bytesPerSecond ? (p.bytesPerSecond / 1048576).toFixed(1) + ' MB/s' : '';
+  sendStatus({
+    type: 'downloading',
+    text: `${mb(p.transferred)} / ${mb(p.total)}  ${speed}`,
+    percent: Math.floor(p.percent),
+  });
 });
 
 autoUpdater.on('update-downloaded', (info) => {
