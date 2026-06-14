@@ -106,59 +106,86 @@ autoUpdater.on('download-progress', (p) => {
 
 autoUpdater.on('update-downloaded', (info) => {
   if (mainWindow) mainWindow.setProgressBar(-1);
-  sendStatus({ type: 'ready', text: '下载完成！打开安装包...' });
+  sendStatus({ type: 'ready', text: '下载完成！' });
   const { dialog, Notification, shell } = require('electron');
-  new Notification({ title: '更新已就绪', body: `v${info.version} — 请手动安装` }).show();
+  new Notification({ title: '更新已就绪', body: `v${info.version} — 点击重启更新` }).show();
 
-  // Find the downloaded file. On macOS electron-updater downloads a .zip.
-  const { readdirSync, statSync } = require('fs');
+  const { readdirSync } = require('fs');
+  const { execFileSync } = require('child_process');
   const home = app.getPath('home');
+  const appPath = app.getPath('exe'); // /Applications/Silk-Weave.app/Contents/MacOS/Silk-Weave
+  const currentAppDir = path.dirname(path.dirname(appPath)); // /Applications/Silk-Weave.app
 
-  let installerPath = info.downloadedFile || ''; // direct path from electron-updater
-
-  // Fallback: search known cache directories
-  if (!installerPath || !existsSync(installerPath)) {
-    const searchDirs = [
-      // electron-updater cache: ~/Library/Caches/<appName>/pending/
-      path.join(home, 'Library', 'Caches', app.getName(), 'pending'),
-      // Squirrel.Mac ShipIt cache: ~/Library/Caches/<appId>.ShipIt/
-      path.join(home, 'Library', 'Caches', 'com.silkweave.app.ShipIt'),
-    ];
-    for (const dir of searchDirs) {
-      try { mkdirSync(dir, { recursive: true }); } catch {}
-      try {
-        const entries = readdirSync(dir, { withFileTypes: true });
-        for (const e of entries) {
-          const full = path.join(dir, e.name);
-          if (e.isDirectory() && e.name.startsWith('update.')) {
-            const subs = readdirSync(full);
-            const found = subs.find(f => f.endsWith('.zip') || f.endsWith('.dmg'));
-            if (found) { installerPath = path.join(full, found); break; }
-          } else if (e.isFile() && (e.name.endsWith('.zip') || e.name.endsWith('.dmg'))) {
-            installerPath = full;
-            break;
-          }
+  // Find the downloaded .zip from electron-updater cache
+  let zipPath = info.downloadedFile || '';
+  if (!zipPath || !existsSync(zipPath)) {
+    const pendingDir = path.join(home, 'Library', 'Caches', app.getName(), 'pending');
+    try { mkdirSync(pendingDir, { recursive: true }); } catch {}
+    try {
+      const entries = readdirSync(pendingDir, { withFileTypes: true });
+      for (const e of entries) {
+        if (e.isFile() && e.name.endsWith('.zip')) {
+          zipPath = path.join(pendingDir, e.name);
+          break;
         }
-      } catch {}
-      if (installerPath && existsSync(installerPath)) break;
+      }
+    } catch {}
+  }
+
+  // Extract the .app from the .zip to a temp location
+  let newAppPath = '';
+  if (zipPath && existsSync(zipPath)) {
+    const extractDir = path.join(app.getPath('temp'), 'silk-weave-update');
+    try {
+      execFileSync('rm', ['-rf', extractDir]);
+      execFileSync('ditto', ['-xk', zipPath, extractDir], { timeout: 30000 });
+      // Find the .app in the extracted contents
+      const apps = readdirSync(extractDir, { withFileTypes: true });
+      const appEntry = apps.find(a => a.isDirectory() && a.name.endsWith('.app'));
+      if (appEntry) newAppPath = path.join(extractDir, appEntry.name);
+    } catch (e) {
+      console.error('extract failed:', e.message);
     }
   }
 
-  console.log('update-downloaded:', { version: info.version, installerPath, downloadedFile: info.downloadedFile });
+  const hasNewApp = newAppPath && existsSync(newAppPath);
+  console.log('update-downloaded:', { version: info.version, zipPath, newAppPath });
 
-  dialog.showMessageBox({
-    type: 'info', title: '更新已就绪 / Update Ready',
-    message: `v${info.version} 已下载完成。\n\n由于未签名，请手动将新版本拖入 Applications 覆盖旧版。`,
-    buttons: ['打开安装包', '稍后'],
-  }).then(({ response }) => {
-    if (response === 0 && installerPath) {
-      shell.openPath(installerPath);
-    } else if (response === 0 && !installerPath) {
-      // Last resort: open the cache folder in Finder
-      const cacheDir = path.join(home, 'Library', 'Caches', app.getName(), 'pending');
-      shell.openPath(cacheDir);
-    }
-  });
+  if (hasNewApp) {
+    // Offer one-click restart-to-update
+    dialog.showMessageBox({
+      type: 'info', title: '更新已就绪 / Update Ready',
+      message: `v${info.version} 已就绪。\n\n点击「重启更新」将自动替换并重启应用。`,
+      buttons: ['重启更新', '稍后'],
+    }).then(({ response }) => {
+      if (response === 0) {
+        // Spawn a detached shell script to swap the app after we quit
+        const { spawn } = require('child_process');
+        const swapScript = `
+          sleep 2
+          rm -rf "${currentAppDir}"
+          cp -R "${newAppPath}" "${currentAppDir}"
+          rm -rf "${path.dirname(newAppPath)}"
+          open "${currentAppDir}"
+        `;
+        const child = spawn('sh', ['-c', swapScript], { detached: true, stdio: 'ignore' });
+        child.unref();
+        app.quit();
+      }
+    });
+  } else {
+    // Fallback: couldn't extract, open the zip manually
+    dialog.showMessageBox({
+      type: 'info', title: '更新已就绪 / Update Ready',
+      message: `v${info.version} 已下载完成。\n\n更新步骤：\n1. 退出当前应用 (⌘Q)\n2. 将新版本拖入 Applications 覆盖旧版\n3. 重新打开`,
+      buttons: ['打开安装包', '稍后'],
+    }).then(({ response }) => {
+      if (response === 0) {
+        if (zipPath) shell.openPath(zipPath);
+        else shell.openPath(path.join(home, 'Library', 'Caches', app.getName(), 'pending'));
+      }
+    });
+  }
 });
 
 autoUpdater.on('error', (err) => {
