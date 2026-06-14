@@ -159,16 +159,22 @@ autoUpdater.on('update-downloaded', (info) => {
       buttons: ['重启更新', '稍后'],
     }).then(({ response }) => {
       if (response === 0) {
-        // Spawn a detached shell script to swap the app after we quit
-        const { spawn } = require('child_process');
-        const swapScript = `
-          sleep 2
-          rm -rf "${currentAppDir}"
-          cp -R "${newAppPath}" "${currentAppDir}"
-          rm -rf "${path.dirname(newAppPath)}"
-          open "${currentAppDir}"
-        `;
-        const child = spawn('sh', ['-c', swapScript], { detached: true, stdio: 'ignore' });
+        // Write swap script to temp file, execute via osascript for admin privileges
+        const { writeFileSync, chmodSync } = require('fs');
+        const os = require('os');
+        const scriptPath = path.join(os.tmpdir(), 'silk-weave-swap.sh');
+        const swapScript = `#!/bin/bash
+sleep 2
+rm -rf "/Applications/Silk-Weave.app"
+cp -R "${newAppPath}" "/Applications/Silk-Weave.app"
+rm -rf "${path.dirname(newAppPath)}"
+open "/Applications/Silk-Weave.app"
+`;
+        writeFileSync(scriptPath, swapScript);
+        chmodSync(scriptPath, 0o755);
+        const child = spawn('osascript', [
+          '-e', `do shell script "${scriptPath}" with administrator privileges`
+        ], { detached: true, stdio: 'ignore' });
         child.unref();
         app.quit();
       }
