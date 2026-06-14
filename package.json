@@ -1,7 +1,7 @@
 {
   "name": "silk-weave",
   "private": true,
-  "version": "1.0.19",
+  "version": "1.0.20",
   "type": "module",
   "main": "electron/main.cjs",
   "scripts": {
@@ -76,8 +76,7 @@
     "mac": {
       "category": "public.app-category.education",
       "target": [
-        "dmg",
-        "zip"
+        "dmg"
       ],
       "icon": "public/favicon.svg"
     },
