@@ -85,6 +85,7 @@
       "target": [
         "nsis"
       ],
+      "artifactName": "Silk-Weave-Setup-${version}.${ext}",
       "icon": "public/favicon.svg"
     },
     "linux": {
