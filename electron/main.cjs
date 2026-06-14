@@ -108,9 +108,20 @@ autoUpdater.on('update-downloaded', (info) => {
   const { dialog, Notification, shell } = require('electron');
   new Notification({ title: '更新已就绪', body: `v${info.version} — 请手动安装` }).show();
 
-  // macOS unsigned: find the .dmg among downloaded files
-  const dmgFile = info.files.find((f) => f.url.endsWith('.dmg'));
-  const dmgPath = dmgFile ? decodeURIComponent(dmgFile.url.replace('file://', '')) : '';
+  // macOS unsigned: find the downloaded .dmg in the cache
+  const { readdirSync } = require('fs');
+  const cacheDir = path.join(app.getPath('home'), 'Library', 'Caches', 'com.silkweave.app.ShipIt');
+  let dmgPath = '';
+  try {
+    const dirs = readdirSync(cacheDir, { withFileTypes: true });
+    for (const d of dirs) {
+      if (d.isDirectory() && d.name.startsWith('update.')) {
+        const files = readdirSync(path.join(cacheDir, d.name));
+        const dmg = files.find(f => f.endsWith('.dmg'));
+        if (dmg) { dmgPath = path.join(cacheDir, d.name, dmg); break; }
+      }
+    }
+  } catch { /* ignore */ }
 
   dialog.showMessageBox({
     type: 'info', title: '更新已就绪 / Update Ready',
