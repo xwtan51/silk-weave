@@ -1,0 +1,7 @@
+node_modules/
+dist/
+dist-electron/
+silkweave.db
+*.log
+.DS_Store
+.deepseek-key

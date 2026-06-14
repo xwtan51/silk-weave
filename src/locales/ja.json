@@ -1,0 +1,324 @@
+{
+  "hero": {
+    "slogan": "中国の文様に秘められた美を発見しよう",
+    "startJourney": "旅を始める"
+  },
+  "tab": {
+    "discover": "発見",
+    "explore": "探索",
+    "create": "創作",
+    "profile": "マイ",
+    "learn": "学習"
+  },
+  "filter": {
+    "dynasty": "王朝",
+    "meaning": "意味",
+    "scene": "シーン",
+    "all": "すべて"
+  },
+  "explore": {
+    "uploadButton": "+ 文様をアップロード",
+    "uploadNamePrompt": "文様の名前：",
+    "noCommunity": "まだ投稿がありません。最初に投稿しよう！",
+    "sortNewest": "新着順",
+    "sortLiked": "人気順",
+    "feedRefreshed": "更新しました！",
+    "selectSvgFile": "SVGファイルを選択してください",
+    "patternPublished": "文様を公開しました！",
+    "curated": "厳選",
+    "community": "コミュニティ",
+    "searchPlaceholder": "文様を検索...",
+    "releaseToRefresh": "離して更新",
+    "loading": "読み込み中...",
+    "sortRecommended": "おすすめ"
+  },
+  "detail": {
+    "colorIt": "着色する",
+    "saveCard": "カード保存",
+    "source": "出典",
+    "recommendedPalette": "おすすめ配色：",
+    "commentPlaceholder": "コメントを追加..."
+  },
+  "create": {
+    "title": "あなただけの文様アート",
+    "modeFill": "着色",
+    "modeDoodle": "落書き",
+    "undo": "元に戻す",
+    "reset": "リセット",
+    "saveArtwork": "作品を保存",
+    "artworkTitle": "私の文様作品",
+    "artworkColorsUsed": "使用色",
+    "publish": "コミュニティに公開",
+    "wallpaper": "壁紙",
+    "fillHint": "下の色を選んで、文様の領域をタップして着色",
+    "doodleHint": "キャンバスに自由に描く——各ストロークの色が記録されます",
+    "share": "共有",
+    "published": "公開しました！",
+    "myPattern": "私の文様",
+    "myDoodle": "私の落書き",
+    "myVersion": "マイバージョン",
+    "sharedByYou": "@あなた の投稿。",
+    "eraser": "消しゴム",
+    "captionPlaceholder": "キャプションを入力...",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "source": "Community Upload"
+  },
+  "profile": {
+    "saved": "保存済み",
+    "following": "フォロー中",
+    "liked": "いいね",
+    "history": "履歴",
+    "userName": "文様好き",
+    "userBio": "あなたの文様の旅",
+    "noFollowing": "まだ誰もフォローしていません。",
+    "nothingHere": "まだ何もありません。",
+    "patterns": "文様",
+    "followers": "フォロワー",
+    "followingCount": "フォロー中",
+    "posts": "投稿",
+    "comments": "コメント",
+    "follow": "フォロー"
+  },
+  "palette": {
+    "title": "故宮の色彩",
+    "description": "紫禁城の壮大な建築、宮廷の華麗な衣装、秘蔵の官窯磁器、四季の草花から抽出された色彩。各パレットは歴史的に裏付けられ、東洋の古典美を視覚的に表現しています。",
+    "imperial": {
+      "name": "紅牆金瓦",
+      "desc": "紫禁城の最も直感的で威厳のある古典的な配色。龍、鳳凰、如意文様に最適。",
+      "colors": {
+        "0": {
+          "name": "朱紅",
+          "desc": "宮殿の壁を代表する色。高彩度で富と祝祭を象徴。"
+        },
+        "1": {
+          "name": "明黄",
+          "desc": "皇帝専用色。釉薬瓦が陽光に輝く金色。"
+        },
+        "2": {
+          "name": "秋香色",
+          "desc": "落ち着いた気品ある黄緑色。清代宮廷で特に好まれた衣装の色。"
+        },
+        "3": {
+          "name": "玉色",
+          "desc": "艶やかな翡翠色。故宮博物院の秘蔵の美玉を象徴。"
+        },
+        "4": {
+          "name": "玄色",
+          "desc": "宇宙の黒。深みのある赤褐色で、宮殿の柱や斗拱の地色。"
+        }
+      }
+    },
+    "celadon": {
+      "name": "雨過天青",
+      "desc": "宋代の汝窯、哥窯、青花磁器から抽出。澄んだ上品な色調で、雲文様や唐草文様に最適。",
+      "colors": {
+        "0": {
+          "name": "天青",
+          "desc": "汝窯の古典釉薬。「雨過ぎて天青く雲破れる処、このような色を作り出せ」。"
+        },
+        "1": {
+          "name": "月白",
+          "desc": "月光が降り注ぐ淡い青白色。微かな青みを帯び、空気感に満ちている。"
+        },
+        "2": {
+          "name": "石青",
+          "desc": "伝統的な鉱物顔料。青の中に藍を含み、静かで深遠。"
+        },
+        "3": {
+          "name": "黛藍",
+          "desc": "「遠山は黛の如し」。灰色がかった古典的な深青色。"
+        },
+        "4": {
+          "name": "荼白",
+          "desc": "カラスムギのような柔らかな白色。純白よりも古風で落ち着いた印象。"
+        }
+      }
+    },
+    "silk": {
+      "name": "後宮羅霓",
+      "desc": "華麗な宮廷の絹織物や錦から抽出。柔らかく美的で優雅。若者やクリエイティブ層に最適。",
+      "colors": {
+        "0": {
+          "name": "海天霞",
+          "desc": "夕日が海面に映える淡いピンクオレンジ。明清の官服でよく使われる色。"
+        },
+        "1": {
+          "name": "桃夭",
+          "desc": "「桃の若木は艶やかに咲き誇る」。明るく愛らしい桃の花のピンク。"
+        },
+        "2": {
+          "name": "胭脂",
+          "desc": "女性の紅化粧の深紅。濃厚で古典的な魅力に満ちている。"
+        },
+        "3": {
+          "name": "藕荷",
+          "desc": "優しく優雅な薄紫色。グレーがかり、この上なく上品。"
+        },
+        "4": {
+          "name": "暮山紫",
+          "desc": "「煙光凝りて暮山紫なり」。黄昏時の山々が交わる神秘的な藤紫色。"
+        }
+      }
+    },
+    "botanical": {
+      "name": "歳朝清供",
+      "desc": "宮廷の貴重な花木や生け花芸術から抽出。爽やかで生命力に溢れ、控えめな上品さ。",
+      "colors": {
+        "0": {
+          "name": "松花色",
+          "desc": "軽やかで明るい黄緑色。松の花が咲き始める春の息吹。"
+        },
+        "1": {
+          "name": "竹青",
+          "desc": "潤いのある竹の色。目に優しく穏やか。"
+        },
+        "2": {
+          "name": "藤黄",
+          "desc": "黄金色——藤黄樹脂から抽出、古典絵画の明るい一筆。"
+        },
+        "3": {
+          "name": "酡顏",
+          "desc": "酒に酔った頬の紅色。暖かみのあるピンクオレンジ。"
+        },
+        "4": {
+          "name": "艾綠",
+          "desc": "ヨモギの葉裏のような淡い青緑色。曖昧で優雅な趣。"
+        }
+      }
+    },
+    "ink": {
+      "name": "水墨",
+      "desc": "中国水墨の五色——焦墨から余白まで。書道、山水画、文人美学の古典的な色彩。",
+      "colors": {
+        "0": {
+          "name": "焦墨",
+          "desc": "最も深い黒——硯で擦りたての墨のように。"
+        },
+        "1": {
+          "name": "濃墨",
+          "desc": "濃厚で温かみのある黒——筆の二番目の滲み。"
+        },
+        "2": {
+          "name": "淡墨",
+          "desc": "中間の灰色——三番目の滲み、形が柔らぎ始める。"
+        },
+        "3": {
+          "name": "清墨",
+          "desc": "軽やかな銀灰——山水画巻物の遠山。"
+        },
+        "4": {
+          "name": "余白",
+          "desc": "画仙紙の白——筆致の間の息遣い。"
+        }
+      }
+    },
+    "dunhuang": {
+      "name": "敦煌",
+      "desc": "莫高窟の鉱物顔料——群青、緑青、黄土、辰砂、金泥。千年以上もの間、洞窟の壁に保存されてきた古代の色彩。",
+      "colors": {
+        "0": {
+          "name": "群青",
+          "desc": "深い青緑色——藍銅鉱から作られ、仏教壁画の空を描く。"
+        },
+        "1": {
+          "name": "緑青",
+          "desc": "鮮やかな緑——孔雀石から、極楽の山河草木。"
+        },
+        "2": {
+          "name": "黄土",
+          "desc": "大地の金茶色——酸化鉄の顔料、砂漠の砂岩の温もり。"
+        },
+        "3": {
+          "name": "辰砂",
+          "desc": "鮮烈な朱色——硫化水銀、飛天の衣の赤。"
+        },
+        "4": {
+          "name": "金泥",
+          "desc": "貴重な金色——極薄の金箔、仏菩薩の後光。"
+        }
+      }
+    }
+  },
+  "share": {
+    "instagram": "Instagramに共有",
+    "tiktok": "TikTokに共有",
+    "youtube": "YouTubeに共有"
+  },
+  "pattern": {
+    "cloud": {
+      "name": "祥雲文様",
+      "dynasty": "明代",
+      "meaning": "吉祥",
+      "scene": "建築",
+      "story": "雲の流れるような曲線は、幸運が人生に流れ込むことを象徴しています。中国の伝統芸術では、雲は雨を運び——収穫の与え手——そして仙人が天地を旅する乗り物です。",
+      "source": "故宮博物院"
+    },
+    "ruyi": {
+      "name": "如意文様",
+      "dynasty": "唐代",
+      "meaning": "調和",
+      "scene": "服飾",
+      "story": "如意の形は、背中を掻く道具から権威と祝福の笏へと進化しました。その丸みを帯びたハート形の頭部は「すべてが思い通りに」を表します。何世紀にもわたり、恋人たちは如意形の飾りを愛情の証として交換しました。",
+      "source": "故宮博物院"
+    },
+    "dragon": {
+      "name": "団龍文様",
+      "dynasty": "宋代",
+      "meaning": "力",
+      "scene": "器物",
+      "story": "西洋神話の火を吹くドラゴンとは異なり、中国の龍は水と空の守護者——賢く、慈悲深く、作物に雨をもたらします。円形の「団」の形に包まれ、全体性、保護、そしてすべての生き物を支える静かな力を体現しています。",
+      "source": "故宮博物院"
+    },
+    "huiwen": {
+      "name": "回文様",
+      "dynasty": "殷代",
+      "meaning": "永遠",
+      "scene": "建築",
+      "story": "最も古い中国文様の一つである回文は、「回」（帰る）の文字にちなんで名付けられました。途切れることのない連続した線は永遠を象徴します。3000年以上前の青銅器に刻まれ、今もなお門枠や窓格子、陶器の縁に見られます。",
+      "source": "故宮博物院"
+    }
+  },
+  "common": {
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "community": "Community",
+    "copied": "コピーしました！",
+    "daysAgo": "{{d}}日前",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this post?",
+    "goBack": "Go back",
+    "hoursAgo": "{{h}}時間前",
+    "languageSelect": "Language",
+    "noResults": "一致する文様がありません。",
+    "post": "投稿",
+    "save": "保存",
+    "sendComment": "Send comment",
+    "themeToggle": "Toggle theme",
+    "weeksAgo": "{{w}}週間前",
+    "you": "You"
+  },
+  "app": {
+    "title": "絲紋織影"
+  },
+  "discover": {
+    "statsPatterns": "文様",
+    "statsCreators": "作者",
+    "statsLanguages": "言語",
+    "trendingNow": "急上昇"
+  },
+  "learn": {
+    "patternsTab": "文様資料",
+    "palettesTab": "パレット"
+  },
+  "ai": {
+    "aiGenerate": "生成",
+    "aiHint": "AIパレットが上記のセレクターに追加されました",
+    "aiPlaceholder": "色のイメージを説明...",
+    "paletteFailed": "AI palette failed, please try again",
+    "showOriginal": "原文",
+    "translate": "翻訳",
+    "translateFailed": "AI translation failed"
+  }
+}

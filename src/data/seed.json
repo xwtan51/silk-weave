@@ -1,0 +1,5125 @@
+[
+  {
+    "id": "seed-1",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s0",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s1",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "墨迹未干",
+    "authorId": "ink",
+    "lang": "zh",
+    "publishedAt": "2026-05-16T04:29:41.478706",
+    "name": "漩涡习作",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "今天尝试了新的配色方案...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-2",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s2",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "s3",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#D6ECF0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "纹样旅人",
+    "authorId": "wanderer",
+    "lang": "zh",
+    "publishedAt": "2026-05-21T06:29:41.478717",
+    "name": "云纹速写",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "灵感来自故宫的一角...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-3",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s4",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s5",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "海丝坊",
+    "authorId": "sea",
+    "lang": "zh",
+    "publishedAt": "2026-05-28T17:29:41.478721",
+    "name": "龙迹",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "花了三个晚上才完成这个构图...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-4",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s6",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "s7",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#425065"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "梅花工坊",
+    "authorId": "plum",
+    "lang": "zh",
+    "publishedAt": "2026-05-22T08:29:41.478723",
+    "name": "荷格",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "最近在研究宋代的瓷器纹样...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-5",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s8",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#BCE672"
+      },
+      {
+        "id": "s9",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "格律诗人",
+    "authorId": "grid",
+    "lang": "zh",
+    "publishedAt": "2026-05-17T09:29:41.478725",
+    "name": "涟漪戏",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "这件作品送给所有喜欢中国传统文化的朋友...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-6",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s10",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#9D2933"
+      },
+      {
+        "id": "s11",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "火羽笔",
+    "authorId": "phoenix",
+    "lang": "zh",
+    "publishedAt": "2026-05-20T02:29:41.478727",
+    "name": "花瓣落",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "第一次尝试独立创作纹样...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-7",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s12",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#622A1D"
+      },
+      {
+        "id": "s13",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#D9B611"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "云中鹤",
+    "authorId": "crane",
+    "lang": "zh",
+    "publishedAt": "2026-05-19T20:29:41.478729",
+    "name": "丝流",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "翻到了一本老书...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-8",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s14",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#2EDFA3"
+      },
+      {
+        "id": "s15",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "素手织",
+    "authorId": "weaver",
+    "lang": "zh",
+    "publishedAt": "2026-05-25T05:29:41.478731",
+    "name": "雾曲",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "今天的练习——如意纹的变体...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-9",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s16",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F9906F"
+      },
+      {
+        "id": "s17",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#A4E2C6"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "墨韵生",
+    "authorId": "rhythm",
+    "lang": "zh",
+    "publishedAt": "2026-05-24T07:29:41.478733",
+    "name": "玉环",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "用iPad画纹样真的太方便了...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-10",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s18",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s19",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#622A1D"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "东篱下",
+    "authorId": "fence",
+    "lang": "zh",
+    "publishedAt": "2026-06-08T22:29:41.478734",
+    "name": "竹编",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "终于完成了！...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-11",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s20",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "s21",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#2E5C4E"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "墨迹未干",
+    "authorId": "ink",
+    "lang": "zh",
+    "publishedAt": "2026-06-13T03:29:41.478736",
+    "name": "凤翼",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "分享一个小心得...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-12",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s22",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s23",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#A4ABD6"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "纹样旅人",
+    "authorId": "wanderer",
+    "lang": "zh",
+    "publishedAt": "2026-05-18T08:29:41.478738",
+    "name": "珊瑚枝",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "最近迷上了几何纹样...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-13",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s24",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s25",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "海丝坊",
+    "authorId": "sea",
+    "lang": "zh",
+    "publishedAt": "2026-06-13T13:29:41.478740",
+    "name": "月门",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "今天尝试了新的配色方案...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-14",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s26",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "s27",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#D6ECF0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "梅花工坊",
+    "authorId": "plum",
+    "lang": "zh",
+    "publishedAt": "2026-06-14T08:29:41.478742",
+    "name": "松风",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "灵感来自故宫的一角...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-15",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s28",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s29",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "格律诗人",
+    "authorId": "grid",
+    "lang": "zh",
+    "publishedAt": "2026-05-26T17:29:41.478744",
+    "name": "鹤舞",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "花了三个晚上才完成这个构图...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-16",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s30",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "s31",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#425065"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "火羽笔",
+    "authorId": "phoenix",
+    "lang": "zh",
+    "publishedAt": "2026-06-13T05:29:41.478746",
+    "name": "潮线",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "最近在研究宋代的瓷器纹样...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-17",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s32",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#BCE672"
+      },
+      {
+        "id": "s33",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "云中鹤",
+    "authorId": "crane",
+    "lang": "zh",
+    "publishedAt": "2026-05-26T06:29:41.478747",
+    "name": "风铃",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "这件作品送给所有喜欢中国传统文化的朋友...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-18",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s34",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#9D2933"
+      },
+      {
+        "id": "s35",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "素手织",
+    "authorId": "weaver",
+    "lang": "zh",
+    "publishedAt": "2026-05-27T08:29:41.478749",
+    "name": "石径",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "第一次尝试独立创作纹样...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-19",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s36",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#622A1D"
+      },
+      {
+        "id": "s37",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#D9B611"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "墨韵生",
+    "authorId": "rhythm",
+    "lang": "zh",
+    "publishedAt": "2026-06-04T07:29:41.478751",
+    "name": "莲池",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "翻到了一本老书...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-20",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s38",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#2EDFA3"
+      },
+      {
+        "id": "s39",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "东篱下",
+    "authorId": "fence",
+    "lang": "zh",
+    "publishedAt": "2026-06-08T08:29:41.478753",
+    "name": "雨滴",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "今天的练习——如意纹的变体...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-21",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s40",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#F9906F"
+      },
+      {
+        "id": "s41",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#A4E2C6"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "墨迹未干",
+    "authorId": "ink",
+    "lang": "zh",
+    "publishedAt": "2026-06-07T16:29:41.478754",
+    "name": "山雾",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "用iPad画纹样真的太方便了...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-22",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s42",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s43",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#622A1D"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "纹样旅人",
+    "authorId": "wanderer",
+    "lang": "zh",
+    "publishedAt": "2026-05-14T12:29:41.478756",
+    "name": "河湾",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "终于完成了！...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-23",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s44",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "s45",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#2E5C4E"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "海丝坊",
+    "authorId": "sea",
+    "lang": "zh",
+    "publishedAt": "2026-06-04T13:29:41.478758",
+    "name": "星野",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "分享一个小心得...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-24",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s46",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s47",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#A4ABD6"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "梅花工坊",
+    "authorId": "plum",
+    "lang": "zh",
+    "publishedAt": "2026-05-24T07:29:41.478760",
+    "name": "丝路",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "最近迷上了几何纹样...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-25",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s48",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s49",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Emma Orna",
+    "authorId": "emma",
+    "lang": "en",
+    "publishedAt": "2026-06-13T04:29:41.478762",
+    "name": "晨露",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Playing with vermilion and gold today...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-26",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s50",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "s51",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#D6ECF0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Kai Mueller",
+    "authorId": "kai",
+    "lang": "en",
+    "publishedAt": "2026-05-22T13:29:41.478763",
+    "name": "织梦",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Found inspiration in a Song dynasty vase...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-27",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s52",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s53",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Sofia Reyes",
+    "authorId": "sofia",
+    "lang": "en",
+    "publishedAt": "2026-06-10T03:29:41.478765",
+    "name": "金线",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Late night pattern studies...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-28",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s54",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "s55",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#425065"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Oliver Chen",
+    "authorId": "oliver",
+    "lang": "en",
+    "publishedAt": "2026-05-15T22:29:41.478767",
+    "name": "墨流",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Experimenting with a more modern take...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-29",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s56",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#BCE672"
+      },
+      {
+        "id": "s57",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Yuki Tanaka",
+    "authorId": "yuki",
+    "lang": "en",
+    "publishedAt": "2026-06-09T23:29:41.478769",
+    "name": "云上",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "This piece is dedicated to everyone...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-30",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s58",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#9D2933"
+      },
+      {
+        "id": "s59",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Emma Orna",
+    "authorId": "emma",
+    "lang": "en",
+    "publishedAt": "2026-06-06T12:29:41.478771",
+    "name": "玉藤",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Three hours of work...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-31",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s60",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#622A1D"
+      },
+      {
+        "id": "s61",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#D9B611"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Kai Mueller",
+    "authorId": "kai",
+    "lang": "en",
+    "publishedAt": "2026-05-23T11:29:41.478772",
+    "name": "琥珀光",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Trying out a celadon-inspired palette...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-32",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s62",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#2EDFA3"
+      },
+      {
+        "id": "s63",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Sofia Reyes",
+    "authorId": "sofia",
+    "lang": "en",
+    "publishedAt": "2026-05-17T03:29:41.478774",
+    "name": "朱砂天",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "My tribute to the artisans of Jingdezhen...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-33",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s64",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F9906F"
+      },
+      {
+        "id": "s65",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#A4E2C6"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Oliver Chen",
+    "authorId": "oliver",
+    "lang": "en",
+    "publishedAt": "2026-05-16T03:29:41.478776",
+    "name": "靛蓝夜",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Sometimes the simplest compositions...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-34",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s66",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s67",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#622A1D"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Yuki Tanaka",
+    "authorId": "yuki",
+    "lang": "en",
+    "publishedAt": "2026-06-03T09:29:41.478778",
+    "name": "茶末",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Rainy day = pattern design day...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-35",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s68",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "s69",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#2E5C4E"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Emma Orna",
+    "authorId": "emma",
+    "lang": "en",
+    "publishedAt": "2026-05-22T10:29:41.478780",
+    "name": "纸花开",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "This pattern is named after mist...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-36",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s70",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s71",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#A4ABD6"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Kai Mueller",
+    "authorId": "kai",
+    "lang": "en",
+    "publishedAt": "2026-06-05T23:29:41.478781",
+    "name": "铜韵",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Messing around with asymmetry...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-37",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s72",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s73",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Sofia Reyes",
+    "authorId": "sofia",
+    "lang": "en",
+    "publishedAt": "2026-06-04T00:29:41.478783",
+    "name": "漆光",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Playing with vermilion and gold today...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-38",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s74",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "s75",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#D6ECF0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Oliver Chen",
+    "authorId": "oliver",
+    "lang": "en",
+    "publishedAt": "2026-05-16T18:29:41.478785",
+    "name": "青瓷梦",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Found inspiration in a Song dynasty vase...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-39",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s76",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s77",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Yuki Tanaka",
+    "authorId": "yuki",
+    "lang": "en",
+    "publishedAt": "2026-06-02T15:29:41.478786",
+    "name": "霜线",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Late night pattern studies...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-40",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s78",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s79",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "大明風華",
+    "authorId": "ming",
+    "lang": "zh-TW",
+    "publishedAt": "2026-06-07T00:29:41.478788",
+    "name": "錦瑟年華",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "今天試了新的配色...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-41",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s80",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "s81",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#D6ECF0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "蘭亭墨客",
+    "authorId": "lan",
+    "lang": "zh-TW",
+    "publishedAt": "2026-05-27T01:29:41.478790",
+    "name": "浮光掠影",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "靈感來自故宮的一角...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-42",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s82",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s83",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "針線情緣",
+    "authorId": "zhen",
+    "lang": "zh-TW",
+    "publishedAt": "2026-06-13T18:29:41.478792",
+    "name": "雲龍風虎",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "花了三個晚上才完成...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-43",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s84",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "s85",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#425065"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "山水之間",
+    "authorId": "shan",
+    "lang": "zh-TW",
+    "publishedAt": "2026-05-17T16:29:41.478793",
+    "name": "彩鳳雙飛",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "最近在研究宋代的瓷器紋樣...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-44",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s86",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#BCE672"
+      },
+      {
+        "id": "s87",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "夜雨寄北",
+    "authorId": "yeh",
+    "lang": "zh-TW",
+    "publishedAt": "2026-05-24T19:29:41.478795",
+    "name": "花團錦簇",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "這件作品送給所有喜歡中國傳統文化的朋友...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-45",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s88",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#9D2933"
+      },
+      {
+        "id": "s89",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "大明風華",
+    "authorId": "ming",
+    "lang": "zh-TW",
+    "publishedAt": "2026-05-18T12:29:41.478797",
+    "name": "瓊樓玉宇",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "第一次嘗試獨立創作紋樣...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-46",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s90",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#622A1D"
+      },
+      {
+        "id": "s91",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#D9B611"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "蘭亭墨客",
+    "authorId": "lan",
+    "lang": "zh-TW",
+    "publishedAt": "2026-05-16T16:29:41.478799",
+    "name": "碧落黃泉",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "翻到了一本老書...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-47",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s92",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#2EDFA3"
+      },
+      {
+        "id": "s93",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "針線情緣",
+    "authorId": "zhen",
+    "lang": "zh-TW",
+    "publishedAt": "2026-06-12T04:29:41.478800",
+    "name": "紫氣東來",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "今天的練習——如意紋的變體...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-48",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s94",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F9906F"
+      },
+      {
+        "id": "s95",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#A4E2C6"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "山水之間",
+    "authorId": "shan",
+    "lang": "zh-TW",
+    "publishedAt": "2026-06-01T04:29:41.478802",
+    "name": "金聲玉振",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "用平板畫紋樣真的太方便了...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-49",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s96",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s97",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#622A1D"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "夜雨寄北",
+    "authorId": "yeh",
+    "lang": "zh-TW",
+    "publishedAt": "2026-05-23T15:29:41.478804",
+    "name": "玉樹臨風",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "終於完成了！...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-52",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s102",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s103",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "桜井美咲",
+    "authorId": "sakura",
+    "lang": "ja",
+    "publishedAt": "2026-06-04T12:29:41.478806",
+    "name": "桜吹雪",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "今日は新しい配色に挑戦しました...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-53",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s104",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "s105",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#D6ECF0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "田中明",
+    "authorId": "akira",
+    "lang": "ja",
+    "publishedAt": "2026-05-17T06:29:41.478808",
+    "name": "紅葉狩",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "故宮の一角からインスピレーションを...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-54",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s106",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s107",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "奈良の鹿",
+    "authorId": "nara",
+    "lang": "ja",
+    "publishedAt": "2026-06-10T13:29:41.478809",
+    "name": "千代紙",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "三晩かけてこの構図を完成...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-55",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s108",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "s109",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#425065"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "京都屋",
+    "authorId": "kyoto",
+    "lang": "ja",
+    "publishedAt": "2026-05-24T04:29:41.478811",
+    "name": "青海波",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "最近は宋代の磁器文様を研究中です...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-56",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s110",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#BCE672"
+      },
+      {
+        "id": "s111",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "江戸の粋",
+    "authorId": "edo",
+    "lang": "ja",
+    "publishedAt": "2026-05-16T06:29:41.478813",
+    "name": "麻の葉",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "中国の伝統文化が好きなすべての人に...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-57",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s112",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#9D2933"
+      },
+      {
+        "id": "s113",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "桜井美咲",
+    "authorId": "sakura",
+    "lang": "ja",
+    "publishedAt": "2026-05-22T12:29:41.478815",
+    "name": "亀甲柄",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "初めてのオリジナル文様制作...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-58",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s114",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#622A1D"
+      },
+      {
+        "id": "s115",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#D9B611"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "田中明",
+    "authorId": "akira",
+    "lang": "ja",
+    "publishedAt": "2026-05-31T11:29:41.478817",
+    "name": "流水紋",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "古い本で明清時代の文様図集を...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-59",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s116",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#2EDFA3"
+      },
+      {
+        "id": "s117",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "奈良の鹿",
+    "authorId": "nara",
+    "lang": "ja",
+    "publishedAt": "2026-05-23T10:29:41.478818",
+    "name": "雪輪",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "今日の練習——如意文様のバリエーション...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-60",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s118",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F9906F"
+      },
+      {
+        "id": "s119",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#A4E2C6"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "京都屋",
+    "authorId": "kyoto",
+    "lang": "ja",
+    "publishedAt": "2026-05-25T21:29:41.478820",
+    "name": "花菱",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "タブレットで文様を描くのは本当に便利...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-61",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s120",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s121",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#622A1D"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "江戸の粋",
+    "authorId": "edo",
+    "lang": "ja",
+    "publishedAt": "2026-05-30T11:29:41.478822",
+    "name": "矢絣",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "やっと完成！...",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-64",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s126",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s127",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "서울빛",
+    "authorId": "seoul",
+    "lang": "ko",
+    "publishedAt": "2026-05-19T13:29:41.478824",
+    "name": "산안개",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "오늘 새로운 배색을 시도해봤어요. 주홍과 금색의 조화가 정말 아름답네요.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-65",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s128",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "s129",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#D6ECF0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "한복이야기",
+    "authorId": "hanbok",
+    "lang": "ko",
+    "publishedAt": "2026-06-03T21:29:41.478826",
+    "name": "별빛",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "전통 문양에 현대적인 감각을 더해봤어요. 어떤가요?",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-66",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s130",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s131",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "조선의달",
+    "authorId": "joseon",
+    "lang": "ko",
+    "publishedAt": "2026-06-07T18:29:41.478827",
+    "name": "구름길",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "이번 작품은 한국의 전통 색동에서 영감을 받았어요.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-67",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s132",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "s133",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#425065"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "구름산책",
+    "authorId": "gureum",
+    "lang": "ko",
+    "publishedAt": "2026-05-20T07:29:41.478829",
+    "name": "달빛춤",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "비 오는 날, 따뜻한 차 한 잔과 함께 그린 문양입니다.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-68",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s134",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#BCE672"
+      },
+      {
+        "id": "s135",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "봄날의꽃",
+    "authorId": "bomnal",
+    "lang": "ko",
+    "publishedAt": "2026-05-25T08:29:41.478831",
+    "name": "소나무결",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "처음 시도한 문양이라 아직 부족하지만, 계속 연습할게요!",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-69",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s136",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#9D2933"
+      },
+      {
+        "id": "s137",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "서울빛",
+    "authorId": "seoul",
+    "lang": "ko",
+    "publishedAt": "2026-05-29T14:29:41.478833",
+    "name": "파도소리",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "한국과 중국의 전통 문양을 결합해보았어요. 동아시아 미학의 만남!",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-70",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s138",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#622A1D"
+      },
+      {
+        "id": "s139",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#D9B611"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "한복이야기",
+    "authorId": "hanbok",
+    "lang": "ko",
+    "publishedAt": "2026-06-06T02:29:41.478835",
+    "name": "꽃바람",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "밤새 작업한 결과물입니다. 디테일 하나하나에 정성을 담았어요.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-71",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s140",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#2EDFA3"
+      },
+      {
+        "id": "s141",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "조선의달",
+    "authorId": "joseon",
+    "lang": "ko",
+    "publishedAt": "2026-06-08T20:29:41.478837",
+    "name": "새벽이슬",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "자연에서 본 패턴을 문양으로 옮겨보았어요. 자연은 최고의 디자이너네요.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-72",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s142",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F9906F"
+      },
+      {
+        "id": "s143",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#A4E2C6"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "구름산책",
+    "authorId": "gureum",
+    "lang": "ko",
+    "publishedAt": "2026-06-04T16:29:41.478838",
+    "name": "강물결",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "오늘 새로운 배색을 시도해봤어요. 주홍과 금색의 조화가 정말 아름답네요.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-73",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s144",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s145",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#622A1D"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "봄날의꽃",
+    "authorId": "bomnal",
+    "lang": "ko",
+    "publishedAt": "2026-05-17T01:29:41.478840",
+    "name": "바위그림",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "전통 문양에 현대적인 감각을 더해봤어요. 어떤가요?",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-74",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s146",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "s147",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#2E5C4E"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "서울빛",
+    "authorId": "seoul",
+    "lang": "ko",
+    "publishedAt": "2026-05-25T13:29:41.478842",
+    "name": "대나무숲",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "이번 작품은 한국의 전통 색동에서 영감을 받았어요.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-75",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s148",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s149",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#A4ABD6"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "한복이야기",
+    "authorId": "hanbok",
+    "lang": "ko",
+    "publishedAt": "2026-05-30T05:29:41.478844",
+    "name": "연꽃못",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "비 오는 날, 따뜻한 차 한 잔과 함께 그린 문양입니다.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-76",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s150",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s151",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Atelier Paris",
+    "authorId": "paris",
+    "lang": "fr",
+    "publishedAt": "2026-06-04T15:29:41.478846",
+    "name": "Brume Matinale",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "J'ai essayé une nouvelle palette aujourd'hui — le vermillon et l'or sont vraiment élégants ensemble.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-77",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s152",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "s153",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#D6ECF0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Soie de Lyon",
+    "authorId": "lyon",
+    "lang": "fr",
+    "publishedAt": "2026-05-23T14:29:41.478847",
+    "name": "Vent d'Automne",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "J'ai ajouté une touche moderne à un motif traditionnel. Qu'en pensez-vous ?",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-78",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s154",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s155",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Marseille Bleu",
+    "authorId": "marseille",
+    "lang": "fr",
+    "publishedAt": "2026-05-30T14:29:41.478849",
+    "name": "Rivière Argentée",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Cette pièce s'inspire des pigments minéraux de Dunhuang.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-79",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s156",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "s157",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#425065"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Bordeaux Rouge",
+    "authorId": "bordeaux",
+    "lang": "fr",
+    "publishedAt": "2026-05-20T17:29:41.478851",
+    "name": "Fleur de Prunier",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Un après-midi pluvieux, une tasse de thé, et ce motif est né.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-80",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s158",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#BCE672"
+      },
+      {
+        "id": "s159",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Lille Nord",
+    "authorId": "lille",
+    "lang": "fr",
+    "publishedAt": "2026-05-15T02:29:41.478853",
+    "name": "Oiseau de Jade",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Première tentative de motif original — encore beaucoup à apprendre, mais j'adore le processus !",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-81",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s160",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#9D2933"
+      },
+      {
+        "id": "s161",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Atelier Paris",
+    "authorId": "paris",
+    "lang": "fr",
+    "publishedAt": "2026-05-26T02:29:41.478855",
+    "name": "Nuit Étoilée",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Mélanger les traditions coréennes et chinoises — la beauté de l'Asie de l'Est réunie.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-82",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s162",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#622A1D"
+      },
+      {
+        "id": "s163",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#D9B611"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Soie de Lyon",
+    "authorId": "lyon",
+    "lang": "fr",
+    "publishedAt": "2026-06-12T20:29:41.478856",
+    "name": "Jardin Secret",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Travaillé toute la nuit là-dessus. Chaque détail compte.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-83",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s164",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#2EDFA3"
+      },
+      {
+        "id": "s165",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Marseille Bleu",
+    "authorId": "marseille",
+    "lang": "fr",
+    "publishedAt": "2026-05-19T07:29:41.478858",
+    "name": "Lune sur l'Eau",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "La nature est la meilleure designer — j'ai traduit des textures naturelles en motifs.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-84",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s166",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F9906F"
+      },
+      {
+        "id": "s167",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#A4E2C6"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Bordeaux Rouge",
+    "authorId": "bordeaux",
+    "lang": "fr",
+    "publishedAt": "2026-05-22T20:29:41.478860",
+    "name": "Feuille Dorée",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "J'ai essayé une nouvelle palette aujourd'hui — le vermillon et l'or sont vraiment élégants ensemble.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-85",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s168",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s169",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#622A1D"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Lille Nord",
+    "authorId": "lille",
+    "lang": "fr",
+    "publishedAt": "2026-06-12T03:29:41.478862",
+    "name": "Songe de Soie",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "J'ai ajouté une touche moderne à un motif traditionnel. Qu'en pensez-vous ?",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-88",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s174",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s175",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Madrid Sol",
+    "authorId": "madrid",
+    "lang": "es",
+    "publishedAt": "2026-05-29T20:29:41.478864",
+    "name": "Niebla Matinal",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Probé una nueva paleta hoy — el bermellón y el oro lucen realmente elegantes juntos.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-89",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s176",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "s177",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#D6ECF0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Barcelona Gòtic",
+    "authorId": "barna",
+    "lang": "es",
+    "publishedAt": "2026-05-28T07:29:41.478865",
+    "name": "Viento de Otoño",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Añadí un toque moderno a un motivo tradicional. ¿Qué opinas?",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-90",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s178",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#F3A694"
+      },
+      {
+        "id": "s179",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Sevilla Azul",
+    "authorId": "sevilla",
+    "lang": "es",
+    "publishedAt": "2026-06-03T22:29:41.478867",
+    "name": "Río Plateado",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Esta pieza está inspirada en los pigmentos minerales de Dunhuang.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-91",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s180",
+        "d": "M250 500 L400 300 L550 500 L400 700 Z",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "s181",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#425065"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "València Taronja",
+    "authorId": "valencia",
+    "lang": "es",
+    "publishedAt": "2026-06-09T19:29:41.478869",
+    "name": "Flor de Ciruelo",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Una tarde lluviosa, una taza de té, y nació este patrón.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-92",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s182",
+        "d": "M300 300 C400 200 500 200 600 300 C700 400 600 500 500 500 C400 500 300 400 300 300 Z",
+        "fill": "#BCE672"
+      },
+      {
+        "id": "s183",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Bilbao Gris",
+    "authorId": "bilbao",
+    "lang": "es",
+    "publishedAt": "2026-05-31T13:29:41.478871",
+    "name": "Pájaro de Jade",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Primer intento de patrón original — todavía aprendiendo, ¡pero me encanta el proceso!",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-93",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s184",
+        "d": "M100 400 C200 300 300 250 400 300 C350 350 300 400 350 450 C250 500 200 450 100 400 Z",
+        "fill": "#9D2933"
+      },
+      {
+        "id": "s185",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Madrid Sol",
+    "authorId": "madrid",
+    "lang": "es",
+    "publishedAt": "2026-06-03T23:29:41.478873",
+    "name": "Noche Estrellada",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Mezclando tradiciones coreanas y chinas — la belleza de Asia Oriental unida.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-94",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s186",
+        "d": "M500 200 C450 250 400 300 450 400 C550 450 600 400 550 300 C600 250 550 200 500 200 Z",
+        "fill": "#622A1D"
+      },
+      {
+        "id": "s187",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#D9B611"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Barcelona Gòtic",
+    "authorId": "barna",
+    "lang": "es",
+    "publishedAt": "2026-06-03T10:29:41.478874",
+    "name": "Jardín Secreto",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Trabajé toda la noche en esto. Cada detalle cuenta.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-95",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s188",
+        "d": "M200 600 L300 500 L400 600 L300 700 Z M250 620 L300 570 L350 620 L300 670 Z",
+        "fill": "#2EDFA3"
+      },
+      {
+        "id": "s189",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Sevilla Azul",
+    "authorId": "sevilla",
+    "lang": "es",
+    "publishedAt": "2026-06-07T12:29:41.478876",
+    "name": "Luna Sobre el Agua",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "La naturaleza es la mejor diseñadora — traduje texturas naturales en patrones.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-96",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s190",
+        "d": "M200 350 Q350 200 500 350 Q650 500 800 350",
+        "fill": "#F9906F"
+      },
+      {
+        "id": "s191",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#A4E2C6"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "València Taronja",
+    "authorId": "valencia",
+    "lang": "es",
+    "publishedAt": "2026-05-25T15:29:41.478878",
+    "name": "Hoja Dorada",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Probé una nueva paleta hoy — el bermellón y el oro lucen realmente elegantes juntos.",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-97",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "s192",
+        "d": "M150 400 Q300 300 500 400 Q700 500 850 400",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "s193",
+        "d": "M300 250 C400 200 500 300 600 250 C700 300 750 400 650 450",
+        "fill": "#622A1D"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Bilbao Gris",
+    "authorId": "bilbao",
+    "lang": "es",
+    "publishedAt": "2026-05-19T01:29:41.478880",
+    "name": "Sueño de Seda",
+    "dynasty": "自定义",
+    "meaning": "社区创作",
+    "scene": "上传",
+    "story": "Añadí un toque moderno a un motivo tradicional. ¿Qué opinas?",
+    "source": "社区上传"
+  },
+  {
+    "id": "seed-100",
+    "name": "Морозный узор",
+    "dynasty": "Авторская",
+    "meaning": "Сообщество",
+    "scene": "Цифровое",
+    "story": "Вдохновение зимними узорами на окне.",
+    "source": "Сообщество",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M112 240 C342 427 304 946 625 214",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p1",
+        "d": "M144 316 C295 161 438 858 516 115",
+        "fill": "#8DD4E8"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Москва Золотая",
+    "authorId": "moscow",
+    "lang": "ru",
+    "publishedAt": "2026-05-16T18:29:41.478881"
+  },
+  {
+    "id": "seed-102",
+    "name": "Золотая осень",
+    "dynasty": "Авторская",
+    "meaning": "Сообщество",
+    "scene": "Цифровое",
+    "story": "Осенние листья в традиционном стиле.",
+    "source": "Сообщество",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M379 314 C484 464 206 681 612 329",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p1",
+        "d": "M274 242 C544 102 294 794 579 210",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p2",
+        "d": "M283 276 C244 423 670 874 809 235",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p3",
+        "d": "M293 140 C570 345 396 635 782 250",
+        "fill": "#C24B36"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Петербург Белый",
+    "authorId": "spb",
+    "lang": "ru",
+    "publishedAt": "2026-05-17T04:29:41.478883"
+  },
+  {
+    "id": "seed-104",
+    "name": "Северное сияние",
+    "dynasty": "Авторская",
+    "meaning": "Сообщество",
+    "scene": "Цифровое",
+    "story": "Полярное сияние, переведённое в орнамент.",
+    "source": "Сообщество",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M140 219 C484 282 573 683 551 294",
+        "fill": "#F47983"
+      },
+      {
+        "id": "p1",
+        "d": "M281 207 C273 361 375 873 843 236",
+        "fill": "#789262"
+      },
+      {
+        "id": "p2",
+        "d": "M183 336 C770 162 532 628 694 238",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Сибирский Кедр",
+    "authorId": "siberia",
+    "lang": "ru",
+    "publishedAt": "2026-05-23T07:29:41.478885"
+  },
+  {
+    "id": "seed-106",
+    "name": "Таёжные мотивы",
+    "dynasty": "Авторская",
+    "meaning": "Сообщество",
+    "scene": "Цифровое",
+    "story": "Мотивы тайги в каждой линии.",
+    "source": "Сообщество",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M305 237 C780 498 522 708 533 208",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p1",
+        "d": "M302 334 C342 176 774 875 573 235",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p2",
+        "d": "M399 319 C570 162 341 860 798 304",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Казанский Кот",
+    "authorId": "kazan",
+    "lang": "ru",
+    "publishedAt": "2026-05-20T13:29:41.478887"
+  },
+  {
+    "id": "seed-108",
+    "name": "Волжские волны",
+    "dynasty": "Авторская",
+    "meaning": "Сообщество",
+    "scene": "Цифровое",
+    "story": "Течение великой реки, застывшее в узоре.",
+    "source": "Сообщество",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M178 181 C265 247 590 905 848 316",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p1",
+        "d": "M370 228 C317 399 749 736 783 105",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Волга-Река",
+    "authorId": "volgograd",
+    "lang": "ru",
+    "publishedAt": "2026-05-25T23:29:41.478888"
+  },
+  {
+    "id": "seed-110",
+    "name": "Хохлома Digital",
+    "dynasty": "Авторская",
+    "meaning": "Сообщество",
+    "scene": "Цифровое",
+    "story": "Цифровая версия традиционной хохломы.",
+    "source": "Сообщество",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M332 101 C712 440 382 859 869 234",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M252 359 C356 241 365 876 811 201",
+        "fill": "#FF4C00"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Москва Золотая",
+    "authorId": "moscow",
+    "lang": "ru",
+    "publishedAt": "2026-06-14T11:29:41.478890"
+  },
+  {
+    "id": "seed-112",
+    "name": "Сибирский кедр",
+    "dynasty": "Авторская",
+    "meaning": "Сообщество",
+    "scene": "Цифровое",
+    "story": "Вечнозелёный символ Сибири.",
+    "source": "Сообщество",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M350 109 C514 172 259 723 557 285",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p1",
+        "d": "M140 143 C270 439 745 664 874 348",
+        "fill": "#3B6999"
+      },
+      {
+        "id": "p2",
+        "d": "M343 381 C740 496 633 708 584 235",
+        "fill": "#FF4C00"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Петербург Белый",
+    "authorId": "spb",
+    "lang": "ru",
+    "publishedAt": "2026-05-18T03:29:41.478892"
+  },
+  {
+    "id": "seed-114",
+    "name": "Петербургская ночь",
+    "dynasty": "Авторская",
+    "meaning": "Сообщество",
+    "scene": "Цифровое",
+    "story": "Белые ночи Петербурга в линиях и цветах.",
+    "source": "Сообщество",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M259 304 C648 314 662 661 843 291",
+        "fill": "#789262"
+      },
+      {
+        "id": "p1",
+        "d": "M215 132 C767 167 425 603 673 110",
+        "fill": "#D4A853"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Сибирский Кедр",
+    "authorId": "siberia",
+    "lang": "ru",
+    "publishedAt": "2026-06-06T09:29:41.478894"
+  },
+  {
+    "id": "seed-116",
+    "name": "Кремлёвские звёзды",
+    "dynasty": "Авторская",
+    "meaning": "Сообщество",
+    "scene": "Цифровое",
+    "story": "Кремлёвские мотивы — мост между Россией и Китаем.",
+    "source": "Сообщество",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M134 116 C726 171 485 942 669 136",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p1",
+        "d": "M209 376 C790 292 448 842 567 392",
+        "fill": "#1685A9"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Казанский Кот",
+    "authorId": "kazan",
+    "lang": "ru",
+    "publishedAt": "2026-05-27T18:29:41.478896"
+  },
+  {
+    "id": "seed-118",
+    "name": "Ледяной цветок",
+    "dynasty": "Авторская",
+    "meaning": "Сообщество",
+    "scene": "Цифровое",
+    "story": "Хрупкая красота ледяных кристаллов.",
+    "source": "Сообщество",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M320 281 C678 492 255 944 716 310",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M131 306 C311 177 396 697 872 273",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p2",
+        "d": "M329 171 C485 286 455 638 716 193",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p3",
+        "d": "M381 150 C215 97 442 685 525 376",
+        "fill": "#1685A9"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Волга-Река",
+    "authorId": "volgograd",
+    "lang": "ru",
+    "publishedAt": "2026-06-01T11:29:41.478897"
+  },
+  {
+    "id": "seed-120",
+    "name": "Берёзовая роща",
+    "dynasty": "Авторская",
+    "meaning": "Сообщество",
+    "scene": "Цифровое",
+    "story": "Свет сквозь берёзовые листья.",
+    "source": "Сообщество",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M130 184 C599 185 665 746 694 101",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p1",
+        "d": "M384 349 C503 161 259 896 579 197",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p2",
+        "d": "M131 260 C798 294 714 871 529 125",
+        "fill": "#3B6999"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Москва Золотая",
+    "authorId": "moscow",
+    "lang": "ru",
+    "publishedAt": "2026-06-05T00:29:41.478899"
+  },
+  {
+    "id": "seed-122",
+    "name": "Степной ветер",
+    "dynasty": "Авторская",
+    "meaning": "Сообщество",
+    "scene": "Цифровое",
+    "story": "Ветер в степи, бесконечность в линиях.",
+    "source": "Сообщество",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M135 134 C613 111 783 726 845 220",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p1",
+        "d": "M120 141 C778 317 523 733 714 398",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Петербург Белый",
+    "authorId": "spb",
+    "lang": "ru",
+    "publishedAt": "2026-05-30T09:29:41.478901"
+  },
+  {
+    "id": "seed-124",
+    "name": "نجمة الصحراء",
+    "dynasty": "ذاتي",
+    "meaning": "مجتمع",
+    "scene": "رقمي",
+    "story": "نجوم الصحراء تتحول إلى زخارف رقمية.",
+    "source": "مجتمع",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M235 302 C668 211 274 604 567 253",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p1",
+        "d": "M388 151 C418 309 471 667 537 375",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "نور دبي",
+    "authorId": "dubai",
+    "lang": "ar",
+    "publishedAt": "2026-06-11T01:29:41.478903"
+  },
+  {
+    "id": "seed-126",
+    "name": "زخرفة النخيل",
+    "dynasty": "ذاتي",
+    "meaning": "مجتمع",
+    "scene": "رقمي",
+    "story": "أوراق النخيل في نمط متكرر.",
+    "source": "مجتمع",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M289 245 C756 410 509 913 580 324",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p1",
+        "d": "M104 383 C337 185 318 654 653 153",
+        "fill": "#FF4C00"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "قاهرة الخط",
+    "authorId": "cairo",
+    "lang": "ar",
+    "publishedAt": "2026-06-08T12:29:41.478905"
+  },
+  {
+    "id": "seed-128",
+    "name": "الهلال الذهبي",
+    "dynasty": "ذاتي",
+    "meaning": "مجتمع",
+    "scene": "رقمي",
+    "story": "الهلال الذهبي يلتقي بالزخرفة الصينية.",
+    "source": "مجتمع",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M207 275 C717 300 457 626 604 235",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M316 241 C541 444 333 926 522 101",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p2",
+        "d": "M182 326 C774 54 314 638 782 318",
+        "fill": "#3B6999"
+      },
+      {
+        "id": "p3",
+        "d": "M379 118 C765 125 640 665 689 398",
+        "fill": "#C24B36"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "رياض الخزامى",
+    "authorId": "riyadh",
+    "lang": "ar",
+    "publishedAt": "2026-06-14T01:29:41.478906"
+  },
+  {
+    "id": "seed-130",
+    "name": "نسيج الخليج",
+    "dynasty": "ذاتي",
+    "meaning": "مجتمع",
+    "scene": "رقمي",
+    "story": "نسيج تقليدي من الخليج بروح عصرية.",
+    "source": "مجتمع",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M283 207 C305 231 773 808 849 227",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p1",
+        "d": "M179 221 C622 62 383 770 583 190",
+        "fill": "#1685A9"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "عمان البيضاء",
+    "authorId": "amman",
+    "lang": "ar",
+    "publishedAt": "2026-05-28T08:29:41.478908"
+  },
+  {
+    "id": "seed-132",
+    "name": "قوس المسجد",
+    "dynasty": "ذاتي",
+    "meaning": "مجتمع",
+    "scene": "رقمي",
+    "story": "هندسة المساجد في تكوين زخرفي.",
+    "source": "مجتمع",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M227 236 C591 496 239 840 581 155",
+        "fill": "#789262"
+      },
+      {
+        "id": "p1",
+        "d": "M202 335 C433 164 224 937 679 256",
+        "fill": "#789262"
+      },
+      {
+        "id": "p2",
+        "d": "M304 268 C485 229 721 804 642 135",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p3",
+        "d": "M269 114 C382 347 471 619 559 233",
+        "fill": "#D4A853"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "زليج فاس",
+    "authorId": "fez",
+    "lang": "ar",
+    "publishedAt": "2026-06-09T10:29:41.478910"
+  },
+  {
+    "id": "seed-134",
+    "name": "زهرة الياسمين",
+    "dynasty": "ذاتي",
+    "meaning": "مجتمع",
+    "scene": "رقمي",
+    "story": "زهرة الياسمين — عطر الشرق في زخرفة.",
+    "source": "مجتمع",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M260 323 C318 247 790 697 810 361",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p1",
+        "d": "M122 323 C751 401 401 786 500 366",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p2",
+        "d": "M135 269 C327 418 507 859 819 260",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p3",
+        "d": "M309 267 C767 115 396 815 706 251",
+        "fill": "#1685A9"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "نور دبي",
+    "authorId": "dubai",
+    "lang": "ar",
+    "publishedAt": "2026-06-05T00:29:41.478912"
+  },
+  {
+    "id": "seed-136",
+    "name": "حكاية ألف ليلة",
+    "dynasty": "ذاتي",
+    "meaning": "مجتمع",
+    "scene": "رقمي",
+    "story": "ألف ليلة وليلة في كل خط.",
+    "source": "مجتمع",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M391 254 C200 205 493 707 707 380",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p1",
+        "d": "M396 264 C652 395 418 861 738 326",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "قاهرة الخط",
+    "authorId": "cairo",
+    "lang": "ar",
+    "publishedAt": "2026-05-15T11:29:41.478914"
+  },
+  {
+    "id": "seed-138",
+    "name": "الخط المشرقي",
+    "dynasty": "ذاتي",
+    "meaning": "مجتمع",
+    "scene": "رقمي",
+    "story": "جمال الخط العربي يلتقي بالزخرفة الصينية.",
+    "source": "مجتمع",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M186 143 C543 97 440 944 645 363",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p1",
+        "d": "M215 201 C247 175 686 912 575 112",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p2",
+        "d": "M333 312 C399 417 593 853 822 394",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p3",
+        "d": "M224 175 C309 448 635 712 835 102",
+        "fill": "#3B6999"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "رياض الخزامى",
+    "authorId": "riyadh",
+    "lang": "ar",
+    "publishedAt": "2026-06-07T18:29:41.478915"
+  },
+  {
+    "id": "seed-140",
+    "name": "نسيم البحر",
+    "dynasty": "ذاتي",
+    "meaning": "مجتمع",
+    "scene": "رقمي",
+    "story": "نسيم البحر في خطوط ناعمة.",
+    "source": "مجتمع",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M125 385 C667 118 675 941 627 162",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p1",
+        "d": "M386 262 C716 268 761 828 886 326",
+        "fill": "#3B6999"
+      },
+      {
+        "id": "p2",
+        "d": "M343 330 C483 442 733 848 632 226",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "عمان البيضاء",
+    "authorId": "amman",
+    "lang": "ar",
+    "publishedAt": "2026-05-23T09:29:41.478917"
+  },
+  {
+    "id": "seed-142",
+    "name": "جدارية شرقية",
+    "dynasty": "ذاتي",
+    "meaning": "مجتمع",
+    "scene": "رقمي",
+    "story": "جدارية تجمع الشرق الأقصى بالشرق الأوسط.",
+    "source": "مجتمع",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M246 220 C527 326 282 670 639 271",
+        "fill": "#3B6999"
+      },
+      {
+        "id": "p1",
+        "d": "M218 296 C419 82 624 808 855 178",
+        "fill": "#F47983"
+      },
+      {
+        "id": "p2",
+        "d": "M377 338 C411 476 630 799 712 131",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p3",
+        "d": "M110 394 C206 230 505 799 694 344",
+        "fill": "#1685A9"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "زليج فاس",
+    "authorId": "fez",
+    "lang": "ar",
+    "publishedAt": "2026-06-13T23:29:41.478919"
+  },
+  {
+    "id": "seed-144",
+    "name": "الفسيفساء العربي",
+    "dynasty": "ذاتي",
+    "meaning": "مجتمع",
+    "scene": "رقمي",
+    "story": "الفسيفساء العربي بتقنية رقمية.",
+    "source": "مجتمع",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M212 349 C646 298 229 799 612 239",
+        "fill": "#F47983"
+      },
+      {
+        "id": "p1",
+        "d": "M307 184 C746 63 603 903 739 165",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p2",
+        "d": "M113 142 C338 493 672 693 829 319",
+        "fill": "#C24B36"
+      },
+      {
+        "id": "p3",
+        "d": "M233 294 C665 217 545 794 667 208",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "نور دبي",
+    "authorId": "dubai",
+    "lang": "ar",
+    "publishedAt": "2026-05-23T13:29:41.478921"
+  },
+  {
+    "id": "seed-146",
+    "name": "الزليج المغربي",
+    "dynasty": "ذاتي",
+    "meaning": "مجتمع",
+    "scene": "رقمي",
+    "story": "الزليج المغربي — حوار الحضارات.",
+    "source": "مجتمع",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M141 340 C253 229 429 932 509 376",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M120 115 C220 368 356 722 626 202",
+        "fill": "#3B6999"
+      },
+      {
+        "id": "p2",
+        "d": "M342 158 C676 408 462 788 788 211",
+        "fill": "#3B6999"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "قاهرة الخط",
+    "authorId": "cairo",
+    "lang": "ar",
+    "publishedAt": "2026-05-23T01:29:41.478922"
+  },
+  {
+    "id": "seed-148",
+    "name": "墨竹图",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "以竹为骨，以墨为魂。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M259 155 C519 344 584 803 796 113",
+        "fill": "#789262"
+      },
+      {
+        "id": "p1",
+        "d": "M138 224 C323 457 779 621 552 254",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "纹样旅人",
+    "authorId": "wanderer",
+    "lang": "zh",
+    "publishedAt": "2026-06-08T00:29:41.478924"
+  },
+  {
+    "id": "seed-150",
+    "name": "江南水韵",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "水墨江南，烟雨朦胧。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M274 106 C308 271 570 925 715 350",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p1",
+        "d": "M178 322 C476 365 751 847 590 367",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p2",
+        "d": "M323 237 C288 192 661 724 665 225",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p3",
+        "d": "M391 294 C706 485 532 693 672 114",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "火羽笔",
+    "authorId": "phoenix",
+    "lang": "zh",
+    "publishedAt": "2026-06-12T04:29:41.478926"
+  },
+  {
+    "id": "seed-152",
+    "name": "龙凤呈祥",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "龙凤纹样的现代演绎。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M241 384 C395 93 447 808 505 364",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p1",
+        "d": "M384 223 C702 279 217 647 853 343",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p2",
+        "d": "M213 307 C513 389 795 788 854 224",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "格律诗人",
+    "authorId": "grid",
+    "lang": "zh",
+    "publishedAt": "2026-06-10T01:29:41.478928"
+  },
+  {
+    "id": "seed-154",
+    "name": "金玉满堂",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "传统吉祥纹样的新诠释。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M381 269 C477 206 457 718 680 332",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M198 261 C389 148 421 847 561 374",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p2",
+        "d": "M368 244 C503 166 569 691 551 199",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p3",
+        "d": "M107 373 C246 77 766 749 564 240",
+        "fill": "#3B6999"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "火羽笔",
+    "authorId": "phoenix",
+    "lang": "zh",
+    "publishedAt": "2026-06-09T19:29:41.478929"
+  },
+  {
+    "id": "seed-156",
+    "name": "墨色山水",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "黑白之间，自有天地。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M393 245 C651 224 388 626 740 345",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p1",
+        "d": "M344 158 C703 87 790 922 533 305",
+        "fill": "#C24B36"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "素手织",
+    "authorId": "weaver",
+    "lang": "zh",
+    "publishedAt": "2026-06-13T12:29:41.478931"
+  },
+  {
+    "id": "seed-158",
+    "name": "丝绸之路",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "用纹样重走千年丝路。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M143 227 C626 360 431 867 560 385",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p1",
+        "d": "M330 326 C512 341 261 912 652 319",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p2",
+        "d": "M206 208 C360 172 377 882 635 141",
+        "fill": "#D4A853"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "东篱下",
+    "authorId": "fence",
+    "lang": "zh",
+    "publishedAt": "2026-05-16T02:29:41.478933"
+  },
+  {
+    "id": "seed-160",
+    "name": "Frost Pattern",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Inspired by ice crystals on a winter window.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M340 249 C495 411 489 832 516 218",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M219 235 C635 108 757 715 820 201",
+        "fill": "#3B6999"
+      },
+      {
+        "id": "p2",
+        "d": "M236 172 C369 455 514 904 536 130",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p3",
+        "d": "M247 324 C511 408 612 739 563 339",
+        "fill": "#FF4C00"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Oliver Chen",
+    "authorId": "oliver",
+    "lang": "en",
+    "publishedAt": "2026-05-25T21:29:41.478935"
+  },
+  {
+    "id": "seed-162",
+    "name": "Desert Geometry",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Geometric patterns from desert sands.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M120 321 C456 63 293 717 876 265",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p1",
+        "d": "M400 110 C790 70 379 840 891 237",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p2",
+        "d": "M326 242 C646 375 703 646 592 399",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p3",
+        "d": "M278 309 C307 489 364 768 670 264",
+        "fill": "#1685A9"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Oliver Chen",
+    "authorId": "oliver",
+    "lang": "en",
+    "publishedAt": "2026-06-05T23:29:41.478936"
+  },
+  {
+    "id": "seed-164",
+    "name": "Ocean Wave",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Endless ocean waves in stylized form.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M381 118 C522 179 531 659 732 145",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p1",
+        "d": "M363 100 C673 261 255 696 836 377",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p2",
+        "d": "M285 355 C252 154 473 881 820 326",
+        "fill": "#3B6999"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Sofia Reyes",
+    "authorId": "sofia",
+    "lang": "en",
+    "publishedAt": "2026-05-15T07:29:41.478938"
+  },
+  {
+    "id": "seed-166",
+    "name": "Moonlit Garden",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "A garden under moonlight — tranquil and elegant.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M348 162 C362 209 764 607 514 222",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p1",
+        "d": "M308 147 C672 110 357 855 615 158",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p2",
+        "d": "M360 239 C683 174 667 882 712 347",
+        "fill": "#3B6999"
+      },
+      {
+        "id": "p3",
+        "d": "M296 197 C339 492 271 741 806 360",
+        "fill": "#1685A9"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Oliver Chen",
+    "authorId": "oliver",
+    "lang": "en",
+    "publishedAt": "2026-06-12T00:29:41.478940"
+  },
+  {
+    "id": "seed-168",
+    "name": "Golden Thread",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Where East meets West in gold.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M244 252 C701 493 352 828 800 396",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p1",
+        "d": "M347 276 C756 243 666 764 670 382",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Yuki Tanaka",
+    "authorId": "yuki",
+    "lang": "en",
+    "publishedAt": "2026-05-20T22:29:41.478942"
+  },
+  {
+    "id": "seed-170",
+    "name": "Urban Silk",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Silk patterns in a modern cityscape.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M310 122 C590 247 355 853 662 342",
+        "fill": "#C24B36"
+      },
+      {
+        "id": "p1",
+        "d": "M164 357 C302 497 650 651 802 269",
+        "fill": "#FF4C00"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Yuki Tanaka",
+    "authorId": "yuki",
+    "lang": "en",
+    "publishedAt": "2026-05-23T04:29:41.478943"
+  },
+  {
+    "id": "seed-172",
+    "name": "風花",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "冬の風に舞う花びら。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M309 179 C471 223 607 932 538 340",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M268 373 C699 496 754 618 694 262",
+        "fill": "#8DD4E8"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "桜井美咲",
+    "authorId": "sakura",
+    "lang": "ja",
+    "publishedAt": "2026-05-27T05:29:41.478945"
+  },
+  {
+    "id": "seed-174",
+    "name": "朝露",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "朝日に輝く露の文様。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M146 322 C654 135 506 614 550 151",
+        "fill": "#C24B36"
+      },
+      {
+        "id": "p1",
+        "d": "M266 128 C583 270 349 725 650 283",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p2",
+        "d": "M310 389 C374 139 280 912 849 192",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p3",
+        "d": "M223 354 C437 286 460 835 798 173",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "奈良の鹿",
+    "authorId": "nara",
+    "lang": "ja",
+    "publishedAt": "2026-05-27T22:29:41.478947"
+  },
+  {
+    "id": "seed-176",
+    "name": "枯山水",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "石と砂だけで表現する世界。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M379 180 C553 350 506 927 537 326",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p1",
+        "d": "M228 333 C593 486 694 654 654 201",
+        "fill": "#789262"
+      },
+      {
+        "id": "p2",
+        "d": "M295 392 C502 408 502 611 683 394",
+        "fill": "#1685A9"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "京都屋",
+    "authorId": "kyoto",
+    "lang": "ja",
+    "publishedAt": "2026-06-11T07:29:41.478949"
+  },
+  {
+    "id": "seed-178",
+    "name": "雪月花",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "四季折々の美しさ。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M125 354 C560 162 394 917 646 217",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p1",
+        "d": "M170 149 C516 453 651 617 821 120",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p2",
+        "d": "M286 167 C534 432 625 689 546 251",
+        "fill": "#789262"
+      },
+      {
+        "id": "p3",
+        "d": "M167 376 C713 189 368 731 687 371",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "江戸の粋",
+    "authorId": "edo",
+    "lang": "ja",
+    "publishedAt": "2026-05-14T23:29:41.478950"
+  },
+  {
+    "id": "seed-180",
+    "name": "달빛춤",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "달빛 아래 춤추는 선율.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M339 138 C606 483 770 787 572 215",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M302 107 C326 282 577 944 635 374",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "조선의달",
+    "authorId": "joseon",
+    "lang": "ko",
+    "publishedAt": "2026-05-20T12:29:41.478952"
+  },
+  {
+    "id": "seed-182",
+    "name": "소나무결",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "한국적 미학의 소나무 문양.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M219 341 C535 362 426 931 512 387",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M337 254 C319 121 246 619 832 309",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p2",
+        "d": "M352 159 C750 119 597 832 549 220",
+        "fill": "#F47983"
+      },
+      {
+        "id": "p3",
+        "d": "M376 314 C624 385 301 850 800 179",
+        "fill": "#8DD4E8"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "조선의달",
+    "authorId": "joseon",
+    "lang": "ko",
+    "publishedAt": "2026-05-25T19:29:41.478954"
+  },
+  {
+    "id": "seed-184",
+    "name": "한강야경",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "한강의 야경을 문양으로.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M211 327 C571 100 576 878 727 220",
+        "fill": "#F47983"
+      },
+      {
+        "id": "p1",
+        "d": "M131 303 C325 484 665 646 641 197",
+        "fill": "#789262"
+      },
+      {
+        "id": "p2",
+        "d": "M110 125 C328 452 778 705 670 224",
+        "fill": "#D4A853"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "서울빛",
+    "authorId": "seoul",
+    "lang": "ko",
+    "publishedAt": "2026-05-27T12:29:41.478956"
+  },
+  {
+    "id": "seed-186",
+    "name": "백자철화",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "조선 백자의 철화 문양을 디지털로.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M210 219 C202 191 348 666 668 175",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p1",
+        "d": "M228 189 C334 57 566 721 556 113",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p2",
+        "d": "M265 108 C253 114 631 869 589 235",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p3",
+        "d": "M132 343 C725 353 311 831 729 285",
+        "fill": "#FF4C00"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "봄날의꽃",
+    "authorId": "bomnal",
+    "lang": "ko",
+    "publishedAt": "2026-06-09T22:29:41.478957"
+  },
+  {
+    "id": "seed-188",
+    "name": "Fleur de Lys 2.0",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "La fleur de lys réinventée avec des motifs chinois.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M366 254 C262 295 611 818 734 115",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M351 327 C529 361 351 633 537 141",
+        "fill": "#3B6999"
+      },
+      {
+        "id": "p2",
+        "d": "M240 399 C590 355 743 750 780 266",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p3",
+        "d": "M358 320 C764 419 420 820 550 158",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Atelier Paris",
+    "authorId": "paris",
+    "lang": "fr",
+    "publishedAt": "2026-05-20T06:29:41.478959"
+  },
+  {
+    "id": "seed-190",
+    "name": "Jardin de Versailles",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Les jardins à la française rencontrent l'Orient.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M304 312 C520 268 520 940 873 148",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p1",
+        "d": "M291 178 C268 96 287 647 851 342",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p2",
+        "d": "M149 290 C261 350 775 887 566 384",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Bordeaux Rouge",
+    "authorId": "bordeaux",
+    "lang": "fr",
+    "publishedAt": "2026-05-15T10:29:41.478961"
+  },
+  {
+    "id": "seed-192",
+    "name": "Seine au Crépuscule",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "La Seine au coucher du soleil, en lignes fluides.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M316 126 C560 103 791 859 647 259",
+        "fill": "#789262"
+      },
+      {
+        "id": "p1",
+        "d": "M179 346 C558 482 769 788 614 155",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p2",
+        "d": "M242 393 C774 442 770 613 615 319",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p3",
+        "d": "M236 114 C516 223 559 603 592 239",
+        "fill": "#3B6999"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Bordeaux Rouge",
+    "authorId": "bordeaux",
+    "lang": "fr",
+    "publishedAt": "2026-05-18T10:29:41.478963"
+  },
+  {
+    "id": "seed-194",
+    "name": "Lavande de Provence",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Les champs de lavande stylisés.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M135 172 C293 432 743 710 879 115",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p1",
+        "d": "M314 332 C578 209 532 890 674 180",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p2",
+        "d": "M143 126 C250 395 283 739 579 180",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Lille Nord",
+    "authorId": "lille",
+    "lang": "fr",
+    "publishedAt": "2026-06-04T18:29:41.478964"
+  },
+  {
+    "id": "seed-196",
+    "name": "Alhambra Digital",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Los patrones de la Alhambra en versión digital.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M312 239 C316 226 640 656 610 362",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p1",
+        "d": "M349 369 C246 162 604 906 841 257",
+        "fill": "#C24B36"
+      },
+      {
+        "id": "p2",
+        "d": "M103 204 C340 441 461 748 654 208",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "València Taronja",
+    "authorId": "valencia",
+    "lang": "es",
+    "publishedAt": "2026-05-24T02:29:41.478966"
+  },
+  {
+    "id": "seed-198",
+    "name": "Flamenco en Líneas",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "El movimiento del flamenco traducido a líneas.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M189 166 C435 306 772 942 694 372",
+        "fill": "#F47983"
+      },
+      {
+        "id": "p1",
+        "d": "M136 303 C646 59 670 639 879 121",
+        "fill": "#F47983"
+      },
+      {
+        "id": "p2",
+        "d": "M394 319 C627 198 317 807 793 307",
+        "fill": "#C24B36"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "València Taronja",
+    "authorId": "valencia",
+    "lang": "es",
+    "publishedAt": "2026-06-01T22:29:41.478968"
+  },
+  {
+    "id": "seed-200",
+    "name": "Olas del Cantábrico",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Las olas del norte en patrones hipnóticos.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M285 145 C449 273 610 868 723 154",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M302 258 C426 220 372 639 881 273",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p2",
+        "d": "M158 371 C557 229 351 720 761 199",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p3",
+        "d": "M174 231 C356 439 277 690 601 188",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Bilbao Gris",
+    "authorId": "bilbao",
+    "lang": "es",
+    "publishedAt": "2026-06-08T18:29:41.478970"
+  },
+  {
+    "id": "seed-202",
+    "name": "Sueño Andaluz",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Azulejos y patrones del sur.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M329 389 C523 127 650 634 829 265",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p1",
+        "d": "M326 255 C560 309 275 758 640 128",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p2",
+        "d": "M331 119 C493 89 292 914 529 288",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p3",
+        "d": "M359 296 C767 455 242 830 736 397",
+        "fill": "#8DD4E8"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Bilbao Gris",
+    "authorId": "bilbao",
+    "lang": "es",
+    "publishedAt": "2026-06-13T18:29:41.478971"
+  },
+  {
+    "id": "seed-204",
+    "name": "玉山薄霧",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "玉山清晨的薄霧，化作紋樣。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M356 177 C305 465 551 643 531 330",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p1",
+        "d": "M188 120 C649 318 735 912 626 324",
+        "fill": "#3B6999"
+      },
+      {
+        "id": "p2",
+        "d": "M286 290 C618 446 546 947 644 298",
+        "fill": "#8DD4E8"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "針線情緣",
+    "authorId": "zhen",
+    "lang": "zh-TW",
+    "publishedAt": "2026-05-27T20:29:41.478973"
+  },
+  {
+    "id": "seed-206",
+    "name": "夜市流光",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "台灣夜市的燈火與活力。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M148 385 C490 179 353 770 847 297",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M398 172 C601 116 286 758 679 258",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p2",
+        "d": "M292 268 C295 380 633 860 565 369",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "針線情緣",
+    "authorId": "zhen",
+    "lang": "zh-TW",
+    "publishedAt": "2026-05-25T22:29:41.478975"
+  },
+  {
+    "id": "seed-208",
+    "name": "蘭嶼拼板舟",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "達悟族的拼板舟圖騰新繹。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M274 348 C340 129 279 751 598 215",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M359 376 C238 388 544 916 878 369",
+        "fill": "#3B6999"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "針線情緣",
+    "authorId": "zhen",
+    "lang": "zh-TW",
+    "publishedAt": "2026-06-09T09:29:41.478977"
+  },
+  {
+    "id": "seed-210",
+    "name": "油桐花雨",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "五月桐花如雪紛飛。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M184 324 C573 396 443 827 522 310",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p1",
+        "d": "M245 329 C444 208 680 699 619 373",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "蘭亭墨客",
+    "authorId": "lan",
+    "lang": "zh-TW",
+    "publishedAt": "2026-05-16T06:29:41.478978"
+  },
+  {
+    "id": "seed-211",
+    "name": "荷塘月色",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "朱自清的荷塘月色，化作纹样。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M359 224 C470 253 244 856 604 264",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M200 358 C398 187 778 718 602 108",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p2",
+        "d": "M262 142 C750 118 747 669 674 383",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "莲花居士",
+    "authorId": "lotus",
+    "lang": "zh",
+    "publishedAt": "2026-05-21T03:29:41.478980"
+  },
+  {
+    "id": "seed-212",
+    "name": "竹影婆娑",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "风过竹林，影落纸上。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M231 395 C605 164 713 664 748 274",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p1",
+        "d": "M103 353 C325 403 253 784 675 399",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "竹里馆",
+    "authorId": "bamboo2",
+    "lang": "zh",
+    "publishedAt": "2026-06-04T03:29:41.478982"
+  },
+  {
+    "id": "seed-213",
+    "name": "清风徐来",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "一缕清风，水波不兴。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M261 283 C551 465 397 692 610 329",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p1",
+        "d": "M131 312 C471 474 379 886 692 356",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p2",
+        "d": "M288 135 C471 307 529 628 651 162",
+        "fill": "#1685A9"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "莲花居士",
+    "authorId": "lotus",
+    "lang": "zh",
+    "publishedAt": "2026-05-22T00:29:41.478984"
+  },
+  {
+    "id": "seed-214",
+    "name": "Northern Lights",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Aurora borealis captured in repeating curves.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M155 338 C448 381 656 736 793 266",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p1",
+        "d": "M388 392 C666 306 788 740 676 227",
+        "fill": "#F47983"
+      },
+      {
+        "id": "p2",
+        "d": "M124 193 C638 388 708 667 563 110",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Aurora Moon",
+    "authorId": "aurora",
+    "lang": "en",
+    "publishedAt": "2026-06-01T06:29:41.478985"
+  },
+  {
+    "id": "seed-215",
+    "name": "Cathedral Windows",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Rose windows meet Chinese lattice patterns.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M172 266 C232 287 716 907 689 213",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p1",
+        "d": "M397 107 C433 402 264 729 664 297",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p2",
+        "d": "M186 313 C244 360 213 854 683 317",
+        "fill": "#3B6999"
+      },
+      {
+        "id": "p3",
+        "d": "M201 123 C369 441 743 699 637 368",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Jasper Cole",
+    "authorId": "jasper",
+    "lang": "en",
+    "publishedAt": "2026-05-22T06:29:41.478987"
+  },
+  {
+    "id": "seed-216",
+    "name": "Jazz Lines",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Freeform jazz improvisation in visual form.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M214 244 C305 276 758 885 770 147",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p1",
+        "d": "M199 366 C616 458 659 656 534 300",
+        "fill": "#C24B36"
+      },
+      {
+        "id": "p2",
+        "d": "M391 321 C729 232 357 852 889 323",
+        "fill": "#3B6999"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Aurora Moon",
+    "authorId": "aurora",
+    "lang": "en",
+    "publishedAt": "2026-06-07T15:29:41.478989"
+  },
+  {
+    "id": "seed-217",
+    "name": "茶煙輕揚",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "一縷茶煙，化作萬千紋理。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M119 225 C613 63 211 811 606 137",
+        "fill": "#F47983"
+      },
+      {
+        "id": "p1",
+        "d": "M380 115 C646 407 498 695 521 226",
+        "fill": "#E4C6D0"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "茶韻堂",
+    "authorId": "tea",
+    "lang": "zh-TW",
+    "publishedAt": "2026-05-21T22:29:41.478991"
+  },
+  {
+    "id": "seed-218",
+    "name": "海底花園",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "珊瑚與海葵的奇幻世界。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M266 208 C570 452 356 838 763 113",
+        "fill": "#789262"
+      },
+      {
+        "id": "p1",
+        "d": "M312 213 C600 336 393 799 761 322",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p2",
+        "d": "M354 121 C687 424 309 664 646 171",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p3",
+        "d": "M335 280 C655 316 561 747 782 108",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "珊瑚礁",
+    "authorId": "coral",
+    "lang": "zh-TW",
+    "publishedAt": "2026-06-14T08:29:41.478992"
+  },
+  {
+    "id": "seed-219",
+    "name": "太魯閣峽谷",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "峽谷的紋理，歲月的刻痕。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M154 360 C532 426 284 942 885 148",
+        "fill": "#789262"
+      },
+      {
+        "id": "p1",
+        "d": "M296 192 C686 121 205 683 714 164",
+        "fill": "#D4A853"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "茶韻堂",
+    "authorId": "tea",
+    "lang": "zh-TW",
+    "publishedAt": "2026-05-30T10:29:41.478994"
+  },
+  {
+    "id": "seed-220",
+    "name": "紅梅白梅",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "紅白の梅が織りなす文様。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M212 334 C614 80 257 677 720 202",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M336 146 C567 275 411 722 568 121",
+        "fill": "#789262"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "梅の花",
+    "authorId": "ume",
+    "lang": "ja",
+    "publishedAt": "2026-05-23T10:29:41.478996"
+  },
+  {
+    "id": "seed-221",
+    "name": "富士夜明け",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "夜明けの富士を文様に。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M173 145 C498 217 610 776 845 104",
+        "fill": "#789262"
+      },
+      {
+        "id": "p1",
+        "d": "M131 129 C312 177 494 720 781 133",
+        "fill": "#3B6999"
+      },
+      {
+        "id": "p2",
+        "d": "M385 100 C469 265 768 788 809 378",
+        "fill": "#F47983"
+      },
+      {
+        "id": "p3",
+        "d": "M166 313 C558 210 203 779 517 248",
+        "fill": "#FF4C00"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "富士見",
+    "authorId": "fuji",
+    "lang": "ja",
+    "publishedAt": "2026-05-16T17:29:41.478998"
+  },
+  {
+    "id": "seed-222",
+    "name": "金閣寺",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "黄金の輝きを文様に閉じ込めて。",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M140 293 C533 277 307 905 868 194",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p1",
+        "d": "M201 304 C396 155 566 818 825 136",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p2",
+        "d": "M245 383 C596 63 466 615 778 183",
+        "fill": "#3B6999"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "梅の花",
+    "authorId": "ume",
+    "lang": "ja",
+    "publishedAt": "2026-05-27T00:29:41.478999"
+  },
+  {
+    "id": "seed-223",
+    "name": "별빛강",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "한강 위에 비친 별빛.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M151 169 C476 112 275 784 865 151",
+        "fill": "#C24B36"
+      },
+      {
+        "id": "p1",
+        "d": "M230 284 C620 97 466 865 566 229",
+        "fill": "#FF4C00"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "한강별빛",
+    "authorId": "hangang",
+    "lang": "ko",
+    "publishedAt": "2026-05-16T13:29:41.479001"
+  },
+  {
+    "id": "seed-224",
+    "name": "돌하르방",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "제주의 수호자를 문양으로.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M161 268 C650 170 205 647 646 257",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M151 325 C384 469 335 798 698 283",
+        "fill": "#C24B36"
+      },
+      {
+        "id": "p2",
+        "d": "M312 207 C627 116 285 689 622 102",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p3",
+        "d": "M236 315 C512 83 224 662 586 299",
+        "fill": "#8DD4E8"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "제주바람",
+    "authorId": "jeju",
+    "lang": "ko",
+    "publishedAt": "2026-05-18T06:29:41.479003"
+  },
+  {
+    "id": "seed-225",
+    "name": "한라산눈",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "한라산 첫눈의 순수함.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M378 196 C760 451 546 611 658 259",
+        "fill": "#3B6999"
+      },
+      {
+        "id": "p1",
+        "d": "M257 245 C417 304 246 816 602 318",
+        "fill": "#D4A853"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "한강별빛",
+    "authorId": "hangang",
+    "lang": "ko",
+    "publishedAt": "2026-05-21T06:29:41.479004"
+  },
+  {
+    "id": "seed-226",
+    "name": "Promenade des Anglais",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "La lumière de Nice capturée en motifs.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M187 124 C264 279 792 697 781 213",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p1",
+        "d": "M391 322 C573 88 421 645 864 373",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Nice Azure",
+    "authorId": "nice",
+    "lang": "fr",
+    "publishedAt": "2026-06-04T00:29:41.479006"
+  },
+  {
+    "id": "seed-227",
+    "name": "Cathédrale de Strasbourg",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Les vitraux gothiques revisités.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M115 206 C359 487 737 650 845 118",
+        "fill": "#C24B36"
+      },
+      {
+        "id": "p1",
+        "d": "M310 341 C541 388 386 929 815 296",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p2",
+        "d": "M319 153 C421 127 339 938 544 122",
+        "fill": "#8DD4E8"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Strasbourg Blanc",
+    "authorId": "stras",
+    "lang": "fr",
+    "publishedAt": "2026-05-26T15:29:41.479008"
+  },
+  {
+    "id": "seed-228",
+    "name": "Calanques",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Les calanques de Marseille en lignes pures.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M234 245 C746 320 762 646 710 194",
+        "fill": "#C24B36"
+      },
+      {
+        "id": "p1",
+        "d": "M397 173 C664 385 452 920 766 151",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p2",
+        "d": "M345 115 C676 241 491 875 690 251",
+        "fill": "#8DD4E8"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Nice Azure",
+    "authorId": "nice",
+    "lang": "fr",
+    "publishedAt": "2026-05-19T18:29:41.479010"
+  },
+  {
+    "id": "seed-229",
+    "name": "Patio Andaluz",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "La luz y sombra de los patios de Granada.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M201 186 C253 349 299 851 520 291",
+        "fill": "#F47983"
+      },
+      {
+        "id": "p1",
+        "d": "M315 190 C437 343 592 669 553 137",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p2",
+        "d": "M150 349 C737 304 543 761 769 218",
+        "fill": "#8DD4E8"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Granada Mora",
+    "authorId": "granada",
+    "lang": "es",
+    "publishedAt": "2026-06-12T10:29:41.479012"
+  },
+  {
+    "id": "seed-230",
+    "name": "Salinas",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Las salinas de Cádiz — geometría blanca.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M236 272 C380 170 304 627 846 346",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p1",
+        "d": "M173 288 C350 463 371 950 520 171",
+        "fill": "#1685A9"
+      },
+      {
+        "id": "p2",
+        "d": "M191 385 C387 445 697 856 627 360",
+        "fill": "#C24B36"
+      },
+      {
+        "id": "p3",
+        "d": "M340 179 C717 376 649 715 641 279",
+        "fill": "#D4A853"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Cádiz Sal",
+    "authorId": "cadiz",
+    "lang": "es",
+    "publishedAt": "2026-05-31T16:29:41.479013"
+  },
+  {
+    "id": "seed-231",
+    "name": "Gaudí Dreams",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "El modernismo catalán encuentra a Oriente.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M302 263 C626 406 290 767 524 319",
+        "fill": "#F0C239"
+      },
+      {
+        "id": "p1",
+        "d": "M337 107 C561 236 528 722 557 119",
+        "fill": "#FF4C00"
+      },
+      {
+        "id": "p2",
+        "d": "M387 343 C439 66 389 664 873 274",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Granada Mora",
+    "authorId": "granada",
+    "lang": "es",
+    "publishedAt": "2026-06-03T23:29:41.479015"
+  },
+  {
+    "id": "seed-232",
+    "name": "Малахитовая Шкатулка",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Уральские мотивы в цифровой обработке.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M319 107 C475 232 757 759 678 164",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p1",
+        "d": "M277 205 C771 115 729 605 524 160",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p2",
+        "d": "M348 363 C711 82 392 693 715 304",
+        "fill": "#F47983"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Уральский Самоцвет",
+    "authorId": "ural",
+    "lang": "ru",
+    "publishedAt": "2026-05-15T02:29:41.479017"
+  },
+  {
+    "id": "seed-233",
+    "name": "Байкальская Глубина",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Сибирь в оттенках синего и белого.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M350 159 C567 310 584 652 702 137",
+        "fill": "#789262"
+      },
+      {
+        "id": "p1",
+        "d": "M231 145 C577 139 394 642 854 161",
+        "fill": "#D4A853"
+      },
+      {
+        "id": "p2",
+        "d": "M316 329 C658 415 241 812 873 323",
+        "fill": "#C24B36"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Байкал Лёд",
+    "authorId": "baikal",
+    "lang": "ru",
+    "publishedAt": "2026-06-08T21:29:41.479019"
+  },
+  {
+    "id": "seed-234",
+    "name": "Зимняя Сказка",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "Русская зима в орнаменте.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M301 292 C576 228 264 770 874 270",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p1",
+        "d": "M194 161 C601 306 529 616 513 327",
+        "fill": "#789262"
+      },
+      {
+        "id": "p2",
+        "d": "M246 261 C355 213 683 784 859 246",
+        "fill": "#789262"
+      },
+      {
+        "id": "p3",
+        "d": "M373 117 C359 156 538 723 815 341",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "Уральский Самоцвет",
+    "authorId": "ural",
+    "lang": "ru",
+    "publishedAt": "2026-05-31T11:29:41.479020"
+  },
+  {
+    "id": "seed-235",
+    "name": "روضة المدينة",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "حدائق المدينة المنورة تتحول إلى زخارف.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M183 200 C538 293 657 837 737 346",
+        "fill": "#E4C6D0"
+      },
+      {
+        "id": "p1",
+        "d": "M323 250 C677 100 529 795 540 301",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p2",
+        "d": "M388 371 C258 132 626 860 566 219",
+        "fill": "#F0C239"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "المدينة المنورة",
+    "authorId": "medina",
+    "lang": "ar",
+    "publishedAt": "2026-05-17T18:29:41.479022"
+  },
+  {
+    "id": "seed-236",
+    "name": "برج الشارقة",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "العمارة الإماراتية بروح صينية.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M220 248 C443 407 627 642 589 366",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p1",
+        "d": "M297 380 C676 405 338 686 532 288",
+        "fill": "#F47983"
+      },
+      {
+        "id": "p2",
+        "d": "M165 171 C358 132 665 737 655 312",
+        "fill": "#8DD4E8"
+      },
+      {
+        "id": "p3",
+        "d": "M218 200 C250 434 516 698 651 197",
+        "fill": "#8DD4E8"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "الشارقة فن",
+    "authorId": "sharjah",
+    "lang": "ar",
+    "publishedAt": "2026-06-11T13:29:41.479024"
+  },
+  {
+    "id": "seed-237",
+    "name": "الخط والزخرفة",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "story": "ديوانية الخط العربي والزخرفة الصينية.",
+    "source": "Community Upload",
+    "svgId": "custom",
+    "customPaths": [
+      {
+        "id": "p0",
+        "d": "M270 182 C302 174 242 777 666 120",
+        "fill": "#789262"
+      },
+      {
+        "id": "p1",
+        "d": "M142 189 C376 98 769 868 736 322",
+        "fill": "#C24B36"
+      }
+    ],
+    "customViewBox": "0 0 1024 1024",
+    "authorName": "المدينة المنورة",
+    "authorId": "medina",
+    "lang": "ar",
+    "publishedAt": "2026-05-19T01:29:41.479026"
+  }
+]

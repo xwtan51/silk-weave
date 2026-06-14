@@ -1,0 +1,324 @@
+{
+  "hero": {
+    "slogan": "Découvrez la beauté cachée dans les motifs chinois",
+    "startJourney": "Commencer le voyage"
+  },
+  "tab": {
+    "discover": "Découvrir",
+    "explore": "Explorer",
+    "create": "Créer",
+    "learn": "Apprendre",
+    "profile": "Moi"
+  },
+  "filter": {
+    "dynasty": "Dynastie",
+    "meaning": "Signification",
+    "scene": "Usage",
+    "all": "Tout"
+  },
+  "explore": {
+    "uploadButton": "+ Télécharger un motif",
+    "uploadNamePrompt": "Nommez votre motif :",
+    "noCommunity": "Pas encore de publications. Soyez le premier !",
+    "sortNewest": "Plus récent",
+    "sortLiked": "Plus aimé",
+    "feedRefreshed": "Flux actualisé !",
+    "selectSvgFile": "Veuillez sélectionner un fichier SVG",
+    "patternPublished": "Motif publié !",
+    "curated": "Curation",
+    "community": "Communauté",
+    "searchPlaceholder": "Rechercher des motifs...",
+    "releaseToRefresh": "Relâchez pour actualiser",
+    "loading": "Chargement...",
+    "sortRecommended": "Pour vous"
+  },
+  "detail": {
+    "colorIt": "Colorier ce motif",
+    "saveCard": "Enregistrer la carte",
+    "source": "Source",
+    "recommendedPalette": "Palette recommandée : ",
+    "commentPlaceholder": "Ajouter un commentaire..."
+  },
+  "create": {
+    "title": "Créez votre propre art de motif",
+    "modeFill": "Remplir",
+    "modeDoodle": "Dessiner",
+    "undo": "Annuler",
+    "reset": "Réinitialiser",
+    "saveArtwork": "Enregistrer",
+    "artworkTitle": "Mon œuvre",
+    "artworkColorsUsed": "Couleurs utilisées",
+    "publish": "Publier dans la communauté",
+    "wallpaper": "Fond d'écran",
+    "fillHint": "Sélectionnez une couleur ci-dessous, puis appuyez sur une zone du motif pour la remplir",
+    "doodleHint": "Dessinez librement sur la toile — chaque trait enregistre une couleur",
+    "share": "Partager",
+    "published": "Publié !",
+    "myPattern": "Mon motif",
+    "myDoodle": "Mon doodle",
+    "myVersion": "Ma version",
+    "sharedByYou": "Partagé par @vous.",
+    "eraser": "Gomme",
+    "captionPlaceholder": "Écrivez une légende...",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "source": "Community Upload"
+  },
+  "profile": {
+    "saved": "Enregistrés",
+    "following": "Abonnements",
+    "liked": "Aimés",
+    "history": "Historique",
+    "userName": "Amateur de motifs",
+    "userBio": "Votre voyage à travers les motifs",
+    "noFollowing": "Pas encore abonné à quelqu'un.",
+    "nothingHere": "Rien ici pour l'instant.",
+    "patterns": "Motifs",
+    "followers": "Abonnés",
+    "followingCount": "Abonnements",
+    "posts": "Publications",
+    "comments": "Commentaires",
+    "follow": "Suivre"
+  },
+  "palette": {
+    "title": "Palettes de la Cité Interdite",
+    "description": "Couleurs extraites de l'architecture impériale, des vêtements de cour, de la porcelaine officielle et de la flore saisonnière. Chaque palette est historiquement fondée — visuellement riche d'une beauté classique orientale.",
+    "imperial": {
+      "name": "Murs Rouges Tuiles Dorées",
+      "desc": "La palette la plus emblématique de la Cité Interdite — idéale pour les motifs de dragon, phénix et ruyi.",
+      "colors": {
+        "0": {
+          "name": "Rouge Cinabre",
+          "desc": "Le rouge classique des murs du palais — haute saturation, symbolisant richesse et célébration."
+        },
+        "1": {
+          "name": "Jaune Impérial",
+          "desc": "Couleur exclusive de l'empereur — l'or brillant des tuiles vernissées sous le soleil."
+        },
+        "2": {
+          "name": "Qiu Xiang",
+          "desc": "Un jaune-vert discret et noble — très apprécié dans les vêtements de la cour Qing."
+        },
+        "3": {
+          "name": "Couleur Jade",
+          "desc": "Vert jade lustré — symbolisant les jades précieux du Musée du Palais."
+        },
+        "4": {
+          "name": "Couleur Xuan",
+          "desc": "Le noir du cosmos — brun rougeâtre profond, couleur des piliers du palais."
+        }
+      }
+    },
+    "celadon": {
+      "name": "Après la Pluie",
+      "desc": "Tiré des céladons Ru et Ge de la dynastie Song — tons clairs et élégants, parfaits pour les motifs de nuages.",
+      "colors": {
+        "0": {
+          "name": "Bleu Céleste",
+          "desc": "La glaçure classique du four Ru — \"Après la pluie, le ciel s'éclaircit, faites cette couleur même\"."
+        },
+        "1": {
+          "name": "Blanc Lunaire",
+          "desc": "Le blanc bleuté pâle du clair de lune — aérien et lumineux."
+        },
+        "2": {
+          "name": "Bleu Pierre",
+          "desc": "Pigment minéral traditionnel — bleu dans le vert, calme et profond."
+        },
+        "3": {
+          "name": "Bleu Indigo",
+          "desc": "\"Montagnes lointaines comme l'indigo\" — un bleu profond classique aux nuances grises."
+        },
+        "4": {
+          "name": "Blanc Chaume",
+          "desc": "Blanc doux comme l'herbe de chaume — plus antique et raffiné que le blanc pur."
+        }
+      }
+    },
+    "silk": {
+      "name": "Soie du Palais",
+      "desc": "Inspiré des brocarts ornés de la cour — doux, romantique, élégant, séduisant pour les jeunes publics.",
+      "colors": {
+        "0": {
+          "name": "Aube sur la Mer",
+          "desc": "Orange-rose pâle réfracté du coucher de soleil sur la mer — fréquent dans les robes officielles Ming-Qing."
+        },
+        "1": {
+          "name": "Fleur de Pêcher",
+          "desc": "\"Le pêcher est jeune et élégant, ses fleurs sont splendides\" — rose vif et délicat."
+        },
+        "2": {
+          "name": "Rouge à Lèvres",
+          "desc": "Le cramoisi profond du rouge traditionnel — riche, saturé, plein d'allure classique."
+        },
+        "3": {
+          "name": "Mauve Pâle",
+          "desc": "Un violet pâle doux et élégant avec une touche de gris — exceptionnellement gracieux."
+        },
+        "4": {
+          "name": "Violet Crépusculaire",
+          "desc": "\"La brume se condense et les montagnes deviennent violettes au crépuscule\" — le rose-violet mystérieux des crêtes."
+        }
+      }
+    },
+    "botanical": {
+      "name": "Flore de Cour",
+      "desc": "Distillé de la flore précieuse du palais — frais, vibrant, discrètement sobre.",
+      "colors": {
+        "0": {
+          "name": "Fleur de Pin",
+          "desc": "Un jaune-vert clair et gai — comme la première fleur de pin du printemps."
+        },
+        "1": {
+          "name": "Vert Bambou",
+          "desc": "Le vert luxuriant et humide du bambou — apaisant et reposant pour les yeux."
+        },
+        "2": {
+          "name": "Gomme-Gutte",
+          "desc": "Jaune doré — extrait de la résine de garcinia, utilisé dans la peinture classique."
+        },
+        "3": {
+          "name": "Joues Rougies",
+          "desc": "Le rose-orange des joues après une gorgée de vin — chaud, doux."
+        },
+        "4": {
+          "name": "Vert Armoise",
+          "desc": "Le vert pâle du dessous des feuilles d'armoise — brumeux, élégant."
+        }
+      }
+    },
+    "ink": {
+      "name": "Lavis d'Encre",
+      "desc": "Les cinq nuances de l'encre chinoise — du noir profond au blanc pur. La palette classique de la calligraphie et de la peinture de paysage.",
+      "colors": {
+        "0": {
+          "name": "Encre Brûlée",
+          "desc": "Le noir le plus profond — comme l'encre fraîchement moulue sur la pierre à encre."
+        },
+        "1": {
+          "name": "Encre Foncée",
+          "desc": "Noir riche et chaud — le deuxième lavis du pinceau."
+        },
+        "2": {
+          "name": "Encre Grise",
+          "desc": "Gris moyen — le troisième lavis, où la forme commence à s'adoucir."
+        },
+        "3": {
+          "name": "Encre Pâle",
+          "desc": "Gris argenté léger — les montagnes lointaines dans un rouleau de paysage."
+        },
+        "4": {
+          "name": "Blanc Papier",
+          "desc": "Le blanc du papier xuan — le souffle entre les coups de pinceau."
+        }
+      }
+    },
+    "dunhuang": {
+      "name": "Dunhuang",
+      "desc": "Pigments minéraux des grottes de Mogao — azurite, malachite, ocre, cinabre et or. Couleurs anciennes préservées sur les parois des grottes depuis plus de mille ans.",
+      "colors": {
+        "0": {
+          "name": "Azurite",
+          "desc": "Bleu-vert profond — broyé à partir du minéral azurite, le ciel des peintures murales bouddhistes."
+        },
+        "1": {
+          "name": "Malachite",
+          "desc": "Vert vif — du minéral malachite, les collines et le feuillage du paradis."
+        },
+        "2": {
+          "name": "Ocre",
+          "desc": "Brun doré terreux — pigment d'oxyde de fer, la chaleur du grès du désert."
+        },
+        "3": {
+          "name": "Cinabre",
+          "desc": "Vermillon éclatant — sulfure de mercure, le rouge des robes des apsaras volants."
+        },
+        "4": {
+          "name": "Feuille d'Or",
+          "desc": "Or précieux — appliqué en fine feuille, l'auréole des bouddhas et bodhisattvas."
+        }
+      }
+    }
+  },
+  "share": {
+    "instagram": "Partager sur Instagram",
+    "tiktok": "Partager sur TikTok",
+    "youtube": "Partager sur YouTube"
+  },
+  "pattern": {
+    "cloud": {
+      "name": "Motif Nuage",
+      "dynasty": "Dynastie Ming",
+      "meaning": "Auspice",
+      "scene": "Architecture",
+      "story": "Les courbes fluides du motif nuage symbolisent la bonne fortune. Dans l'art traditionnel chinois, les nuages portent la pluie, donneuse de récoltes.",
+      "source": "Musée du Palais"
+    },
+    "ruyi": {
+      "name": "Motif Ruyi",
+      "dynasty": "Dynastie Tang",
+      "meaning": "Harmonie",
+      "scene": "Vêtement",
+      "story": "La forme du Ruyi remonte à un gratte-dos évolué en sceptre d'autorité. Sa tête arrondie représente \"tout comme vous le souhaitez\".",
+      "source": "Musée du Palais"
+    },
+    "dragon": {
+      "name": "Motif Dragon",
+      "dynasty": "Dynastie Song",
+      "meaning": "Force",
+      "scene": "Ustensile",
+      "story": "Contrairement aux dragons cracheurs de feu des mythes occidentaux, le dragon chinois est un gardien de l'eau et du ciel.",
+      "source": "Musée du Palais"
+    },
+    "huiwen": {
+      "name": "Motif Méandre",
+      "dynasty": "Dynastie Shang",
+      "meaning": "Longévité",
+      "scene": "Architecture",
+      "story": "L'un des plus anciens motifs chinois, le méandre tire son nom du caractère 回. Sa ligne continue ininterrompue symbolise l'éternité.",
+      "source": "Musée du Palais"
+    }
+  },
+  "common": {
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "community": "Community",
+    "copied": "Copié !",
+    "daysAgo": "Il y a {{d}}j",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this post?",
+    "goBack": "Go back",
+    "hoursAgo": "Il y a {{h}}h",
+    "languageSelect": "Language",
+    "noResults": "Aucun motif trouvé.",
+    "post": "Publier",
+    "save": "Enregistrer",
+    "sendComment": "Send comment",
+    "themeToggle": "Toggle theme",
+    "weeksAgo": "Il y a {{w}}sem",
+    "you": "You"
+  },
+  "app": {
+    "title": "Tissu de Soie"
+  },
+  "discover": {
+    "statsPatterns": "Motifs",
+    "statsCreators": "Créateurs",
+    "statsLanguages": "Langues",
+    "trendingNow": "Tendance"
+  },
+  "learn": {
+    "patternsTab": "Motifs",
+    "palettesTab": "Palettes"
+  },
+  "ai": {
+    "aiGenerate": "Générer",
+    "aiHint": "Palette IA ajoutée au sélecteur ci-dessus",
+    "aiPlaceholder": "Décrivez une ambiance de couleur...",
+    "paletteFailed": "AI palette failed, please try again",
+    "showOriginal": "Original",
+    "translate": "Traduire",
+    "translateFailed": "AI translation failed"
+  }
+}

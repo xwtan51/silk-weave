@@ -1,0 +1,324 @@
+{
+  "hero": {
+    "slogan": "發現中國紋樣中隱藏的美",
+    "startJourney": "開始旅程"
+  },
+  "tab": {
+    "discover": "發現",
+    "explore": "探索",
+    "create": "創作",
+    "profile": "我的",
+    "learn": "學習"
+  },
+  "filter": {
+    "dynasty": "朝代",
+    "meaning": "寓意",
+    "scene": "使用場景",
+    "all": "全部"
+  },
+  "explore": {
+    "uploadButton": "+ 上傳你的紋樣",
+    "uploadNamePrompt": "為你的紋樣命名：",
+    "noCommunity": "暫無社群作品。來當第一個吧！",
+    "sortNewest": "最新優先",
+    "sortLiked": "最多讚",
+    "feedRefreshed": "已刷新！",
+    "selectSvgFile": "請選擇 SVG 檔案",
+    "patternPublished": "紋樣已發佈！",
+    "curated": "精選紋樣",
+    "community": "社群創作",
+    "searchPlaceholder": "搜尋紋樣...",
+    "releaseToRefresh": "鬆手刷新",
+    "loading": "載入中...",
+    "sortRecommended": "推薦"
+  },
+  "detail": {
+    "colorIt": "去填色",
+    "saveCard": "儲存卡牌",
+    "source": "來源",
+    "recommendedPalette": "推薦配色：",
+    "commentPlaceholder": "新增評論..."
+  },
+  "create": {
+    "title": "創作屬於你的紋樣藝術",
+    "modeFill": "填色",
+    "modeDoodle": "塗鴉",
+    "undo": "復原",
+    "reset": "重置",
+    "saveArtwork": "儲存作品",
+    "artworkTitle": "我的紋樣作品",
+    "artworkColorsUsed": "所用顏色",
+    "publish": "發佈到社群",
+    "wallpaper": "桌布",
+    "fillHint": "點擊下方色塊選擇顏色，再點擊紋樣上的區域進行填色",
+    "doodleHint": "在畫布上自由繪製——每一筆都會記錄顏色",
+    "share": "分享",
+    "published": "已發佈！",
+    "myPattern": "我的紋樣",
+    "myDoodle": "我的塗鴉",
+    "myVersion": "我的版本",
+    "sharedByYou": "來自 @你 的分享。",
+    "eraser": "橡皮擦",
+    "captionPlaceholder": "撰寫描述...",
+    "dynasty": "Custom",
+    "meaning": "Community",
+    "scene": "Uploaded",
+    "source": "Community Upload"
+  },
+  "profile": {
+    "saved": "收藏",
+    "following": "關注",
+    "liked": "讚",
+    "history": "瀏覽",
+    "userName": "紋樣愛好者",
+    "userBio": "你的紋樣之旅",
+    "noFollowing": "還沒有關注任何人。",
+    "nothingHere": "這裡還什麼都沒有。",
+    "patterns": "紋樣",
+    "followers": "關注者",
+    "followingCount": "關注中",
+    "posts": "貼文",
+    "comments": "評論",
+    "follow": "追蹤"
+  },
+  "palette": {
+    "title": "故宮色譜",
+    "description": "色彩提煉自紫禁城宏偉古建、宮廷名貴服飾、珍藏官窯瓷器以及歲時物候。色彩組合經過歷史考證，在視覺上具有強烈的東方意境與古典美感。",
+    "imperial": {
+      "name": "紅牆金瓦",
+      "desc": "紫禁城最直觀、最具威嚴與端莊美感的經典配色，適合用來塗抹龍紋、鳳紋和如意紋。",
+      "colors": {
+        "0": {
+          "name": "朱紅",
+          "desc": "宮牆最經典的代表色，高飽和度，象徵富貴與喜慶。"
+        },
+        "1": {
+          "name": "明黃",
+          "desc": "帝王專屬色，琉璃瓦在陽光下折射出的璀璨金色。"
+        },
+        "2": {
+          "name": "秋香色",
+          "desc": "一種暗淡而高貴的黃綠色，是清代宮廷極其偏愛的服飾色。"
+        },
+        "3": {
+          "name": "玉色",
+          "desc": "瑩潤風雅的碧玉色，象徵故宮珍藏的傳國美玉。"
+        },
+        "4": {
+          "name": "玄色",
+          "desc": "宇宙之黑，深沉中略帶紅褐，是宮殿立柱和古建斗拱的底色。"
+        }
+      }
+    },
+    "celadon": {
+      "name": "雨過天青",
+      "desc": "提煉自宋代汝窯、哥窯及青花瓷器，色調清澈、素雅，適合用來塗抹雲紋和纏枝紋。",
+      "colors": {
+        "0": {
+          "name": "天青",
+          "desc": "經典汝窯釉色，「雨過天青雲破處，這般顏色做將來」。"
+        },
+        "1": {
+          "name": "月白",
+          "desc": "月光灑下的淡淡青白色，微帶淺藍，極具呼吸感。"
+        },
+        "2": {
+          "name": "石青",
+          "desc": "傳統礦物顏料色，青中帶藍，沉靜且深邃。"
+        },
+        "3": {
+          "name": "黛藍",
+          "desc": "「遠山如黛」，帶有灰色調的古典深藍色。"
+        },
+        "4": {
+          "name": "荼白",
+          "desc": "如荼草一般的柔和白色，比純白更顯古樸。"
+        }
+      }
+    },
+    "silk": {
+      "name": "後宮羅霓",
+      "desc": "提煉自華美宮廷羅緞與織錦，風格柔和、唯美、優雅，適合大眾年輕群體及文創設計。",
+      "colors": {
+        "0": {
+          "name": "海天霞",
+          "desc": "日落時晚霞在海面折射出的淡粉橙色，明清官服常用色。"
+        },
+        "1": {
+          "name": "桃夭",
+          "desc": "「桃之夭夭，灼灼其華」，明亮嬌豔的桃花粉色。"
+        },
+        "2": {
+          "name": "胭脂",
+          "desc": "女子紅妝用的深紅，色澤濃郁，充滿古典誘惑。"
+        },
+        "3": {
+          "name": "藕荷",
+          "desc": "溫柔優雅的淺紫色，帶有灰度，極其高雅。"
+        },
+        "4": {
+          "name": "暮山紫",
+          "desc": "「煙光凝而暮山紫」，黃昏時刻山巒交界處的神秘粉紫色。"
+        }
+      }
+    },
+    "botanical": {
+      "name": "歲朝清供",
+      "desc": "提煉自宮廷珍貴花木及插花藝術，顏色清新、生機勃勃且不失低調。",
+      "colors": {
+        "0": {
+          "name": "松花色",
+          "desc": "輕鬆明快的嫩黃綠色，如同松花初綻的春意。"
+        },
+        "1": {
+          "name": "竹青",
+          "desc": "蒼潤的竹色，極其護眼、平和。"
+        },
+        "2": {
+          "name": "藤黃",
+          "desc": "金黃色——取自藤黃樹脂，古典繪畫中的明亮一筆。"
+        },
+        "3": {
+          "name": "酡顏",
+          "desc": "飲酒微醺時臉頰的緋紅色，暖調粉橙。"
+        },
+        "4": {
+          "name": "艾綠",
+          "desc": "艾草葉背部的淡淡青綠色，具有朦朧的優雅感。"
+        }
+      }
+    },
+    "ink": {
+      "name": "水墨丹青",
+      "desc": "中國傳統水墨的五色——從焦墨到留白。書法、山水畫、文人審美的經典色譜。",
+      "colors": {
+        "0": {
+          "name": "焦墨",
+          "desc": "最深邃的黑——如硯台上新研的墨。"
+        },
+        "1": {
+          "name": "濃墨",
+          "desc": "濃郁溫暖的黑——筆鋒的第二道渲染。"
+        },
+        "2": {
+          "name": "淡墨",
+          "desc": "中灰調——第三道渲染，形態開始柔和。"
+        },
+        "3": {
+          "name": "清墨",
+          "desc": "輕盈的銀灰——山水卷軸中的遠山。"
+        },
+        "4": {
+          "name": "留白",
+          "desc": "宣紙之白——筆觸之間的呼吸。"
+        }
+      }
+    },
+    "dunhuang": {
+      "name": "敦煌壁畫",
+      "desc": "莫高窟礦物顏料——石青、石綠、赭石、硃砂、金粉。千年來在洞窟牆壁上保存的古老色彩。",
+      "colors": {
+        "0": {
+          "name": "石青",
+          "desc": "深邃的藍綠色——研磨自藍銅礦，佛窟壁畫中的天空。"
+        },
+        "1": {
+          "name": "石綠",
+          "desc": "翠綠色——來自孔雀石，極樂世界的山川草木。"
+        },
+        "2": {
+          "name": "赭石",
+          "desc": "大地金棕——氧化鐵顏料，沙漠砂岩的溫暖。"
+        },
+        "3": {
+          "name": "硃砂",
+          "desc": "明豔的硃紅——硫化汞，飛天衣裙的紅色。"
+        },
+        "4": {
+          "name": "金粉",
+          "desc": "珍貴的金色——薄如蟬翼的金箔，佛菩薩的背光。"
+        }
+      }
+    }
+  },
+  "share": {
+    "instagram": "分享至 Instagram",
+    "tiktok": "分享至 TikTok",
+    "youtube": "分享至 YouTube"
+  },
+  "pattern": {
+    "cloud": {
+      "name": "祥雲紋",
+      "dynasty": "明代",
+      "meaning": "吉祥如意",
+      "scene": "建築",
+      "story": "祥雲紋流暢的曲線象徵著福運綿延，飄入尋常生活。在中國傳統藝術中，雲帶來甘霖、承載豐收，也是仙人遨遊天地的座駕。",
+      "source": "故宮博物院"
+    },
+    "ruyi": {
+      "name": "如意紋",
+      "dynasty": "唐代",
+      "meaning": "和諧美滿",
+      "scene": "服飾",
+      "story": "如意最初是一種撓背工具，後演變為象徵權威與祝福的禮器。它心形的圓潤頭部代表「萬事如意」。千百年來，戀人們互贈如意形飾物作為信物。",
+      "source": "故宮博物院"
+    },
+    "dragon": {
+      "name": "團龍紋",
+      "dynasty": "宋代",
+      "meaning": "力量與守護",
+      "scene": "器物",
+      "story": "不同於西方神話中的噴火巨龍，中國龍是掌管水與天空的守護神——智慧、仁慈，為農田帶來甘霖。團龍紋將龍身盤繞成圓形，象徵完整、護佑與沉靜力量。",
+      "source": "故宮博物院"
+    },
+    "huiwen": {
+      "name": "回紋",
+      "dynasty": "商代",
+      "meaning": "源遠流長",
+      "scene": "建築",
+      "story": "回紋是中國最古老的紋樣之一，得名於「回」字——連續不斷的線條迴環往復，象徵永恆與生生不息。三千多年前的青銅器上已有回紋，至今仍見於門框、窗櫺、瓷器邊飾。",
+      "source": "故宮博物院"
+    }
+  },
+  "common": {
+    "cancel": "取消",
+    "close": "關閉",
+    "community": "Community",
+    "copied": "已複製！",
+    "daysAgo": "{{d}}天前",
+    "delete": "Delete",
+    "deleteConfirm": "Delete this post?",
+    "goBack": "Go back",
+    "hoursAgo": "{{h}}小時前",
+    "languageSelect": "Language",
+    "noResults": "沒有找到匹配的紋樣。",
+    "post": "發佈",
+    "save": "儲存",
+    "sendComment": "Send comment",
+    "themeToggle": "Toggle theme",
+    "weeksAgo": "{{w}}週前",
+    "you": "You"
+  },
+  "app": {
+    "title": "絲紋織影"
+  },
+  "discover": {
+    "statsPatterns": "紋樣",
+    "statsCreators": "創作者",
+    "statsLanguages": "語言",
+    "trendingNow": "熱門推薦"
+  },
+  "learn": {
+    "patternsTab": "紋樣資料",
+    "palettesTab": "色譜"
+  },
+  "ai": {
+    "aiGenerate": "生成",
+    "aiHint": "AI 生成的色板已加入上方選擇器",
+    "aiPlaceholder": "描述你想要的配色...",
+    "paletteFailed": "AI palette failed, please try again",
+    "showOriginal": "原文",
+    "translate": "翻譯",
+    "translateFailed": "AI translation failed"
+  }
+}
