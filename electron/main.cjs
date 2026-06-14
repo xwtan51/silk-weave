@@ -77,49 +77,45 @@ async function createWindow() {
 }
 
 // Update event handlers
+function sendStatus(msg) {
+  if (mainWindow) mainWindow.webContents.send('update-status', msg);
+}
+
+autoUpdater.on('checking-for-update', () => {
+  sendStatus({ type: 'checking', text: '正在检查更新...' });
+});
+
 autoUpdater.on('update-available', (info) => {
-  const { Notification } = require('electron');
-  new Notification({
-    title: '发现新版本 / Update Found',
-    body: `v${info.version} — 正在后台下载...\nv${info.version} — Downloading...`,
+  new (require('electron').Notification)({
+    title: '发现新版本',
+    body: `v${info.version} — 正在下载...`,
   }).show();
+  sendStatus({ type: 'downloading', text: `发现 v${info.version}，正在下载...`, percent: 0 });
 });
 
 autoUpdater.on('update-not-available', () => {
-  const { dialog } = require('electron');
-  dialog.showMessageBox({
-    type: 'info',
-    title: '已是最新 / Up to Date',
-    message: `当前版本 v${app.getVersion()} 已是最新。\nYou are running the latest version.`,
-    buttons: ['确定 / OK'],
-  });
+  sendStatus({ type: 'uptodate', text: '已是最新' });
 });
 
 autoUpdater.on('download-progress', (p) => {
   if (mainWindow) mainWindow.setProgressBar(p.percent / 100);
-  console.log(`Downloading update: ${Math.floor(p.percent)}%`);
+  sendStatus({ type: 'downloading', text: '正在下载...', percent: Math.floor(p.percent) });
 });
 
 autoUpdater.on('update-downloaded', (info) => {
   if (mainWindow) mainWindow.setProgressBar(-1);
+  sendStatus({ type: 'ready', text: '下载完成！点击弹窗重启' });
   const { dialog, Notification } = require('electron');
-  new Notification({
-    title: '更新已就绪 / Update Ready',
-    body: `v${info.version} — 点击弹窗重启安装\nClick the dialog to restart and install.`,
-  }).show();
+  new Notification({ title: '更新已就绪', body: `v${info.version} — 点击弹窗重启` }).show();
   dialog.showMessageBox({
-    type: 'info',
-    title: '更新已就绪 / Update Ready',
-    message: `新版本 v${info.version} 已下载完成，点击确定重启安装更新。\nv${info.version} has been downloaded. Click OK to restart and install.`,
+    type: 'info', title: '更新已就绪 / Update Ready',
+    message: `v${info.version} 已下载完成，点确定重启安装。`,
     buttons: ['确定 / OK'],
-  }).then(() => {
-    autoUpdater.quitAndInstall();
-  });
+  }).then(() => autoUpdater.quitAndInstall());
 });
+
 autoUpdater.on('error', (err) => {
-  console.error('Update error:', err.message);
-  const { dialog } = require('electron');
-  dialog.showErrorBox('更新检查失败 / Update Check Failed', err.message || 'Unknown error');
+  sendStatus({ type: 'error', text: err.message || '更新失败' });
 });
 
 // Manual update check from renderer

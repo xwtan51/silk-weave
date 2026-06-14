@@ -10,6 +10,13 @@ export default function SettingsModal({ onClose }: { onClose: () => void }) {
   const [apiKey, setApiKey] = useState('');
   const [saved, setSaved] = useState(false);
   const [loading, setLoading] = useState(true);
+  const [updateStatus, setUpdateStatus] = useState<{ type: string; text: string; percent?: number } | null>(null);
+
+  useEffect(() => {
+    if (isElectron) {
+      (window as any).electron.onUpdateStatus((s: any) => setUpdateStatus(s));
+    }
+  }, []);
 
   useEffect(() => {
     fetch('/api/settings')
@@ -66,13 +73,32 @@ export default function SettingsModal({ onClose }: { onClose: () => void }) {
         </button>
 
         {isElectron && (
-          <button
-            onClick={() => (window as any).electron.checkForUpdates()}
-            className="w-full py-2 rounded-xl text-xs font-medium bg-charcoal/5 text-charcoal/50 hover:bg-charcoal/10 transition-all flex items-center justify-center gap-1.5"
-          >
-            <RotateCw size={12} />
-            {t('settings.checkUpdate')}
-          </button>
+          <>
+            <button
+              onClick={() => { setUpdateStatus({ type: 'checking', text: 'Checking...' }); (window as any).electron.checkForUpdates(); }}
+              className="w-full py-2 rounded-xl text-xs font-medium bg-charcoal/5 text-charcoal/50 hover:bg-charcoal/10 transition-all flex items-center justify-center gap-1.5"
+            >
+              <RotateCw size={12} className={updateStatus?.type === 'downloading' || updateStatus?.type === 'checking' ? 'animate-spin' : ''} />
+              {t('settings.checkUpdate')}
+            </button>
+
+            {updateStatus && updateStatus.type !== 'ready' && (
+              <div className="space-y-1.5">
+                <p className={`text-center text-[10px] ${
+                  updateStatus.type === 'error' ? 'text-red-400' :
+                  updateStatus.type === 'uptodate' ? 'text-jade/60' :
+                  'text-jade/60'
+                }`}>
+                  {updateStatus.text}
+                </p>
+                {updateStatus.percent != null && updateStatus.percent > 0 && (
+                  <div className="h-1 bg-charcoal/10 rounded-full overflow-hidden">
+                    <div className="h-full bg-jade rounded-full transition-all duration-300" style={{ width: `${updateStatus.percent}%` }} />
+                  </div>
+                )}
+              </div>
+            )}
+          </>
         )}
 
         <p className="text-center text-[9px] text-charcoal/20">v{pkg.version}</p>
