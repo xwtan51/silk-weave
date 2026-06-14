@@ -11,6 +11,10 @@ const { existsSync, mkdirSync, copyFileSync } = require('fs');
 app.commandLine.appendSwitch('enable-gpu-rasterization');
 app.commandLine.appendSwitch('enable-zero-copy');
 
+// Auto-update events
+autoUpdater.autoDownload = true;
+autoUpdater.autoInstallOnAppQuit = true;
+
 let mainWindow = null;
 let serverInstance = null;
 
@@ -71,6 +75,31 @@ async function createWindow() {
     } catch { /* silently ignore update errors */ }
   }
 }
+
+// Update event handlers
+autoUpdater.on('update-available', () => {
+  console.log('Update available — downloading...');
+});
+autoUpdater.on('update-not-available', () => {
+  console.log('App is up to date');
+});
+autoUpdater.on('download-progress', (p) => {
+  console.log(`Downloading update: ${Math.floor(p.percent)}%`);
+});
+autoUpdater.on('update-downloaded', () => {
+  const { dialog } = require('electron');
+  dialog.showMessageBox({
+    type: 'info',
+    title: '更新已就绪 / Update Ready',
+    message: '新版本已下载完成，点击确定重启安装更新。\nA new version has been downloaded. Click OK to restart and install.',
+    buttons: ['确定 / OK'],
+  }).then(() => {
+    autoUpdater.quitAndInstall();
+  });
+});
+autoUpdater.on('error', (err) => {
+  console.error('Update error:', err.message);
+});
 
 app.whenReady().then(async () => {
   try {
