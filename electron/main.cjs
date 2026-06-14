@@ -188,9 +188,10 @@ autoUpdater.on('update-downloaded', (info) => {
               sendStatus({ type: 'error', text: '更新取消或失败' });
               return;
             }
-            // Success: restart
-            exec('open /Applications/Silk-Weave.app');
-            setImmediate(() => app.quit());
+            // Success: detach open so it survives app quit, then quit
+            const { spawn } = require('child_process');
+            spawn('open', ['/Applications/Silk-Weave.app'], { detached: true, stdio: 'ignore' }).unref();
+            setTimeout(() => app.quit(), 500);
           }
         );
       }
