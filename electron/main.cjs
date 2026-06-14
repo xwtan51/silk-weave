@@ -68,11 +68,13 @@ async function createWindow() {
 
   mainWindow.on('closed', () => { mainWindow = null; });
 
-  // Auto-update: check in production only
+  // Auto-update: check in production only (delay so page loads first)
   if (!isDev) {
-    try {
-      autoUpdater.checkForUpdatesAndNotify();
-    } catch { /* silently ignore update errors */ }
+    setTimeout(() => {
+      try {
+        autoUpdater.checkForUpdatesAndNotify();
+      } catch { /* silently ignore update errors */ }
+    }, 5000);
   }
 }
 
@@ -164,23 +166,50 @@ autoUpdater.on('error', (err) => {
 });
 
 // Manual update check from renderer
-ipcMain.on('check-for-updates', () => {
-  // Timeout fallback: if no event fires within 20s, show error
-  const timeout = setTimeout(() => {
-    const { dialog } = require('electron');
-    dialog.showErrorBox('检查超时 / Check Timed Out', '无法连接 GitHub，请检查网络。\nCannot reach GitHub. Please check your network.');
-  }, 20000);
+ipcMain.on('check-for-updates', async () => {
+  const { dialog } = require('electron');
 
-  // Wrap to clear timeout on any result
-  const wrapped = autoUpdater;
-  const origEmit = wrapped.emit;
-  wrapped.emit = function(event, ...args) {
-    clearTimeout(timeout);
-    wrapped.emit = origEmit; // restore
-    return origEmit.call(wrapped, event, ...args);
+  // Timeout fallback: if no event fires within 30s, show error
+  let timeout;
+  const clearTimer = () => { if (timeout) { clearTimeout(timeout); timeout = null; } };
+  const armTimer = () => {
+    clearTimer();
+    timeout = setTimeout(() => {
+      sendStatus({ type: 'error', text: '检查超时，请检查网络连接' });
+      dialog.showErrorBox('检查超时 / Check Timed Out', '无法连接 GitHub，请检查网络。\nCannot reach GitHub. Please check your network.');
+    }, 30000);
   };
 
-  autoUpdater.checkForUpdates();
+  try {
+    // Wrap autoUpdater.emit to catch the first event (any kind) and disarm the timeout
+    const origEmit = autoUpdater.emit.bind(autoUpdater);
+    const eventNames = ['checking-for-update', 'update-available', 'update-not-available', 'error'];
+    const wrappedEmit = function(event, ...args) {
+      if (eventNames.includes(event)) clearTimer();
+      // Restore on first relevant event (so we don't interfere with future checks)
+      if (event !== 'download-progress') {
+        autoUpdater.emit = origEmit;
+      }
+      return origEmit(event, ...args);
+    };
+    autoUpdater.emit = wrappedEmit;
+    armTimer();
+
+    const result = autoUpdater.checkForUpdates();
+    // If checkForUpdates returns null, it means a check is already in progress
+    if (result === null || result === undefined) {
+      // Give it a moment to fire checking-for-update; if not, it's stuck
+      setTimeout(() => {
+        if (timeout) { // timer still armed = no event fired
+          clearTimer();
+          sendStatus({ type: 'uptodate', text: '已是最新' });
+        }
+      }, 3000);
+    }
+  } catch (e) {
+    clearTimer();
+    sendStatus({ type: 'error', text: e.message || '检查失败' });
+  }
 });
 
 app.whenReady().then(async () => {
