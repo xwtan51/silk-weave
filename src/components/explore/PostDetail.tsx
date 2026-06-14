@@ -2,12 +2,27 @@ import { useState, useEffect, useRef } from 'react';
 import { ArrowLeft, Heart, Bookmark, Clock, Send, Languages, Loader2, Trash2 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useLanguage } from '../../contexts/LanguageContext';
+import CloudPattern, { cloudPathIds } from '../svgs/CloudPattern';
+import RuyiPattern, { ruyiPathIds } from '../svgs/RuyiPattern';
+import DragonPattern, { dragonPathIds } from '../svgs/DragonPattern';
+import HuiwenPattern, { huiwenPathIds } from '../svgs/HuiwenPattern';
 import CustomPattern from '../svgs/CustomPattern';
+import { themes, type SwatchColor } from '../../data/colors';
 import { useToast } from '../layout/Toast';
 import { toggleLike, toggleSave, getComments, addComment, deletePattern, deleteComment } from '../../data/social';
 import { getUserById, getUserByAuthorName } from '../../data/users';
 import { formatTimeAgo } from '../../utils/time';
 import type { Pattern } from '../../types';
+
+const SVG_MAP: Record<string, React.ComponentType<any>> = { cloud: CloudPattern, ruyi: RuyiPattern, dragon: DragonPattern, huiwen: HuiwenPattern, custom: CustomPattern };
+const RECOMMENDED_THEME: Record<string, string> = { cloud: 'celadon', dragon: 'imperial', ruyi: 'silk', huiwen: 'celadon', custom: 'imperial' };
+const PATH_IDS: Record<string, string[]> = { cloud: cloudPathIds, ruyi: ruyiPathIds, dragon: dragonPathIds, huiwen: huiwenPathIds, custom: [] };
+
+function themeColors(pathIds: string[], palette: SwatchColor[]): Record<string, string> {
+  const m: Record<string, string> = {};
+  pathIds.forEach((id, i) => { m[id] = palette[i % palette.length].hex; });
+  return m;
+}
 
 interface PostDetailProps {
   pattern: Pattern;
@@ -108,11 +123,17 @@ export default function PostDetail({ pattern, onClose, onAuthorClick }: PostDeta
 
       {/* Pattern image */}
         <div className="w-full aspect-square bg-white flex items-center justify-center p-8 shrink-0">
-          {pattern.customPaths ? (
-            <CustomPattern variant="color" fillColors={{}} paths={pattern.customPaths || []} viewBox={pattern.customViewBox} imageUrl={(pattern as any).customImage} />
-          ) : (
-            <div className="w-24 h-24 rounded-full bg-charcoal/5" />
-          )}
+          {(() => {
+            const SvgComponent = SVG_MAP[pattern.svgId];
+            if (!SvgComponent) return <div className="w-24 h-24 rounded-full bg-charcoal/5" />;
+            if (pattern.svgId === 'custom') {
+              return <CustomPattern variant="color" fillColors={{}} paths={pattern.customPaths || []} viewBox={pattern.customViewBox} imageUrl={(pattern as any).customImage} />;
+            }
+            const paletteTheme = themes.find(th => th.id === RECOMMENDED_THEME[pattern.svgId]) ?? themes[0];
+            const pathIds = PATH_IDS[pattern.svgId];
+            const colors = themeColors(pathIds, paletteTheme.colors);
+            return <SvgComponent variant="color" fillColors={colors} />;
+          })()}
         </div>
 
         {/* Actions */}

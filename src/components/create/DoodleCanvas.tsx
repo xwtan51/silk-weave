@@ -5,6 +5,7 @@ export interface Stroke {
   points: { x: number; y: number }[];
   color: string;
   width: number;
+  eraser?: boolean;
 }
 
 interface DoodleCanvasProps {
@@ -45,7 +46,7 @@ export default function DoodleCanvas({
     if (!ctx) return;
     ctx.clearRect(0, 0, rect.width, rect.height);
     for (const stroke of strokes) {
-      drawStroke(ctx, stroke.points, stroke.color, rect.width, rect.height, stroke.width);
+      drawStroke(ctx, stroke.points, stroke.color, rect.width, rect.height, stroke.width, stroke.eraser);
     }
   }, [strokes, syncSize]);
 
@@ -105,8 +106,8 @@ export default function DoodleCanvas({
   const stopDrawing = useCallback(() => {
     if (!isDrawing.current) return;
     isDrawing.current = false;
-    if (currentPoints.current.length > 0 && !eraser) {
-      onAddStroke({ points: [...currentPoints.current], color: activeColor, width: brushSize });
+    if (currentPoints.current.length > 0) {
+      onAddStroke({ points: [...currentPoints.current], color: eraser ? 'eraser' : activeColor, width: brushSize, eraser });
     }
     currentPoints.current = [];
   }, [activeColor, brushSize, eraser, onAddStroke]);
@@ -135,9 +136,15 @@ export function BrushSizeSelector({ size, onChange }: { size: number; onChange: 
   );
 }
 
-function drawStroke(ctx: CanvasRenderingContext2D, points: { x: number; y: number }[], color: string, w: number, h: number, lw: number) {
+function drawStroke(ctx: CanvasRenderingContext2D, points: { x: number; y: number }[], color: string, w: number, h: number, lw: number, eraser?: boolean) {
   if (points.length < 2) return;
-  ctx.strokeStyle = color;
+  if (eraser) {
+    ctx.globalCompositeOperation = 'destination-out';
+    ctx.strokeStyle = 'rgba(0,0,0,1)';
+  } else {
+    ctx.globalCompositeOperation = 'source-over';
+    ctx.strokeStyle = color;
+  }
   ctx.lineWidth = lw;
   ctx.lineCap = 'round';
   ctx.lineJoin = 'round';
@@ -145,4 +152,5 @@ function drawStroke(ctx: CanvasRenderingContext2D, points: { x: number; y: numbe
   ctx.moveTo((points[0].x / 100) * w, (points[0].y / 100) * h);
   for (let i = 1; i < points.length; i++) ctx.lineTo((points[i].x / 100) * w, (points[i].y / 100) * h);
   ctx.stroke();
+  ctx.globalCompositeOperation = 'source-over';
 }
