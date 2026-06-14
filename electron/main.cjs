@@ -104,14 +104,24 @@ autoUpdater.on('download-progress', (p) => {
 
 autoUpdater.on('update-downloaded', (info) => {
   if (mainWindow) mainWindow.setProgressBar(-1);
-  sendStatus({ type: 'ready', text: '下载完成！点击弹窗重启' });
-  const { dialog, Notification } = require('electron');
-  new Notification({ title: '更新已就绪', body: `v${info.version} — 点击弹窗重启` }).show();
+  sendStatus({ type: 'ready', text: '下载完成！打开安装包...' });
+  const { dialog, Notification, shell } = require('electron');
+  new Notification({ title: '更新已就绪', body: `v${info.version} — 请手动安装` }).show();
+
+  // macOS unsigned: can't auto-install, open the .dmg instead
+  const downloadedFile = info.files[0]?.url || '';
+  const dmgPath = downloadedFile.endsWith('.dmg') ? decodeURIComponent(downloadedFile.replace('file://', '')) : '';
+
   dialog.showMessageBox({
     type: 'info', title: '更新已就绪 / Update Ready',
-    message: `v${info.version} 已下载完成，点确定重启安装。`,
-    buttons: ['确定 / OK'],
-  }).then(() => autoUpdater.quitAndInstall());
+    message: `v${info.version} 已下载完成。\n\n由于未签名，请手动将新版本拖入 Applications 覆盖旧版。`,
+    buttons: ['打开安装包', '稍后'],
+  }).then(({ response }) => {
+    if (response === 0 && dmgPath) {
+      shell.openPath(dmgPath);
+    }
+  });
+});
 });
 
 autoUpdater.on('error', (err) => {
