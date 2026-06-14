@@ -30,7 +30,8 @@
     "searchPlaceholder": "文様を検索...",
     "releaseToRefresh": "離して更新",
     "loading": "読み込み中...",
-    "sortRecommended": "おすすめ"
+    "sortRecommended": "おすすめ",
+    "noPathsFound": "パスが見つかりません"
   },
   "detail": {
     "colorIt": "着色する",
@@ -297,7 +298,9 @@
     "sendComment": "Send comment",
     "themeToggle": "Toggle theme",
     "weeksAgo": "{{w}}週間前",
-    "you": "You"
+    "you": "You",
+    "offline": "サーバーオフライン — データはローカルに保存",
+    "my": "マイ"
   },
   "app": {
     "title": "絲紋織影"
@@ -325,6 +328,7 @@
     "title": "設定",
     "description": "DeepSeek APIキーを入力すると、AI配色生成と翻訳が利用可能になります。platform.deepseek.comで申請・チャージしてご利用ください（有料API）。",
     "saved": "保存しました！",
-    "checkUpdate": "更新を確認"
+    "checkUpdate": "更新を確認",
+    "checking": "確認中..."
   }
 }

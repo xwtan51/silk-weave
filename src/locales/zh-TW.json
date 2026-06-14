@@ -30,7 +30,8 @@
     "searchPlaceholder": "搜尋紋樣...",
     "releaseToRefresh": "鬆手刷新",
     "loading": "載入中...",
-    "sortRecommended": "推薦"
+    "sortRecommended": "推薦",
+    "noPathsFound": "未找到路徑"
   },
   "detail": {
     "colorIt": "去填色",
@@ -297,7 +298,9 @@
     "sendComment": "Send comment",
     "themeToggle": "Toggle theme",
     "weeksAgo": "{{w}}週前",
-    "you": "You"
+    "you": "You",
+    "offline": "伺服器離線 — 資料已本地儲存",
+    "my": "我的"
   },
   "app": {
     "title": "絲紋織影"
@@ -325,6 +328,7 @@
     "title": "設定",
     "description": "輸入你的 DeepSeek API Key 以啟用 AI 配色生成與翻譯功能。請在 platform.deepseek.com 申請並儲值後使用（付費API）。",
     "saved": "已儲存！",
-    "checkUpdate": "檢查更新"
+    "checkUpdate": "檢查更新",
+    "checking": "正在檢查..."
   }
 }

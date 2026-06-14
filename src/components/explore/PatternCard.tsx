@@ -24,7 +24,7 @@ export default function PatternCard({ pattern, onClick }: PatternCardProps) {
   return (
     <button onClick={onClick} className="bg-white rounded-2xl p-4 shadow-sm border border-charcoal/5 text-left hover:shadow-md hover:border-jade/20 active:scale-[0.98] transition-all relative">
       {isCustom && (
-        <span className="absolute top-2 right-2 z-10 flex items-center gap-0.5 px-1.5 py-0.5 rounded-full bg-jade text-white text-[9px] font-medium"><User size={10} />My</span>
+        <span className="absolute top-2 right-2 z-10 flex items-center gap-0.5 px-1.5 py-0.5 rounded-full bg-jade text-white text-[9px] font-medium"><User size={10} />{t('common.my')}</span>
       )}
       <div className="w-full aspect-square rounded-xl bg-paper mb-3 overflow-hidden p-2">
         {isCustom && pattern.customPaths ? <CustomPattern variant="color" paths={pattern.customPaths || []} viewBox={pattern.customViewBox} /> : <Svg variant="color" />}

@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 import { WifiOff } from 'lucide-react';
 
 export default function OfflineBanner() {
+  const { t } = useTranslation();
   const [offline, setOffline] = useState(false);
 
   useEffect(() => {
@@ -24,7 +26,7 @@ export default function OfflineBanner() {
   return (
     <div className="bg-amber-500 text-white text-[11px] font-medium px-4 py-1.5 text-center flex items-center justify-center gap-1.5 animate-pulse">
       <WifiOff size={12} />
-      Server offline — data saved locally
+      {t('common.offline')}
     </div>
   );
 }

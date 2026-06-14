@@ -501,7 +501,8 @@ app.post('/api/translate', async (req, res) => {
     });
     res.json({ translation: completion.choices[0].message.content?.trim() || text });
   } catch (e) {
-    res.json({ translation: text });
+    console.error('AI translate error:', e.message);
+    res.status(500).json({ error: 'translation failed' });
   }
 });
 

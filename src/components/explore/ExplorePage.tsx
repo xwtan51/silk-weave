@@ -110,7 +110,7 @@ export default function ExplorePage() {
     const file = e.target.files?.[0]; if (!file) return;
     if (!file.name.endsWith('.svg')) { toast(t('explore.selectSvgFile'), 'error'); e.target.value = ''; return; }
     const text = await file.text(); const paths = parseSvgPaths(text);
-    if (!paths.length) { toast('No paths found', 'error'); e.target.value = ''; return; }
+    if (!paths.length) { toast(t('explore.noPathsFound'), 'error'); e.target.value = ''; return; }
     const viewBox = extractViewBox(text);
     setPublishData({ paths, viewBox, defaultTitle: file.name.replace('.svg', '') });
     e.target.value = '';

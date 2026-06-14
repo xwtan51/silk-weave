@@ -30,7 +30,8 @@
     "searchPlaceholder": "문양 검색...",
     "releaseToRefresh": "놓아서 새로고침",
     "loading": "로딩 중...",
-    "sortRecommended": "추천"
+    "sortRecommended": "추천",
+    "noPathsFound": "경로를 찾을 수 없음"
   },
   "detail": {
     "colorIt": "색칠하기",
@@ -297,7 +298,9 @@
     "sendComment": "Send comment",
     "themeToggle": "Toggle theme",
     "weeksAgo": "{{w}}주 전",
-    "you": "You"
+    "you": "You",
+    "offline": "서버 오프라인 — 데이터가 로컬에 저장됨",
+    "my": "내"
   },
   "app": {
     "title": "비단결"
@@ -325,6 +328,7 @@
     "title": "설정",
     "description": "DeepSeek API 키를 입력하면 AI 팔레트 생성 및 번역 기능을 사용할 수 있습니다. platform.deepseek.com에서 신청 및 충전 후 사용하세요（유료 API）.",
     "saved": "저장됨!",
-    "checkUpdate": "업데이트 확인"
+    "checkUpdate": "업데이트 확인",
+    "checking": "확인 중..."
   }
 }

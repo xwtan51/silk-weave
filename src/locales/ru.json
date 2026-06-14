@@ -30,7 +30,8 @@
     "searchPlaceholder": "Поиск узоров...",
     "releaseToRefresh": "Отпустите для обновления",
     "loading": "Загрузка...",
-    "sortRecommended": "Для вас"
+    "sortRecommended": "Для вас",
+    "noPathsFound": "Пути не найдены"
   },
   "detail": {
     "colorIt": "Раскрасить узор",
@@ -297,7 +298,9 @@
     "sendComment": "Send comment",
     "themeToggle": "Toggle theme",
     "weeksAgo": "{{w}}нед назад",
-    "you": "You"
+    "you": "You",
+    "offline": "Сервер офлайн — данные сохранены локально",
+    "my": "Мой"
   },
   "app": {
     "title": "Шёлковый узор"
@@ -325,6 +328,7 @@
     "title": "Настройки",
     "description": "Введите свой API-ключ DeepSeek, чтобы включить генерацию палитр и перевод. Запросите на platform.deepseek.com. Платный API, требуется пополнение.",
     "saved": "Сохранено!",
-    "checkUpdate": "Проверить обновления"
+    "checkUpdate": "Проверить обновления",
+    "checking": "Проверка..."
   }
 }

@@ -30,7 +30,8 @@
     "searchPlaceholder": "Buscar patrones...",
     "releaseToRefresh": "Suelta para actualizar",
     "loading": "Cargando...",
-    "sortRecommended": "Para ti"
+    "sortRecommended": "Para ti",
+    "noPathsFound": "No se encontraron rutas"
   },
   "detail": {
     "colorIt": "Colorear este patrón",
@@ -297,7 +298,9 @@
     "sendComment": "Send comment",
     "themeToggle": "Toggle theme",
     "weeksAgo": "Hace {{w}}sem",
-    "you": "You"
+    "you": "You",
+    "offline": "Servidor sin conexión — datos guardados localmente",
+    "my": "Mi"
   },
   "app": {
     "title": "Tejido de Seda"
@@ -325,6 +328,7 @@
     "title": "Ajustes",
     "description": "Ingresa tu clave API de DeepSeek para activar la generación de paletas y traducción. Solicítala en platform.deepseek.com. API de pago, requiere recarga.",
     "saved": "¡Guardado!",
-    "checkUpdate": "Buscar actualizaciones"
+    "checkUpdate": "Buscar actualizaciones",
+    "checking": "Comprobando..."
   }
 }

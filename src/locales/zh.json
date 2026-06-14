@@ -30,7 +30,8 @@
     "searchPlaceholder": "搜索纹样...",
     "releaseToRefresh": "松手刷新",
     "loading": "加载中...",
-    "sortRecommended": "推荐"
+    "sortRecommended": "推荐",
+    "noPathsFound": "未找到路径"
   },
   "detail": {
     "colorIt": "去填色",
@@ -297,7 +298,9 @@
     "sendComment": "Send comment",
     "themeToggle": "Toggle theme",
     "weeksAgo": "{{w}}周前",
-    "you": "You"
+    "you": "You",
+    "offline": "服务器离线 — 数据已本地保存",
+    "my": "我的"
   },
   "app": {
     "title": "丝纹织影"
@@ -325,6 +328,7 @@
     "title": "设置",
     "description": "输入你的 DeepSeek API Key 以启用 AI 配色生成和翻译功能。请在 platform.deepseek.com 申请并充值后使用（付费API）。",
     "saved": "已保存！",
-    "checkUpdate": "检查更新"
+    "checkUpdate": "检查更新",
+    "checking": "正在检查..."
   }
 }

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useTranslation } from 'react-i18next';
 import { X, Key, RotateCw } from 'lucide-react';
 import pkg from '../../../package.json';
@@ -11,10 +11,12 @@ export default function SettingsModal({ onClose }: { onClose: () => void }) {
   const [saved, setSaved] = useState(false);
   const [loading, setLoading] = useState(true);
   const [updateStatus, setUpdateStatus] = useState<{ type: string; text: string; percent?: number } | null>(null);
+  const mountedRef = useRef(true);
+  useEffect(() => { return () => { mountedRef.current = false; }; }, []);
 
   useEffect(() => {
     if (isElectron) {
-      (window as any).electron.onUpdateStatus((s: any) => setUpdateStatus(s));
+      (window as any).electron.onUpdateStatus((s: any) => { if (mountedRef.current) setUpdateStatus(s); });
     }
   }, []);
 
@@ -75,7 +77,7 @@ export default function SettingsModal({ onClose }: { onClose: () => void }) {
         {isElectron && (
           <>
             <button
-              onClick={() => { setUpdateStatus({ type: 'checking', text: 'Checking...' }); (window as any).electron.checkForUpdates(); }}
+              onClick={() => { setUpdateStatus({ type: 'checking', text: t('settings.checking') }); (window as any).electron.checkForUpdates(); }}
               className="w-full py-2 rounded-xl text-xs font-medium bg-charcoal/5 text-charcoal/50 hover:bg-charcoal/10 transition-all flex items-center justify-center gap-1.5"
             >
               <RotateCw size={12} className={updateStatus?.type === 'downloading' || updateStatus?.type === 'checking' ? 'animate-spin' : ''} />

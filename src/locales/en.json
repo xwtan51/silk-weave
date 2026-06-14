@@ -30,7 +30,8 @@
     "searchPlaceholder": "Search patterns...",
     "releaseToRefresh": "Release to refresh",
     "loading": "Loading...",
-    "sortRecommended": "For You"
+    "sortRecommended": "For You",
+    "noPathsFound": "No paths found"
   },
   "detail": {
     "colorIt": "Color This Pattern",
@@ -86,44 +87,104 @@
       "name": "Imperial",
       "desc": "The most iconic and majestic palette of the Forbidden City — ideal for dragon, phoenix, and ruyi patterns.",
       "colors": {
-        "0": { "name": "Zhu Hong", "desc": "The classic palace wall red — high saturation, symbolising wealth and celebration." },
-        "1": { "name": "Ming Huang", "desc": "The exclusive imperial colour — the brilliant gold of glazed tiles under sunlight." },
-        "2": { "name": "Qiu Xiang", "desc": "A muted, noble yellow-green — highly favoured in Qing court garments." },
-        "3": { "name": "Yu Se", "desc": "Lustrous jade green — symbolising the treasured heirloom jades of the Palace Museum." },
-        "4": { "name": "Xuan Se", "desc": "The black of the cosmos — deep reddish-brown, the colour of palace pillars and bracket sets." }
+        "0": {
+          "name": "Zhu Hong",
+          "desc": "The classic palace wall red — high saturation, symbolising wealth and celebration."
+        },
+        "1": {
+          "name": "Ming Huang",
+          "desc": "The exclusive imperial colour — the brilliant gold of glazed tiles under sunlight."
+        },
+        "2": {
+          "name": "Qiu Xiang",
+          "desc": "A muted, noble yellow-green — highly favoured in Qing court garments."
+        },
+        "3": {
+          "name": "Yu Se",
+          "desc": "Lustrous jade green — symbolising the treasured heirloom jades of the Palace Museum."
+        },
+        "4": {
+          "name": "Xuan Se",
+          "desc": "The black of the cosmos — deep reddish-brown, the colour of palace pillars and bracket sets."
+        }
       }
     },
     "celadon": {
       "name": "Celadon",
       "desc": "Drawn from Song dynasty Ru, Ge and blue-and-white porcelain — clear, elegant tones perfect for cloud and scroll patterns.",
       "colors": {
-        "0": { "name": "Tian Qing", "desc": "The classic Ru ware glaze — \"After the rain, the sky clears and the clouds break — make this very colour.\"" },
-        "1": { "name": "Yue Bai", "desc": "The pale blue-white of moonlight — airy and luminous." },
-        "2": { "name": "Shi Qing", "desc": "Traditional mineral pigment — blue-within-green, calm and profound." },
-        "3": { "name": "Dai Lan", "desc": "\"Distant mountains like indigo\" — a classic deep blue with grey undertones." },
-        "4": { "name": "Tu Bai", "desc": "Soft white like thatching grass — more antique and refined than pure white." }
+        "0": {
+          "name": "Tian Qing",
+          "desc": "The classic Ru ware glaze — \"After the rain, the sky clears and the clouds break — make this very colour.\""
+        },
+        "1": {
+          "name": "Yue Bai",
+          "desc": "The pale blue-white of moonlight — airy and luminous."
+        },
+        "2": {
+          "name": "Shi Qing",
+          "desc": "Traditional mineral pigment — blue-within-green, calm and profound."
+        },
+        "3": {
+          "name": "Dai Lan",
+          "desc": "\"Distant mountains like indigo\" — a classic deep blue with grey undertones."
+        },
+        "4": {
+          "name": "Tu Bai",
+          "desc": "Soft white like thatching grass — more antique and refined than pure white."
+        }
       }
     },
     "silk": {
       "name": "Silk",
       "desc": "Inspired by ornate court brocades and woven silks — soft, romantic, elegant, appealing to young audiences and creative design.",
       "colors": {
-        "0": { "name": "Hai Tian Xia", "desc": "Pale pink-orange refracted from sunset over the sea — a frequent colour in Ming-Qing official robes." },
-        "1": { "name": "Tao Yao", "desc": "\"The peach tree is young and elegant, its blossoms are splendid\" — bright, delicate peach pink." },
-        "2": { "name": "Yan Zhi", "desc": "The deep crimson of traditional rouge — rich, saturated, full of classical allure." },
-        "3": { "name": "Ou He", "desc": "A gentle, elegant pale purple with a grey cast — exceptionally graceful." },
-        "4": { "name": "Mu Shan Zi", "desc": "\"Mist congeals and the mountains turn purple at dusk\" — the mysterious pink-violet of twilight ridgelines." }
+        "0": {
+          "name": "Hai Tian Xia",
+          "desc": "Pale pink-orange refracted from sunset over the sea — a frequent colour in Ming-Qing official robes."
+        },
+        "1": {
+          "name": "Tao Yao",
+          "desc": "\"The peach tree is young and elegant, its blossoms are splendid\" — bright, delicate peach pink."
+        },
+        "2": {
+          "name": "Yan Zhi",
+          "desc": "The deep crimson of traditional rouge — rich, saturated, full of classical allure."
+        },
+        "3": {
+          "name": "Ou He",
+          "desc": "A gentle, elegant pale purple with a grey cast — exceptionally graceful."
+        },
+        "4": {
+          "name": "Mu Shan Zi",
+          "desc": "\"Mist congeals and the mountains turn purple at dusk\" — the mysterious pink-violet of twilight ridgelines."
+        }
       }
     },
     "botanical": {
       "name": "Botanical",
       "desc": "Distilled from precious palace flora and flower-arranging — fresh, vibrant, quietly understated.",
       "colors": {
-        "0": { "name": "Pine Blossom", "desc": "A light, cheerful yellow-green — like the first pine blossom of spring." },
-        "1": { "name": "Bamboo Green", "desc": "The lush, moist green of bamboo — calming and eye-soothing." },
-        "2": { "name": "Gamboge", "desc": "Golden yellow — extracted from the gamboge tree resin, used in classical painting." },
-        "3": { "name": "Tipsy Cheeks", "desc": "The flushed pink-orange of cheeks after a sip of wine — warm, gentle." },
-        "4": { "name": "Mugwort Green", "desc": "The pale green of mugwort leaf undersides — hazy, elegant." }
+        "0": {
+          "name": "Pine Blossom",
+          "desc": "A light, cheerful yellow-green — like the first pine blossom of spring."
+        },
+        "1": {
+          "name": "Bamboo Green",
+          "desc": "The lush, moist green of bamboo — calming and eye-soothing."
+        },
+        "2": {
+          "name": "Gamboge",
+          "desc": "Golden yellow — extracted from the gamboge tree resin, used in classical painting."
+        },
+        "3": {
+          "name": "Tipsy Cheeks",
+          "desc": "The flushed pink-orange of cheeks after a sip of wine — warm, gentle."
+        },
+        "4": {
+          "name": "Mugwort Green",
+          "desc": "The pale green of mugwort leaf undersides — hazy, elegant."
+        }
       }
     },
     "title": "Forbidden City Palettes",
@@ -132,22 +193,52 @@
       "name": "Ink Wash",
       "desc": "The five shades of Chinese ink — from jet black to pure white. The classical palette of calligraphy, landscape painting, and literati aesthetics.",
       "colors": {
-        "0": { "name": "Burnt Ink", "desc": "The deepest black — like freshly ground ink on the inkstone." },
-        "1": { "name": "Dark Ink", "desc": "Rich, warm black — the second wash of the brush." },
-        "2": { "name": "Grey Ink", "desc": "Mid-tone grey — the third wash, where form begins to soften." },
-        "3": { "name": "Pale Ink", "desc": "Light silvery grey — distant mountains in a landscape scroll." },
-        "4": { "name": "Paper White", "desc": "The white of xuan paper — the breath between brushstrokes." }
+        "0": {
+          "name": "Burnt Ink",
+          "desc": "The deepest black — like freshly ground ink on the inkstone."
+        },
+        "1": {
+          "name": "Dark Ink",
+          "desc": "Rich, warm black — the second wash of the brush."
+        },
+        "2": {
+          "name": "Grey Ink",
+          "desc": "Mid-tone grey — the third wash, where form begins to soften."
+        },
+        "3": {
+          "name": "Pale Ink",
+          "desc": "Light silvery grey — distant mountains in a landscape scroll."
+        },
+        "4": {
+          "name": "Paper White",
+          "desc": "The white of xuan paper — the breath between brushstrokes."
+        }
       }
     },
     "dunhuang": {
       "name": "Dunhuang",
       "desc": "Mineral pigments from the Mogao Caves — azurite, malachite, ochre, cinnabar, and gold. Ancient colours preserved on cave walls for over a thousand years.",
       "colors": {
-        "0": { "name": "Azurite", "desc": "Deep blue-green — ground from the mineral azurite, the sky in Buddhist murals." },
-        "1": { "name": "Malachite", "desc": "Verdant green — from the mineral malachite, the hills and foliage of paradise." },
-        "2": { "name": "Ochre", "desc": "Earthy golden-brown — iron oxide pigment, the warmth of desert sandstone." },
-        "3": { "name": "Cinnabar", "desc": "Brilliant vermilion — mercury sulphide, the red of flying apsaras robes." },
-        "4": { "name": "Gold Leaf", "desc": "Precious gold — applied as thin foil, the halo of Buddhas and bodhisattvas." }
+        "0": {
+          "name": "Azurite",
+          "desc": "Deep blue-green — ground from the mineral azurite, the sky in Buddhist murals."
+        },
+        "1": {
+          "name": "Malachite",
+          "desc": "Verdant green — from the mineral malachite, the hills and foliage of paradise."
+        },
+        "2": {
+          "name": "Ochre",
+          "desc": "Earthy golden-brown — iron oxide pigment, the warmth of desert sandstone."
+        },
+        "3": {
+          "name": "Cinnabar",
+          "desc": "Brilliant vermilion — mercury sulphide, the red of flying apsaras robes."
+        },
+        "4": {
+          "name": "Gold Leaf",
+          "desc": "Precious gold — applied as thin foil, the halo of Buddhas and bodhisattvas."
+        }
       }
     }
   },
@@ -158,22 +249,34 @@
   },
   "pattern": {
     "cloud": {
-      "name": "Cloud Pattern", "dynasty": "Ming Dynasty", "meaning": "Auspiciousness", "scene": "Architecture",
+      "name": "Cloud Pattern",
+      "dynasty": "Ming Dynasty",
+      "meaning": "Auspiciousness",
+      "scene": "Architecture",
       "story": "The flowing curves of the cloud pattern symbolise good fortune drifting into one's life. In traditional Chinese art, clouds carry rain — the giver of harvest — and serve as the vehicle upon which immortals travel between heaven and earth.",
       "source": "The Palace Museum"
     },
     "ruyi": {
-      "name": "Ruyi Pattern", "dynasty": "Tang Dynasty", "meaning": "Harmony", "scene": "Clothing",
+      "name": "Ruyi Pattern",
+      "dynasty": "Tang Dynasty",
+      "meaning": "Harmony",
+      "scene": "Clothing",
       "story": "The shape of Ruyi traces back to a back-scratcher that evolved into a scepter of authority and blessing. Its rounded, heart-like head represents \"everything as you wish.\" For centuries, lovers exchanged Ruyi-shaped ornaments as tokens of devotion.",
       "source": "The Palace Museum"
     },
     "dragon": {
-      "name": "Dragon Pattern", "dynasty": "Song Dynasty", "meaning": "Strength", "scene": "Utensils",
+      "name": "Dragon Pattern",
+      "dynasty": "Song Dynasty",
+      "meaning": "Strength",
+      "scene": "Utensils",
       "story": "Unlike the fire-breathing dragons of Western myth, the Chinese dragon is a guardian of water and sky — wise, benevolent, and a bringer of rain. Wrapped into a circular \"tuan\" form, it embodies wholeness, protection, and quiet power.",
       "source": "The Palace Museum"
     },
     "huiwen": {
-      "name": "Meander Pattern", "dynasty": "Shang Dynasty", "meaning": "Longevity", "scene": "Architecture",
+      "name": "Meander Pattern",
+      "dynasty": "Shang Dynasty",
+      "meaning": "Longevity",
+      "scene": "Architecture",
       "story": "One of the oldest Chinese patterns, the meander — or \"hui wen\" — takes its name from the character 回 (return). Its continuous, unbroken line symbolises endlessness. You'll see it carved into bronze vessels from over 3,000 years ago.",
       "source": "The Palace Museum"
     }
@@ -195,7 +298,9 @@
     "sendComment": "Send comment",
     "goBack": "Go back",
     "delete": "Delete",
-    "community": "Community"
+    "community": "Community",
+    "offline": "Server offline — data saved locally",
+    "my": "My"
   },
   "app": {
     "title": "Silk Weave"
@@ -223,6 +328,7 @@
     "title": "Settings",
     "description": "Enter your DeepSeek API key to enable AI palette generation and translation. Apply at platform.deepseek.com. Paid API, top-up required.",
     "saved": "Saved!",
-    "checkUpdate": "Check for Updates"
+    "checkUpdate": "Check for Updates",
+    "checking": "Checking..."
   }
 }

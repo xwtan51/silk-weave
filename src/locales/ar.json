@@ -30,7 +30,8 @@
     "searchPlaceholder": "ابحث عن زخارف...",
     "releaseToRefresh": "اترك للتحديث",
     "loading": "جارٍ التحميل...",
-    "sortRecommended": "لك خصيصاً"
+    "sortRecommended": "لك خصيصاً",
+    "noPathsFound": "لم يتم العثور على مسارات"
   },
   "detail": {
     "colorIt": "لوّن هذه الزخرفة",
@@ -297,7 +298,9 @@
     "sendComment": "Send comment",
     "themeToggle": "Toggle theme",
     "weeksAgo": "قبل {{w}} أسبوع",
-    "you": "You"
+    "you": "You",
+    "offline": "الخادم غير متصل — تم حفظ البيانات محليًا",
+    "my": "خاصتي"
   },
   "app": {
     "title": "نسج الحرير"
@@ -325,6 +328,7 @@
     "title": "الإعدادات",
     "description": "أدخل مفتاح DeepSeek API لتفعيل إنشاء لوحات الألوان والترجمة. تقدم بطلب على platform.deepseek.com. API مدفوع، يلزم الشحن.",
     "saved": "تم الحفظ!",
-    "checkUpdate": "التحقق من التحديثات"
+    "checkUpdate": "التحقق من التحديثات",
+    "checking": "جارٍ التحقق..."
   }
 }

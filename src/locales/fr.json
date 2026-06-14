@@ -30,7 +30,8 @@
     "searchPlaceholder": "Rechercher des motifs...",
     "releaseToRefresh": "Relâchez pour actualiser",
     "loading": "Chargement...",
-    "sortRecommended": "Pour vous"
+    "sortRecommended": "Pour vous",
+    "noPathsFound": "Aucun chemin trouvé"
   },
   "detail": {
     "colorIt": "Colorier ce motif",
@@ -297,7 +298,9 @@
     "sendComment": "Send comment",
     "themeToggle": "Toggle theme",
     "weeksAgo": "Il y a {{w}}sem",
-    "you": "You"
+    "you": "You",
+    "offline": "Serveur hors ligne — données sauvegardées localement",
+    "my": "Mon"
   },
   "app": {
     "title": "Tissu de Soie"
@@ -325,6 +328,7 @@
     "title": "Paramètres",
     "description": "Entrez votre clé API DeepSeek pour activer la génération de palettes et la traduction. Faites une demande sur platform.deepseek.com. API payante, recharge nécessaire.",
     "saved": "Enregistré !",
-    "checkUpdate": "Vérifier les mises à jour"
+    "checkUpdate": "Vérifier les mises à jour",
+    "checking": "Vérification..."
   }
 }
