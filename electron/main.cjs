@@ -108,13 +108,28 @@ autoUpdater.on('update-downloaded', (info) => {
   if (mainWindow) mainWindow.setProgressBar(-1);
   sendStatus({ type: 'ready', text: '下载完成！' });
   const { dialog, Notification, shell } = require('electron');
+
+  if (process.platform === 'win32') {
+    // Windows NSIS: native auto-install works
+    new Notification({ title: '更新已就绪', body: `v${info.version} — 点击重启更新` }).show();
+    dialog.showMessageBox({
+      type: 'info', title: '更新已就绪 / Update Ready',
+      message: `v${info.version} 已下载完成。\n\n点击「重启更新」将自动安装并重启应用。`,
+      buttons: ['重启更新', '稍后'],
+    }).then(({ response }) => {
+      if (response === 0) {
+        setImmediate(() => autoUpdater.quitAndInstall());
+      }
+    });
+    return;
+  }
+
+  // macOS unsigned: extract .zip and swap via Terminal + osascript
   new Notification({ title: '更新已就绪', body: `v${info.version} — 点击重启更新` }).show();
 
   const { readdirSync } = require('fs');
   const { execFileSync } = require('child_process');
   const home = app.getPath('home');
-  const appPath = app.getPath('exe'); // /Applications/Silk-Weave.app/Contents/MacOS/Silk-Weave
-  const currentAppDir = path.dirname(path.dirname(appPath)); // /Applications/Silk-Weave.app
 
   // Find the downloaded .zip from electron-updater cache
   let zipPath = info.downloadedFile || '';
@@ -139,7 +154,6 @@ autoUpdater.on('update-downloaded', (info) => {
     try {
       execFileSync('rm', ['-rf', extractDir]);
       execFileSync('ditto', ['-xk', zipPath, extractDir], { timeout: 30000 });
-      // Find the .app in the extracted contents
       const apps = readdirSync(extractDir, { withFileTypes: true });
       const appEntry = apps.find(a => a.isDirectory() && a.name.endsWith('.app'));
       if (appEntry) newAppPath = path.join(extractDir, appEntry.name);
@@ -152,20 +166,17 @@ autoUpdater.on('update-downloaded', (info) => {
   console.log('update-downloaded:', { version: info.version, zipPath, newAppPath });
 
   if (hasNewApp) {
-    // Offer one-click restart-to-update
     dialog.showMessageBox({
       type: 'info', title: '更新已就绪 / Update Ready',
       message: `v${info.version} 已就绪。\n\n点击「重启更新」将自动替换并重启应用。`,
       buttons: ['重启更新', '稍后'],
     }).then(({ response }) => {
       if (response === 0) {
-        // Write swap script + paths to temp, open in Terminal (survives app quit)
         const { writeFileSync, chmodSync } = require('fs');
         const os = require('os');
         const tmpDir = os.tmpdir();
         const scriptPath = path.join(tmpDir, 'silk-weave-swap.command');
         const pathsFile = path.join(tmpDir, '.silk-weave-paths');
-        // Store paths separately to avoid quoting issues
         writeFileSync(pathsFile, `${newAppPath}\n${path.dirname(newAppPath)}`);
         const swapScript = `#!/bin/bash
 NEW_APP=$(head -1 "${pathsFile}")
@@ -173,14 +184,16 @@ TMP_DIR=$(tail -1 "${pathsFile}")
 echo "🔄 Silk Weave 更新中..."
 sleep 2
 osascript -e "do shell script \\"rm -rf /Applications/Silk-Weave.app && cp -R '$NEW_APP' /Applications/Silk-Weave.app && rm -rf '$TMP_DIR'\\" with administrator privileges"
+rm "${pathsFile}" "${scriptPath}"
 if [ $? -eq 0 ]; then
-  echo "✅ 更新完成！"
+  echo "✅ 更新完成！窗口即将关闭。"
+  sleep 1
   open /Applications/Silk-Weave.app
+  osascript -e 'tell application "Terminal" to close (every window whose name contains "silk-weave")' 2>/dev/null
 else
   echo "❌ 更新失败，请手动安装"
   open "$TMP_DIR"
 fi
-rm "${pathsFile}" "${scriptPath}"
 `;
         writeFileSync(scriptPath, swapScript);
         chmodSync(scriptPath, 0o755);
@@ -189,14 +202,13 @@ rm "${pathsFile}" "${scriptPath}"
       }
     });
   } else {
-    // Fallback: couldn't extract, open the zip manually
     dialog.showMessageBox({
       type: 'info', title: '更新已就绪 / Update Ready',
-      message: `v${info.version} 已下载完成。\n\n更新步骤：\n1. 退出当前应用 (⌘Q)\n2. 将新版本拖入 Applications 覆盖旧版\n3. 重新打开`,
-      buttons: ['打开安装包', '稍后'],
+      message: `v${info.version} 已下载完成。\n\n请手动安装新版本。`,
+      buttons: ['打开下载文件夹', '稍后'],
     }).then(({ response }) => {
       if (response === 0) {
-        if (zipPath) shell.openPath(zipPath);
+        if (zipPath) shell.openPath(path.dirname(zipPath));
         else shell.openPath(path.join(home, 'Library', 'Caches', app.getName(), 'pending'));
       }
     });
