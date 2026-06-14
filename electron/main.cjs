@@ -86,7 +86,13 @@ autoUpdater.on('update-available', (info) => {
 });
 
 autoUpdater.on('update-not-available', () => {
-  console.log('App is up to date');
+  const { dialog } = require('electron');
+  dialog.showMessageBox({
+    type: 'info',
+    title: '已是最新 / Up to Date',
+    message: `当前版本 v${app.getVersion()} 已是最新。\nYou are running the latest version.`,
+    buttons: ['确定 / OK'],
+  });
 });
 
 autoUpdater.on('download-progress', (p) => {
@@ -112,6 +118,8 @@ autoUpdater.on('update-downloaded', (info) => {
 });
 autoUpdater.on('error', (err) => {
   console.error('Update error:', err.message);
+  const { dialog } = require('electron');
+  dialog.showErrorBox('更新检查失败 / Update Check Failed', err.message || 'Unknown error');
 });
 
 // Manual update check from renderer
