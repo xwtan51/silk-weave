@@ -108,9 +108,9 @@ autoUpdater.on('update-downloaded', (info) => {
   const { dialog, Notification, shell } = require('electron');
   new Notification({ title: '更新已就绪', body: `v${info.version} — 请手动安装` }).show();
 
-  // macOS unsigned: can't auto-install, open the .dmg instead
-  const downloadedFile = info.files[0]?.url || '';
-  const dmgPath = downloadedFile.endsWith('.dmg') ? decodeURIComponent(downloadedFile.replace('file://', '')) : '';
+  // macOS unsigned: find the .dmg among downloaded files
+  const dmgFile = info.files.find((f) => f.url.endsWith('.dmg'));
+  const dmgPath = dmgFile ? decodeURIComponent(dmgFile.url.replace('file://', '')) : '';
 
   dialog.showMessageBox({
     type: 'info', title: '更新已就绪 / Update Ready',
