@@ -13,6 +13,9 @@ const db = new Database(DB_PATH);
 db.pragma('journal_mode = WAL');
 db.pragma('foreign_keys = ON');
 
+// Migration: add api_key to existing profile tables
+try { db.exec('ALTER TABLE profile ADD COLUMN api_key TEXT DEFAULT \'\''); } catch { /* column exists */ }
+
 // ---- schema ----
 db.exec(`
   CREATE TABLE IF NOT EXISTS patterns (
@@ -26,7 +29,7 @@ db.exec(`
   CREATE TABLE IF NOT EXISTS saves (pattern_id TEXT NOT NULL, user_id TEXT NOT NULL DEFAULT 'self', PRIMARY KEY (pattern_id, user_id));
   CREATE TABLE IF NOT EXISTS follows (user_id TEXT NOT NULL, follower_id TEXT NOT NULL DEFAULT 'self', PRIMARY KEY (user_id, follower_id));
   CREATE TABLE IF NOT EXISTS history (id INTEGER PRIMARY KEY AUTOINCREMENT, pattern_id TEXT NOT NULL, viewed_at TEXT DEFAULT (datetime('now')), user_id TEXT NOT NULL DEFAULT 'self');
-  CREATE TABLE IF NOT EXISTS profile (user_id TEXT PRIMARY KEY DEFAULT 'self', name TEXT DEFAULT '纹样爱好者', bio TEXT DEFAULT '你的纹样之旅');
+  CREATE TABLE IF NOT EXISTS profile (user_id TEXT PRIMARY KEY DEFAULT 'self', name TEXT DEFAULT '纹样爱好者', bio TEXT DEFAULT '你的纹样之旅', api_key TEXT DEFAULT '');
   CREATE TABLE IF NOT EXISTS comments (id TEXT PRIMARY KEY, pattern_id TEXT NOT NULL, author_name TEXT DEFAULT '', author_id TEXT DEFAULT '', text TEXT DEFAULT '', created_at TEXT DEFAULT '');
 `);
 
@@ -415,18 +418,34 @@ app.get('/api/data', (_req, res) => {
   res.json({ patterns, likes, saves, follows, history });
 });
 
-// ---- AI ----
-// Read API key from local file (gitignored, but bundled in build)
-const keyPath = join(__dirname, '.deepseek-key');
-const DEEPSEEK_KEY = (existsSync(keyPath) ? readFileSync(keyPath, 'utf-8').trim() : process.env.DEEPSEEK_API_KEY) || '';
-
-const openai = new OpenAI({
-  baseURL: 'https://api.deepseek.com',
-  apiKey: DEEPSEEK_KEY,
+// ---- settings (API key) ----
+app.get('/api/settings', (_req, res) => {
+  const p = db.prepare("SELECT api_key FROM profile WHERE user_id = 'self'").get();
+  res.json({ apiKey: p?.api_key || '' });
 });
+
+app.post('/api/settings', (req, res) => {
+  const { apiKey } = req.body;
+  db.prepare("INSERT OR REPLACE INTO profile (user_id, name, bio, api_key) VALUES ('self', COALESCE((SELECT name FROM profile WHERE user_id='self'),'纹样爱好者'), COALESCE((SELECT bio FROM profile WHERE user_id='self'),'你的纹样之旅'), ?)").run(apiKey || '');
+  res.json({ ok: true });
+});
+
+function getDeepSeekKey() {
+  // Priority: DB user setting > .deepseek-key file > env var
+  const dbKey = db.prepare("SELECT api_key FROM profile WHERE user_id = 'self'").get()?.api_key;
+  if (dbKey) return dbKey;
+  if (existsSync(keyPath)) return readFileSync(keyPath, 'utf-8').trim();
+  return process.env.DEEPSEEK_API_KEY || '';
+}
+
+// ---- AI ----
+const keyPath = join(__dirname, '.deepseek-key');
 
 // ---- AI palette generation ----
 app.post('/api/generate-palette', async (req, res) => {
+  const key = getDeepSeekKey();
+  if (!key) return res.status(400).json({ error: 'No API key configured. Please set your DeepSeek API key in Settings.' });
+
   const { prompt } = req.body;
   if (!prompt) return res.status(400).json({ error: 'missing prompt' });
 
@@ -434,6 +453,7 @@ app.post('/api/generate-palette', async (req, res) => {
   const lang = isCJK ? 'Chinese' : 'English';
 
   try {
+    const openai = new OpenAI({ baseURL: 'https://api.deepseek.com', apiKey: key });
     const completion = await openai.chat.completions.create({
       model: 'deepseek-v4-pro',
       messages: [{
@@ -459,11 +479,15 @@ app.post('/api/generate-palette', async (req, res) => {
 
 // ---- AI translation ----
 app.post('/api/translate', async (req, res) => {
+  const key = getDeepSeekKey();
+  if (!key) return res.status(400).json({ error: 'No API key configured.' });
+
   const { text, target } = req.body;
   if (!text || !target) return res.status(400).json({ error: 'missing text or target' });
   try {
     const langNames = { zh: 'Simplified Chinese', 'zh-TW': 'Traditional Chinese', en: 'English', ja: 'Japanese', ko: 'Korean', fr: 'French', es: 'Spanish', ru: 'Russian', ar: 'Arabic' };
     const langName = langNames[target] || target;
+    const openai = new OpenAI({ baseURL: 'https://api.deepseek.com', apiKey: key });
     const completion = await openai.chat.completions.create({
       model: 'deepseek-v4-pro',
       messages: [{

@@ -71,8 +71,7 @@
       "dist/**/*",
       "src/data/seed.json",
       "src/data/social-graph.json",
-      "server-comments.json",
-      ".deepseek-key"
+      "server-comments.json"
     ],
     "mac": {
       "category": "public.app-category.education",

@@ -320,5 +320,10 @@
     "showOriginal": "原文",
     "translate": "翻訳",
     "translateFailed": "AI translation failed"
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Enter your DeepSeek API key to enable AI palette generation and translation. Get a free key at platform.deepseek.com.",
+    "saved": "Saved!"
   }
 }

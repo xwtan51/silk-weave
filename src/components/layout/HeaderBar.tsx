@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Globe, Sun, Moon } from 'lucide-react';
+import { Globe, Sun, Moon, Settings } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { useLanguage, type Lang } from '../../contexts/LanguageContext';
 import { useTheme } from '../../contexts/ThemeContext';
@@ -26,7 +26,7 @@ function DarkToggle() {
   );
 }
 
-export default function HeaderBar() {
+export default function HeaderBar({ onSettingsClick }: { onSettingsClick?: () => void }) {
   const { t } = useTranslation();
   const { lang, setLang } = useLanguage();
   const [open, setOpen] = useState(false);
@@ -38,6 +38,11 @@ export default function HeaderBar() {
       </h1>
       <div className="flex items-center gap-1">
         <DarkToggle />
+        {onSettingsClick && (
+          <button onClick={onSettingsClick} aria-label={t('settings.title')} className="p-1.5 rounded-full hover:bg-charcoal/5 transition-colors">
+            <Settings size={16} className="text-charcoal/50" />
+          </button>
+        )}
         <button
           onClick={() => setOpen(!open)}
           aria-label={t('common.languageSelect')}
