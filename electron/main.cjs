@@ -159,24 +159,33 @@ autoUpdater.on('update-downloaded', (info) => {
       buttons: ['重启更新', '稍后'],
     }).then(({ response }) => {
       if (response === 0) {
-        // Write swap script to temp file, execute via osascript for admin privileges
+        // Write swap script + paths to temp, open in Terminal (survives app quit)
         const { writeFileSync, chmodSync } = require('fs');
         const os = require('os');
-        const scriptPath = path.join(os.tmpdir(), 'silk-weave-swap.sh');
+        const tmpDir = os.tmpdir();
+        const scriptPath = path.join(tmpDir, 'silk-weave-swap.command');
+        const pathsFile = path.join(tmpDir, '.silk-weave-paths');
+        // Store paths separately to avoid quoting issues
+        writeFileSync(pathsFile, `${newAppPath}\n${path.dirname(newAppPath)}`);
         const swapScript = `#!/bin/bash
+NEW_APP=$(head -1 "${pathsFile}")
+TMP_DIR=$(tail -1 "${pathsFile}")
+echo "🔄 Silk Weave 更新中..."
 sleep 2
-rm -rf "/Applications/Silk-Weave.app"
-cp -R "${newAppPath}" "/Applications/Silk-Weave.app"
-rm -rf "${path.dirname(newAppPath)}"
-open "/Applications/Silk-Weave.app"
+osascript -e "do shell script \\"rm -rf /Applications/Silk-Weave.app && cp -R '$NEW_APP' /Applications/Silk-Weave.app && rm -rf '$TMP_DIR'\\" with administrator privileges"
+if [ $? -eq 0 ]; then
+  echo "✅ 更新完成！"
+  open /Applications/Silk-Weave.app
+else
+  echo "❌ 更新失败，请手动安装"
+  open "$TMP_DIR"
+fi
+rm "${pathsFile}" "${scriptPath}"
 `;
         writeFileSync(scriptPath, swapScript);
         chmodSync(scriptPath, 0o755);
-        const child = spawn('osascript', [
-          '-e', `do shell script "${scriptPath}" with administrator privileges`
-        ], { detached: true, stdio: 'ignore' });
-        child.unref();
-        app.quit();
+        require('child_process').exec(`open -a Terminal "${scriptPath}"`);
+        setTimeout(() => app.quit(), 1000);
       }
     });
   } else {
