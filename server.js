@@ -141,8 +141,10 @@ if (row.n === 0) {
 }
 
 // Ensure self user always has social data (re-seed if lost)
-const selfHasLikes = db.prepare("SELECT COUNT(*) as n FROM likes WHERE user_id = 'self'").get().n;
-if (selfHasLikes === 0) {
+// Use follower count as indicator — user can like/save/comment on their own,
+// but cannot make other users follow them, so follower count stays 0 until seed runs
+const selfHasFollowers = db.prepare("SELECT COUNT(*) as n FROM follows WHERE user_id = 'self'").get().n;
+if (selfHasFollowers === 0) {
   console.log('Re-seeding self social data...');
   const insLike = db.prepare('INSERT OR IGNORE INTO likes (pattern_id, user_id) VALUES (?, ?)');
   const insSave = db.prepare('INSERT OR IGNORE INTO saves (pattern_id, user_id) VALUES (?, ?)');
