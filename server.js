@@ -140,6 +140,58 @@ if (row.n === 0) {
   console.log('Database seeded.');
 }
 
+// Ensure self user always has social data (re-seed if lost)
+const selfHasLikes = db.prepare("SELECT COUNT(*) as n FROM likes WHERE user_id = 'self'").get().n;
+if (selfHasLikes === 0) {
+  console.log('Re-seeding self social data...');
+  const insLike = db.prepare('INSERT OR IGNORE INTO likes (pattern_id, user_id) VALUES (?, ?)');
+  const insSave = db.prepare('INSERT OR IGNORE INTO saves (pattern_id, user_id) VALUES (?, ?)');
+  const insF2 = db.prepare('INSERT OR IGNORE INTO follows (user_id, follower_id) VALUES (?, ?)');
+  const insC = db.prepare('INSERT OR IGNORE INTO comments (id, pattern_id, author_name, author_id, text, created_at) VALUES (?, ?, ?, ?, ?, ?)');
+
+  const patternIds = db.prepare('SELECT id FROM patterns').all().map(r => r.id);
+  const allUserIds = db.prepare("SELECT DISTINCT author_id FROM patterns WHERE author_id != '' AND author_id != 'self'").all().map(r => r.author_id);
+
+  const selfLikes = [...patternIds].sort(() => Math.random() - 0.5).slice(0, 15 + Math.floor(Math.random() * 15));
+  for (const pid of selfLikes) insLike.run(pid, 'self');
+
+  const selfSaves = [...patternIds].sort(() => Math.random() - 0.5).slice(0, 8 + Math.floor(Math.random() * 12));
+  for (const pid of selfSaves) insSave.run(pid, 'self');
+
+  const shuffledUsers = [...allUserIds].sort(() => Math.random() - 0.5);
+  const selfFollowing = shuffledUsers.slice(0, 8 + Math.floor(Math.random() * 12));
+  const selfFollowers = shuffledUsers.slice(selfFollowing.length, selfFollowing.length + 6 + Math.floor(Math.random() * 10));
+  for (const uid of selfFollowing) insF2.run(uid, 'self');
+  for (const uid of selfFollowers) insF2.run('self', uid);
+
+  const selfCommentTexts = [
+    'Love this pattern! The colors are amazing.',
+    'Beautiful work, saved for inspiration.',
+    'This is so elegant! Great design sense.',
+    'Amazing details, how did you do this?',
+    'This pattern reminds me of traditional art.',
+    'Really nice composition and color choices.',
+    'Absolutely stunning! Keep creating.',
+    'The palette here is so harmonious.',
+    'Inspired by your work, thank you for sharing!',
+    'This would look great as wallpaper.',
+    'Simple yet beautiful, love the minimal approach.',
+    'Great use of the traditional motif!',
+    'The cultural fusion here is brilliant.',
+    'Wow, this is next level! 🔥',
+    'Such a unique take on the pattern.',
+  ];
+  const selfCommentTargets = [...patternIds].sort(() => Math.random() - 0.5).slice(0, 5 + Math.floor(Math.random() * 8));
+  for (const pid of selfCommentTargets) {
+    const text = selfCommentTexts[Math.floor(Math.random() * selfCommentTexts.length)];
+    const id = `cmt-self-${pid}-${Date.now()}-${Math.random().toString(36).slice(2,6)}`;
+    const daysAgo = Math.floor(Math.random() * 30);
+    insC.run(id, pid, 'self', 'self', text, new Date(Date.now() - daysAgo * 86400000).toISOString());
+  }
+  db.prepare("INSERT OR IGNORE INTO profile (user_id,name,bio) VALUES ('self','纹样爱好者','你的纹样之旅')").run();
+  console.log(`  Self re-seeded: ${selfLikes.length} likes, ${selfSaves.length} saves`);
+}
+
 // ---- helpers ----
 function parsePattern(row) {
   if (!row) return row;
