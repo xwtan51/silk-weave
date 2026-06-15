@@ -49,7 +49,7 @@ export default function DetailModal({ pattern, onClose, onColorPattern }: Detail
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40" onClick={onClose}>
-      <div className="bg-paper rounded-t-3xl sm:rounded-3xl max-h-[85vh] w-[92%] max-w-[340px] overflow-y-auto shadow-2xl animate-[slideUp_0.3s_ease-out] relative mx-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden" onClick={(e) => e.stopPropagation()}>
+      <div className="bg-paper rounded-3xl max-h-[85vh] w-[92%] max-w-[340px] overflow-y-auto shadow-2xl animate-[slideUp_0.3s_ease-out] relative mx-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden" onClick={(e) => e.stopPropagation()}>
         <button onClick={onClose} className="sticky top-3 float-right mr-3 z-10 p-1.5 rounded-full bg-white/90 hover:bg-white shadow-sm transition-colors"><X size={18} className="text-charcoal" /></button>
 
         <div className="px-5 pt-4 pb-6 space-y-4">
