@@ -71,13 +71,15 @@ export default function CreatePage({ patternToColor }: CreatePageProps) {
 
   const handlePathClick = useCallback(
     (pathId: string) => {
-      setFillColors((prev) => ({ ...prev, [pathId]: activeColor }));
-      setFillHistory((prev) => [
-        ...prev,
-        { pathId, color: fillColors[pathId] || 'transparent' },
-      ]);
+      setFillColors((prev) => {
+        setFillHistory((history) => [
+          ...history,
+          { pathId, color: prev[pathId] || 'transparent' },
+        ]);
+        return { ...prev, [pathId]: activeColor };
+      });
     },
-    [activeColor, fillColors],
+    [activeColor],
   );
 
   /* ---- doodle mode state ---- */
@@ -102,7 +104,11 @@ export default function CreatePage({ patternToColor }: CreatePageProps) {
       const last = fillHistory[fillHistory.length - 1];
       setFillColors((prev) => {
         const next = { ...prev };
-        delete next[last.pathId];
+        if (last.color === 'transparent') {
+          delete next[last.pathId];
+        } else {
+          next[last.pathId] = last.color;
+        }
         return next;
       });
       setFillHistory((prev) => prev.slice(0, -1));
@@ -186,6 +192,7 @@ export default function CreatePage({ patternToColor }: CreatePageProps) {
         body: JSON.stringify({ prompt: p }),
       });
       const data = await res.json();
+      if (!res.ok) throw new Error(data.error || t('ai.paletteFailed'));
       if (data.colors?.length) {
         const newTheme = {
           id: `ai-${Date.now()}`,
@@ -197,10 +204,12 @@ export default function CreatePage({ patternToColor }: CreatePageProps) {
         setActiveThemeId(newTheme.id);
         setActiveColor(data.colors[0].hex);
         setAiPrompt('');
+      } else {
+        throw new Error(t('ai.paletteFailed'));
       }
     } catch (e) {
       console.error('AI palette error', e);
-      toast(t('ai.paletteFailed'), 'error');
+      toast(e instanceof Error ? e.message : t('ai.paletteFailed'), 'error');
     }
     setAiLoading(false);
   };

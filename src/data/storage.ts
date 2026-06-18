@@ -44,16 +44,6 @@ export async function loadAllPatterns(): Promise<Pattern[]> {
   }
 }
 
-/** Internal: load full array for operations that need it */
-async function loadFullPatterns(): Promise<Pattern[]> {
-  try {
-    const result = await fetchPatterns();
-    return result.items;
-  } catch {
-    return localLoad();
-  }
-}
-
 export async function saveUserPatterns(patterns: Pattern[]): Promise<void> {
   localSave(patterns);
   try {
@@ -62,9 +52,13 @@ export async function saveUserPatterns(patterns: Pattern[]): Promise<void> {
 }
 
 export async function addUserPattern(pattern: Pattern): Promise<Pattern[]> {
-  const existing = await loadFullPatterns();
-  existing.push(pattern);
-  await saveUserPatterns(existing);
-  return existing;
-}
+  const localPatterns = localLoad().filter((p) => p.id !== pattern.id);
+  const nextLocalPatterns = [...localPatterns, pattern];
+  localSave(nextLocalPatterns);
 
+  try {
+    await apiSavePatterns([pattern]);
+  } catch { /* offline — already saved locally */ }
+
+  return nextLocalPatterns;
+}

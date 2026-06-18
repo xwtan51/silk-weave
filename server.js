@@ -357,7 +357,10 @@ app.get('/api/profile', (_req, res) => {
 
 app.post('/api/profile', (req, res) => {
   const { name, bio } = req.body;
-  db.prepare("INSERT OR REPLACE INTO profile (user_id, name, bio) VALUES ('self', ?, ?)").run(name, bio);
+  const info = db.prepare("UPDATE profile SET name = ?, bio = ? WHERE user_id = 'self'").run(name, bio);
+  if (info.changes === 0) {
+    db.prepare("INSERT INTO profile (user_id, name, bio) VALUES ('self', ?, ?)").run(name, bio);
+  }
   res.json({ ok: true });
 });
 
