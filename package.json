@@ -1,7 +1,7 @@
 {
   "name": "silk-weave",
   "private": true,
-  "version": "1.1.0",
+  "version": "1.1.1",
   "type": "module",
   "main": "electron/main.cjs",
   "scripts": {
@@ -73,7 +73,6 @@
       "src/data/social-graph.json",
       "server-comments.json"
     ],
-
     "mac": {
       "category": "public.app-category.education",
       "target": [
